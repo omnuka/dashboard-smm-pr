@@ -33,6 +33,8 @@ WINDOW_START = TODAY_DATE - timedelta(days=LOOKBACK_DAYS)
 USER_AGENT = "SerenityCompetitorRadar/2.0 (+https://github.com/omnuka/dashboard-smm-pr)"
 TIMEOUT = 18
 SLEEP_BETWEEN_REQUESTS = 0.35
+MEDIA_SEARCH_SLEEP_SECONDS = 7
+MEDIA_SEARCH_RETRY_DELAYS = (30, 60)
 MAX_LINKS_PER_SOURCE = 24
 MAX_FINDINGS_PER_SOURCE = 8
 MAX_DETAIL_FETCHES = 700
@@ -588,7 +590,8 @@ def load_client_brands() -> list[dict[str, str]]:
                 brands.append({"name": item, "category": "клиент Serenity"})
             elif isinstance(item, dict) and item.get("name"):
                 brands.append(item)
-        return brands
+        priority = {name.lower(): index for index, name in enumerate(CLIENT_BRAND_NAMES)}
+        return sorted(brands, key=lambda item: priority.get(str(item.get("name") or "").lower(), len(priority)))
     return [{"name": name, "category": "клиент Serenity"} for name in CLIENT_BRAND_NAMES]
 
 
@@ -747,20 +750,31 @@ def media_name_from_domain(domain: str, media_sources: list[dict[str, str]]) -> 
 def gdelt_search(query: str, status: dict[str, Any], max_records: int) -> list[dict[str, Any]]:
     url = "https://api.gdeltproject.org/api/v2/doc/doc?" + \
         f"query={quote(query)}&mode=ArtList&format=json&timespan={LOOKBACK_DAYS}d&maxrecords={max_records}&sort=HybridRel"
-    text, err = fetch(url)
-    time.sleep(SLEEP_BETWEEN_REQUESTS)
-    if err or not text:
-        status["media_failed"] += 1
-        if err:
-            status["notes"].append({"media_query": query[:180], "error": err})
-        return []
-    try:
-        data = json.loads(text)
-    except Exception:
-        status["media_failed"] += 1
-        return []
-    status["media_queries_checked"] += 1
-    return data.get("articles") or []
+    last_err = ""
+    for attempt in range(len(MEDIA_SEARCH_RETRY_DELAYS) + 1):
+        text, err = fetch(url)
+        time.sleep(MEDIA_SEARCH_SLEEP_SECONDS)
+        if err == "HTTP 429":
+            status["media_429_count"] += 1
+            last_err = err
+            if attempt < len(MEDIA_SEARCH_RETRY_DELAYS):
+                time.sleep(MEDIA_SEARCH_RETRY_DELAYS[attempt])
+                continue
+        if err or not text:
+            status["media_failed"] += 1
+            status["notes"].append({"media_query": query[:180], "error": err or "empty response"})
+            return []
+        try:
+            data = json.loads(text)
+        except Exception as exc:
+            status["media_failed"] += 1
+            status["notes"].append({"media_query": query[:180], "error": f"invalid json: {str(exc)[:120]}"})
+            return []
+        status["media_queries_checked"] += 1
+        return data.get("articles") or []
+    status["media_failed"] += 1
+    status["notes"].append({"media_query": query[:180], "error": last_err or "request failed"})
+    return []
 
 
 def gdelt_articles_to_candidates(
@@ -793,6 +807,7 @@ def gdelt_articles_to_candidates(
 def gdelt_mentions(competitor: dict[str, Any], status: dict[str, Any], media_sources: list[dict[str, str]]) -> list[Candidate]:
     name = str(competitor.get("name") or competitor.get("agency") or "").strip()
     if not name or len(name) < 3:
+        status["media_queries_skipped"] += 1
         return []
     query = f'"{name}" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)'
     articles = gdelt_search(query, status, MAX_NEWS_MENTIONS_PER_COMPETITOR)
@@ -802,6 +817,7 @@ def gdelt_mentions(competitor: dict[str, Any], status: dict[str, Any], media_sou
 def gdelt_client_mentions(client: dict[str, str], status: dict[str, Any], media_sources: list[dict[str, str]]) -> list[Candidate]:
     name = str(client.get("name") or "").strip()
     if not name or len(name) < 3:
+        status["media_queries_skipped"] += 1
         return []
     context = " OR ".join(["икра", "рыба", "морепродукты", "деликатесы", "продукты", "ритейл", "бренд", "упаковка", "производство"])
     query = f'"{name}" ({context})'
@@ -836,6 +852,9 @@ def collect() -> None:
         "client_brands_total": len(client_brands),
         "media_queries_checked": 0,
         "media_failed": 0,
+        "media_429_count": 0,
+        "media_findings_total": 0,
+        "media_queries_skipped": 0,
         "findings_total": 0,
         "undated_candidates_skipped": 0,
         "duplicates_skipped": 0,
@@ -864,19 +883,7 @@ def collect() -> None:
             findings.append(finding)
             emitted += 1
 
-    # СМИ ищем отдельно за последние 7 дней: по агентствам и по текущим клиентам Serenity.
-    for comp in competitors:
-        for c in gdelt_mentions(comp, status, media_sources):
-            key = (c.competitor, url_key(c.url))
-            if key in seen:
-                status["duplicates_skipped"] += 1
-                continue
-            finding = make_finding(c, detail_budget)
-            if not finding:
-                continue
-            seen.add(key)
-            findings.append(finding)
-
+    # СМИ ищем отдельно за последние 7 дней: сначала по текущим клиентам Serenity, затем по агентствам.
     for client in client_brands:
         for c in gdelt_client_mentions(client, status, media_sources):
             key = (c.competitor, url_key(c.url))
@@ -898,6 +905,20 @@ def collect() -> None:
                     })
             seen.add(key)
             findings.append(finding)
+            status["media_findings_total"] += 1
+
+    for comp in competitors:
+        for c in gdelt_mentions(comp, status, media_sources):
+            key = (c.competitor, url_key(c.url))
+            if key in seen:
+                status["duplicates_skipped"] += 1
+                continue
+            finding = make_finding(c, detail_budget)
+            if not finding:
+                continue
+            seen.add(key)
+            findings.append(finding)
+            status["media_findings_total"] += 1
 
     findings.sort(key=lambda x: (x.get("date", ""), x.get("competitor", "")), reverse=True)
     status["findings_total"] = len(findings)
