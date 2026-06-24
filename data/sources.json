@@ -3,1584 +3,3240 @@
     "competitor": "Depot",
     "source_type": "Сайт",
     "url_or_query": "https://www.depotwpf.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Depot",
-    "source_type": "Кейсы",
-    "url_or_query": "https://www.depotwpf.ru/projects/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Depot",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://www.depotwpf.ru/news/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Depot",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/depot_branding; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; сайт: новости и блог",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/depotwpf",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Depot",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Depot\" OR \"Depot WPF\" OR \"depotwpf\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/depot_branding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Depot",
+    "source_type": "Дзен",
+    "url_or_query": "https://zen.yandex.ru/id/5de5074f43fdc000b2bfa3a7",
+    "check": "публикации, темы, охватные материалы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Студия Артемия Лебедева",
     "source_type": "Сайт",
     "url_or_query": "https://www.artlebedev.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Студия Артемия Лебедева",
-    "source_type": "Кейсы",
-    "url_or_query": "https://www.artlebedev.ru/everything/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Студия Артемия Лебедева",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://www.artlebedev.ru/news/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Студия Артемия Лебедева",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.youtube.com/user/artlebedevstudio/videos; не найдено в быстрой проверке; https://www.artlebedev.ru/media/",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/artlebedev_news",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Студия Артемия Лебедева",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Студия Артемия Лебедева\" OR \"artlebedev\" OR \"Лебедев студия\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/artlebedev",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Студия Артемия Лебедева",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://www.artlebedev.ru/media/",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "ONY",
     "source_type": "Сайт",
     "url_or_query": "https://ony.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "ONY",
-    "source_type": "Кейсы",
-    "url_or_query": "https://ony.ru/projects/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/onyagency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "ONY",
-    "source_type": "Блог / новости",
-    "url_or_query": "не найдено в быстрой проверке",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/onyagency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "ONY",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/onyagency; https://vk.com/onyagency; https://www.youtube.com/channel/UCvlx1yLAxUUQ_teP93_ps9A; не найдено в быстрой проверке; https://vc.ru/id1017892; Behance, Dribbble на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id1017892",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
-  },
-  {
-    "competitor": "ONY",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ONY\" \"брендинговое агентство\" OR \"ony agency\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
-    "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "OTVETDESIGN",
     "source_type": "Сайт",
     "url_or_query": "https://otvetdesign.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "OTVETDESIGN",
-    "source_type": "Кейсы",
-    "url_or_query": "https://otvetdesign.ru/projects",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "OTVETDESIGN",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://otvetdesign.ru/blog",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "OTVETDESIGN",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/otvetdesign; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/otvetdesign; Pinterest и Dprofile на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/otvetdesign",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "OTVETDESIGN",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"OTVETDESIGN\" OR \"Ответ дизайн\" OR \"otvetdesign\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/otvetdesign",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Dotorg branding & strategy",
     "source_type": "Сайт",
     "url_or_query": "https://www.dotorg.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Dotorg branding & strategy",
-    "source_type": "Кейсы",
-    "url_or_query": "https://www.dotorg.ru/portfolio",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Dotorg branding & strategy",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://www.dotorg.ru/blog",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Dotorg branding & strategy",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/reseachers; https://vk.com/dotorg; https://www.youtube.com/user/dotorgagency; https://www.instagram.com/dotorg.agency; VC и Behance на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/dotorg",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Dotorg branding & strategy",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Dotorg\" OR \"dotorg agency\" OR \"dotorg брендинг\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/reseachers",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
-    "competitor": "Умное Сердце / SmartHeart",
+    "competitor": "Умное Сердце (ex. SmartHeart)",
     "source_type": "Сайт",
     "url_or_query": "https://sh.agency/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
-    "competitor": "Умное Сердце / SmartHeart",
-    "source_type": "Кейсы",
-    "url_or_query": "https://sh.agency/portfolio",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Умное Сердце / SmartHeart",
-    "source_type": "Блог / новости",
+    "competitor": "Умное Сердце (ex. SmartHeart)",
+    "source_type": "Новости/блог",
     "url_or_query": "https://sh.agency/blog/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
-    "competitor": "Умное Сердце / SmartHeart",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "ссылка есть в форме сайта, URL проверить; не найдено в быстрой проверке; ссылка есть в форме сайта, URL проверить; ссылка есть в форме сайта, URL проверить; https://sh.agency/news/",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "competitor": "Умное Сердце (ex. SmartHeart)",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/umnoe_serdce",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
-    "competitor": "Умное Сердце / SmartHeart",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"SmartHeart\" OR \"Умное Сердце\" \"брендинг\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "competitor": "Умное Сердце (ex. SmartHeart)",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://sh.agency/news/",
+    "check": "публикации, кейсы, темы и упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "DDVB",
     "source_type": "Сайт",
     "url_or_query": "https://www.ddvb.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "DDVB",
-    "source_type": "Кейсы",
-    "url_or_query": "https://www.ddvb.ru/portfolio",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "DDVB",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://www.ddvb.ru/blog",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "DDVB",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/ddvbagency; https://vk.com/ddvbagency; https://www.youtube.com/channel/UCX1noxYlKYmVsBE1xI9sP8g; https://instagram.com/ddvb.ru; https://www.behance.net/DDVB; https://www.ddvb.ru/news",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/ddvbagency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "DDVB",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"DDVB\" OR \"ddvb agency\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/ddvbagency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/DDVB",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://www.ddvb.ru/news",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Getbrand",
     "source_type": "Сайт",
     "url_or_query": "https://www.getbrand.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Getbrand",
-    "source_type": "Кейсы",
-    "url_or_query": "https://www.getbrand.ru/portfolio/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Getbrand",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://www.getbrand.ru/articles/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Getbrand",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/getbrand_ru; https://vk.com/getbrand_agency; https://www.youtube.com/channel/UCV4reXpGntmbZc4D1yzcwUg; не найдено в быстрой проверке; https://dzen.ru/getbrand",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/getbrand_agency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Getbrand",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Getbrand\" OR \"getbrand agency\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/getbrand_ru",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Getbrand",
+    "source_type": "Дзен",
+    "url_or_query": "https://dzen.ru/getbrand",
+    "check": "публикации, темы, охватные материалы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "LINII Group",
     "source_type": "Сайт",
     "url_or_query": "https://linii.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "LINII Group",
-    "source_type": "Кейсы",
-    "url_or_query": "https://linii.ru/projects/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "LINII Group",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://linii.ru/articles/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "LINII Group",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/liniigroup; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/liniidesignlab; подкаст и Vimeo на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/liniigroup",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "LINII Group",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"LINII Group\" OR \"linii branding\" OR \"liniigroup\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/liniidesignlab",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "OHMYBRAND",
     "source_type": "Сайт",
     "url_or_query": "https://ohmybrand.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "OHMYBRAND",
-    "source_type": "Кейсы",
-    "url_or_query": "https://ohmybrand.ru/portfolio/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "OHMYBRAND",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://ohmybrand.ru/blog/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "OHMYBRAND",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/ohmybrand_studio; ссылка есть на сайте, URL проверить; https://www.youtube.com/@ohmybrand/videos; https://www.instagram.com/ohmybrand_studio/; Behance и Dprofile на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/ohmybrand",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "OHMYBRAND",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"OHMYBRAND\" OR \"ohmybrand studio\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/ohmybrand_studio",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Восход",
     "source_type": "Сайт",
     "url_or_query": "https://voskhod.agency/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Восход",
-    "source_type": "Кейсы",
-    "url_or_query": "https://voskhod.agency/portfolio/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://voskhod.agency/news/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Восход",
-    "source_type": "Блог / новости",
-    "url_or_query": "не найдено в быстрой проверке",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/voskhodagency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Восход",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/voskhod_creative; https://vk.com/voskhodagency; https://www.youtube.com/channel/UCTXaRjOAK06AcjIfeIBvhPA; не найдено в быстрой проверке; Vimeo на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/voskhod_creative",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Восход",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Восход\" \"агентство\" \"брендинг\" OR \"voskhod agency\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Vimeo",
+    "url_or_query": "https://vimeo.com/user234806848",
+    "check": "новые видео и шоукейсы",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "ENDY",
     "source_type": "Сайт",
     "url_or_query": "https://endylab.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "ENDY",
-    "source_type": "Кейсы",
-    "url_or_query": "https://endylab.ru/projects",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "ENDY",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://endylab.ru/blog",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "ENDY",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/endybrand; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://vc.ru/id177351; https://www.behance.net/ENDY; https://dprofile.ru/endy",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/endybrand",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "ENDY",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ENDY\" \"брендинг\" OR \"endylab\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id177351",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/ENDY",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/endy",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Щука",
     "source_type": "Сайт",
     "url_or_query": "https://shuka.design/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Щука",
-    "source_type": "Кейсы",
-    "url_or_query": "https://shuka.design/work",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Щука",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://shuka.design/blog",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Щука",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.instagram.com/shukagram/; https://www.behance.net/shuka; LinkedIn на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/shukagram/",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Щука",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Щука\" \"дизайн\" OR \"shuka.design\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/shuka",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Volga Volga Brand Identity",
     "source_type": "Сайт",
     "url_or_query": "https://volga-volga.com/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Volga Volga Brand Identity",
-    "source_type": "Кейсы",
-    "url_or_query": "https://volga-volga.com/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/vvbiagency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Volga Volga Brand Identity",
-    "source_type": "Блог / новости",
-    "url_or_query": "не найдено в быстрой проверке",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/vvbiagency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Volga Volga Brand Identity",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/VVBI; https://dprofile.ru/vvbiagency; VC на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/VVBI",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Volga Volga Brand Identity",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Volga Volga Brand Identity\" OR \"VVBI\" \"брендинг\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/vvbiagency",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "DEZA",
     "source_type": "Сайт",
     "url_or_query": "https://dezzza.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "DEZA",
-    "source_type": "Кейсы",
-    "url_or_query": "https://dezzza.ru/projects/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "DEZA",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://dezzza.ru/blog/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "DEZA",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; https://www.behance.net/Studio_DEZA; VC, Pinterest, Dprofile на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/dezastudio",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "DEZA",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"DEZA\" \"брендинг\" OR \"dezzza\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/dezastudio",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "DEZA",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/Studio_DEZA",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Z&G Branding",
     "source_type": "Сайт",
     "url_or_query": "https://zg-brand.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Z&G Branding",
-    "source_type": "Кейсы",
-    "url_or_query": "https://zg-brand.ru/portfolio/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Z&G Branding",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://zg-brand.ru/articles/",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Z&G Branding",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/ZGbrandingZg",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/clubzgbranding",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Z&G Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Z&G Branding\" OR \"ZG Branding\" OR \"zg-brand\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "http://t.me/+79221212466",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Z&G Branding",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/ZGbrandingZg",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "makelove",
     "source_type": "Сайт",
     "url_or_query": "https://makeloveagency.com/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "makelove",
-    "source_type": "Кейсы",
-    "url_or_query": "https://makeloveagency.com/work",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://makeloveagency.com/ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "makelove",
-    "source_type": "Блог / новости",
-    "url_or_query": "не найдено в быстрой проверке",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/makeloveagency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
-  },
-  {
-    "competitor": "makelove",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; LinkedIn, Facebook, Inplace на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
-    "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
-  },
-  {
-    "competitor": "makelove",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"makelove agency\" OR \"makelove\" \"бренд работодателя\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
-    "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Plenum",
     "source_type": "Сайт",
     "url_or_query": "https://plenum.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Plenum",
-    "source_type": "Кейсы",
-    "url_or_query": "https://plenum.ru/projects",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Plenum",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://plenum.ru/blog",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Plenum",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; https://www.behance.net/plenumcx1; Pinterest на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/plenumcx",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Plenum",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Plenum\" \"брендинг\" OR \"plenum agency\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/plenumcx1",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "CreativePeople",
     "source_type": "Сайт",
     "url_or_query": "https://cpeople.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "CreativePeople",
-    "source_type": "Кейсы",
-    "url_or_query": "https://cpeople.ru/",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/cpeople",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "CreativePeople",
-    "source_type": "Блог / новости",
-    "url_or_query": "не найдено в быстрой проверке",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/cpeople_ru",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "CreativePeople",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "https://t.me/cpeople_ru; https://vk.com/cpeople; не найдено в быстрой проверке; не найдено в быстрой проверке; https://vc.ru/id540358; https://dprofile.ru/cpeople; Behance на сайте",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id540358",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "CreativePeople",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"CreativePeople\" OR \"cpeople\" \"агентство\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/cpeople",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Radar",
     "source_type": "Сайт",
     "url_or_query": "https://radar-online.ru/",
-    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "официальный сайт"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Radar",
-    "source_type": "Кейсы",
-    "url_or_query": "https://radar-online.ru/portfolio",
-    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
-    "frequency": "еженедельно",
-    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
-  },
-  {
-    "competitor": "Radar",
-    "source_type": "Блог / новости",
+    "source_type": "Новости/блог",
     "url_or_query": "https://radar-online.ru/news",
-    "check": "новые статьи, новости, награды, мероприятия",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
     "frequency": "еженедельно",
-    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Radar",
-    "source_type": "Соцсети / медиа",
-    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.sostav.ru/radar-agency",
-    "check": "новые посты, видео, внешние публикации, активность команды",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/radaradvertising",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "часть соцсетей требует ручной проверки URL"
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "Radar",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Radar\" \"брендинг\" OR \"radar-online.ru\"",
-    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/radaradvertising",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
-    "competitor": "Умное Сердце (ex. SmartHeart)",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"SmartHeart\" OR \"Умное Сердце\" \"брендинг\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "competitor": "Radar",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://www.sostav.ru/radar-agency",
+    "check": "публикации, кейсы, темы и упоминания брендов",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Repina Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Repina Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://repinabranding.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Repina Branding",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://repinabranding.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Repina Branding",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/repinabranding",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Repina Branding",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id768944",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Repina Branding",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/repinabranding",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "BBDO Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"BBDO Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://bbdo-group.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "BBDO Branding",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/bbdo_twtw",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "COMPASS",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"COMPASS\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://compassbrand.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "COMPASS",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://compassbrand.ru/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "COMPASS",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/compassbrandingagency/",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "COMPASS",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/compassbrand",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "COMPASS",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/compass_brand",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "REDKEDS",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"REDKEDS\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.redkeds.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "REDKEDS",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/REDKEDSAGENCY",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "REDKEDS",
+    "source_type": "Vimeo",
+    "url_or_query": "https://vimeo.com/redkeds",
+    "check": "новые видео и шоукейсы",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Coruna Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Coruna Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.coruna.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Coruna Branding",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/corunabranding",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Coruna Branding",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/Coruna_Brand",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Coruna Branding",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/Coruna?tracking_source=search_users%7Ccoruna%20branding",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Mildberry",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Mildberry\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://mildberry.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Артоника",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Артоника\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.artonica.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Артоника",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://artonica.ru/news",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Артоника",
+    "source_type": "VK",
+    "url_or_query": "https://vk.ru/artonicabranding",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Артоника",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/artonica_branding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Артоника",
+    "source_type": "Vimeo",
+    "url_or_query": "https://vimeo.com/user15496528",
+    "check": "новые видео и шоукейсы",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Brandson (TSN)",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Brandson (TSN)\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://brandson-total.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Brandson (TSN)",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://brandson-total.com/material/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Brandson (TSN)",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/agency_brandson",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Brandson (TSN)",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/brandson_pr",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Brandson (TSN)",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/brandsonbrending",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "VOZDUH Brand&Communications",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"VOZDUH Brand&Communications\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://ra-vozduh.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "VOZDUH Brand&Communications",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/ravozduh",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "VOZDUH Brand&Communications",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://ra-vozduh.ru/portfolio/",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "A.STUDIO",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"A.STUDIO\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://advertastudio.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "A.STUDIO",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://advertastudio.ru/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "A.STUDIO",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/advert.a.studio",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "A.STUDIO",
+    "source_type": "YouTube",
+    "url_or_query": "https://youtube.com/@advertastudio?si=mi7BCelq837mQpxU",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Супрематика",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Супрематика\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://suprematika.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Супрематика",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://suprematika.ru/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Супрематика",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/Suprematika2_bot",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Супрематика",
+    "source_type": "Vimeo",
+    "url_or_query": "https://vimeo.com/898518589",
+    "check": "новые видео и шоукейсы",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Brand Hub",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Brand Hub\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://brand-hub.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Brand Hub",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://brand-hub.ru/media",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Brand Hub",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://brand-hub.ru/media",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Лавмиду (lovemedo)",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Лавмиду (lovemedo)\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://lvmd.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Лавмиду (lovemedo)",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://lvmd.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Лавмиду (lovemedo)",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/lovemedoagency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Лавмиду (lovemedo)",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://disk.yandex.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Лавмиду (lovemedo)",
+    "source_type": "Max",
+    "url_or_query": "https://max.ru",
+    "check": "публикации и новости, если доступны",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Ruport",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Ruport\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://ruport.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Ruport",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://ruport.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "ICU",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ICU\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://icu.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ICU",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://icu.agency/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "Сайт",
+    "url_or_query": "https://dvaslova.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://blog.dvaslova.com",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/dvaslovabrands",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/dvaslovaoreklame",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com/channel/UCIRKq7R0fnaqnlURLBKEpvQ",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "Vimeo",
+    "url_or_query": "https://vimeo.com/dvaslova",
+    "check": "новые видео и шоукейсы",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Два слова | Conspiracy.works",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://conspiracy.works",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Адекватные Люди",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Адекватные Люди\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://adekvate.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Адекватные Люди",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://adequategames.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Адекватные Люди",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://www.ozon.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Терминал дизайн",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Терминал дизайн\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.terminaldesign.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://terminaldesign.ru/articles/news/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/public24156959",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/terminaldesign",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/Terminaldesign",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://terminal-design.com",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://terminalizm.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Терминал дизайн",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://terminaldesignshop.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "DDC.Group",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"DDC.Group\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://ddc.group/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "DDC.Group",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/ddcgroup",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "DDC.Group",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/ddc-design",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Proektmarketing +1",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Proektmarketing +1\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://proektmarketing.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Proektmarketing +1",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://proektmarketing.ru/projects/",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Nimax",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Nimax\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.nimax.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Nimax",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.nimax.ru/articles/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Nimax",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/NimaxAgencyBot",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Соль",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Соль\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://solcreative.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Соль",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://solcreative.ru/events",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Соль",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/soll.agency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Соль",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/sollagency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Redin",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Redin\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://redin.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Redin",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://redin.ru/articles",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Redin",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/redin_artime",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Redin",
+    "source_type": "Max",
+    "url_or_query": "https://max.ru",
+    "check": "публикации и новости, если доступны",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Redin",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://aritime.pro",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Heads",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Heads\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://wellhead.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Heads",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://wellhead.ru/live/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Heads",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/headseffectivebranding",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Heads",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/heads_branding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Heads",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/heads_branding",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Heads",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "KIAN",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"KIAN\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.kian.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "KIAN",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.kian.ru/life/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "KIAN",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/public211970202",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
   },
   {
     "competitor": "2SHARP",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"2SHARP\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://2sharp.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "ZAMEDIA",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ZAMEDIA\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.zamedia.info/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "aic",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"aic\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://aic.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "aic",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/aicru",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "aic",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/aicxyic",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "aic",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com/c/aicaic",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "aic",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/aicru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Пирс 5",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Пирс 5\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://pirs5.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Пирс 5",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://pirs5.ru/publications/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "AdWorm",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"AdWorm\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://adworm.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "AdWorm",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://adwormfiles.ru/",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "DS1 branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"DS1 branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://dsone.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Штольцман и Кац",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Штольцман и Кац\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://katz.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Штольцман и Кац",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://shik.agency/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Штольцман и Кац",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/rubanrubit",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Штольцман и Кац",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/stolzmankatz",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Штольцман и Кац",
+    "source_type": "Vimeo",
+    "url_or_query": "https://vimeo.com/stolzmankatz",
+    "check": "новые видео и шоукейсы",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Штольцман и Кац",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/shik",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "TomatDesign",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"TomatDesign\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://tomatdesign.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "TomatDesign",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://tomatdesign.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "TomatDesign",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/Tomatdesign",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "TomatDesign",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/TOMAT_DESIGN",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Aida Pioneer",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Aida Pioneer\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://aidapioneer.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Weiss",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Weiss\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://weisswater.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Weiss",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://weisswater.com/journal",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Weiss",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/weisswater",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Weiss",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/weisswater",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Мелехов и Филюрин",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Мелехов и Филюрин\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://m-f.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Мелехов и Филюрин",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://m-f.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Мелехов и Филюрин",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/melekhovifilurin",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Мелехов и Филюрин",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/melekhovifilurin/projects",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Мелехов и Филюрин",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://conspiracy.works",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "DVIGA",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"DVIGA\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://dviga.marketing/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "DVIGA",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://dviga.marketing/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "DVIGA",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/dviga",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "DVIGA",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/dviga",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "DVIGA",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id1608",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "DVIGA",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "19agency84",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"19agency84\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://19agency84.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "19agency84",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://19agency84.ru/publications",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "19agency84",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/aloha19agency84",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "TutkovBudkov",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"TutkovBudkov\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://tutkovbudkov.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "ХРОМ",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ХРОМ\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://chromestudio.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ХРОМ",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/chromestudio",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Weavers Brand Consultancy",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Weavers Brand Consultancy\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://weaversbc.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Weavers Brand Consultancy",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/weaversbc",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Weavers Brand Consultancy",
+    "source_type": "Дзен",
+    "url_or_query": "https://dzen.ru",
+    "check": "публикации, темы, охватные материалы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Weavers Brand Consultancy",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Weavers Brand Consultancy",
+    "source_type": "Pinterest",
+    "url_or_query": "https://www.pinterest.com",
+    "check": "визуальные подборки и новые пины",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "enDESIGN Branding agency",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"enDESIGN Branding agency\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://enbrand.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "enDESIGN Branding agency",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/%2B79658122080",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Свое мнение",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Свое мнение\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.svoemnenie.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "AGIMA",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"AGIMA\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://branding.agima.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "AGIMA",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/AGIMAdesign",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "AGIMA",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/agima",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Логомашина",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Логомашина\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://logomachine.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Логомашина",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://blog.logomachine.ru/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Логомашина",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/logomachine_official",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Логомашина",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/logomachine",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Логомашина",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com/channel/UC2rRN-3FPt4LyqPLgKgvF2w",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Логомашина",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/Logomachine",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "idBRAND",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"idBRAND\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://idbrandagency.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "idBRAND",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/designstudioperm",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "idBRAND",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://brandperm.com",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "LABELMEN",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"LABELMEN\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.label-men.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Artstyle",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Artstyle\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://artstyle.su/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "ДизайнДепо",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ДизайнДепо\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://designdepot.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ДизайнДепо",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/designdepot",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "CultBrand",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"CultBrand\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.cultbrand.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "CultBrand",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.cultbrand.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "CultBrand",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://workspace.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "CultBrand",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://www.sostav.ru",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "CultBrand",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Mish",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Mish\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://mish.design/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Mish",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://mish.design/en/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Mish",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Mish",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://github.com",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Mish",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Mish",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://slozhna.redbasset.tech",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Soldis",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Soldis\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.soldis.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Март",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Март\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://mart.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Март",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "RElabel",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"RElabel\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://relabel.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "RElabel",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://relabel.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "RElabel",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "RElabel",
+    "source_type": "Дзен",
+    "url_or_query": "https://dzen.ru",
+    "check": "публикации, темы, охватные материалы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "RElabel",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "RElabel",
+    "source_type": "YouTube",
+    "url_or_query": "https://youtu.be",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Pic-o-matic",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Pic-o-matic\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://picomatic.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Pic-o-matic",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://picomatic.agency/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Pic-o-matic",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Pic-o-matic",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Pic-o-matic",
+    "source_type": "Дзен",
+    "url_or_query": "https://dzen.ru",
+    "check": "публикации, темы, охватные материалы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Pic-o-matic",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Zurashvili Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Zurashvili Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://zurashvili.biz/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Zurashvili Branding",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://zurashvili.biz/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Decide Branding Agency",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Decide Branding Agency\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://decide-brandup.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Decide Branding Agency",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://decide-brandup.com/portfolio/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Decide Branding Agency",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/decide_brandup",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Decide Branding Agency",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Decide Branding Agency",
+    "source_type": "Дзен",
+    "url_or_query": "https://zen.yandex.ru",
+    "check": "публикации, темы, охватные материалы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Decide Branding Agency",
+    "source_type": "Max",
+    "url_or_query": "https://max.ru",
+    "check": "публикации и новости, если доступны",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Decide Branding Agency",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com/channel/UC9nS3r8Pi9d3UisoJTDOMUw?view_as=sub",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "VIEWPOINT",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"VIEWPOINT\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://viewpoint.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Oxygen",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Oxygen\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://oxygen-agency.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Oxygen",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://oxygen-agency.ru/#cases",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Oxygen",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/Ovchinnikov_kir",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "The Clients",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"The Clients\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.theclients.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "SICHKAR GROUP",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"SICHKAR GROUP\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://sichkargroup.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "SICHKAR GROUP",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://sichkargroup.com/press",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Yasno.branding agency",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Yasno.branding agency\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://yasno.design/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "DEVISION",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"DEVISION\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://devision.company/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "DEVISION",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://devision.company/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "DEVISION",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/devisioncompany",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "DEVISION",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/devisionagency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Kuznets",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Kuznets\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://kuznets.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Kuznets",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://kuznets.agency/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Kuznets",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/kuznetsbranding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "Clёver Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Clёver Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://cleverbranding.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "SUPPORT AGENCY",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"SUPPORT AGENCY\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://we-support.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "SUPPORT AGENCY",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://we-support.ru/#cases",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "RED AGENCY",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"RED AGENCY\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://red-agency.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "RED AGENCY",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://red-agency.ru/#cases",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "opencore",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"opencore\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.opencore.pro/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "opencore",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://opencore.pro/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "opencore",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/opncr_pro",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "opencore",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id425675",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "UPRISE",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"UPRISE\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://uprise-branding.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "SLAVA",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"SLAVA\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://slava.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "SLAVA",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/slavaspeaking",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "GreenMars",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"GreenMars\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://greenmars.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "GreenMars",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://greenmars.ru/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "GreenMars",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/greenmars_ru",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "CUBA Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"CUBA Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.cubabranding.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "CUBA Branding",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.cubabranding.ru/portfolio",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Mind Republic",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Mind Republic\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://mindrepublic.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Mind Republic",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://mindrepublic.ru/articles/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Mind Republic",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/%2B9AklZHCPQGxhNjFi",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Mind Republic",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/Mind-Republic",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Метрополия",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Метрополия\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.ra-ma.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Метрополия",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.ra-ma.ru/portfolio/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "ILAR",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ILAR\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://ilartech.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ILAR",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://ilartech.com/projects/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "ILAR",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/ILAR_team",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "ILAR",
+    "source_type": "Dprofile",
+    "url_or_query": "https://dprofile.ru/ilar",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "ILAR",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/ilartech",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "goryanin brothers",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"goryanin brothers\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://goryaninbrothers.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "goryanin brothers",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://goryaninbrothers.ru/gb-blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Hermon Group",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Hermon Group\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://hermongroup.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Hermon Group",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://hermongroup.ru/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Hermon Group",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/HermonGroup",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Hermon Group",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/hermongroupru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Supermarket",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Supermarket\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://supermarket.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Supermarket",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://supermarket.agency/branding-agency-news/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Supermarket",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/supermarket_branding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Supermarket",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/supermarket-agency",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Supermarket",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://insta",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Rockwell branding agency",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Rockwell branding agency\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://rock-well.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Rockwell branding agency",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://rock-well.ru/media",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Rockwell branding agency",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/rockwell_branding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Rockwell branding agency",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/rockwellagency",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "BULVAR",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"BULVAR\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://bulvar.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "BULVAR",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/s/bulvaragency",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "BULVAR",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/bulvaragency",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Graphit",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Graphit\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://graphit.moscow/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Гордость",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Гордость\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://ragordost.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Гордость",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://ragordost.ru/works/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Art Area",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Art Area\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://artarea.studio/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Art Area",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://artarea.studio/#blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Art Area",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/artareastudio",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "ПРЕМЬЕР",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ПРЕМЬЕР\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.ak-premier.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ПРЕМЬЕР",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.ak-premier.ru/research",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "ПРЕМЬЕР",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/ak_premier",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
   },
   {
     "competitor": "2050.LAB",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"2050.LAB\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://2050lab.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "2050.LAB",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://lab2050.ru/media/news/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "2050.LAB",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/public193943349",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "2050.LAB",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/lab2050",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "2050.LAB",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com/channel/UCOjIQOwC8IXQRFgbP3nH0Sg",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Quantum Graphics",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Quantum Graphics\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.qgraphics.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Quantum Graphics",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/qgraphicsbranding",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Quantum Graphics",
+    "source_type": "Instagram",
+    "url_or_query": "https://instagram.com/quantum_graphics",
+    "check": "посты, визуальные форматы, хештеги, реакции, если доступно",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Anvilhook branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Anvilhook branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://anvilhook.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Anvilhook branding",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://anvilhook.ru/category/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Anvilhook branding",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/club118344711",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Anvilhook branding",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/snegia",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Anvilhook branding",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/anvilhook",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "2BR",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"2BR\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://2br.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "2BR",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://2br.agency/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "2BR",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/2brandagency",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "2BR",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/twobrbr",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "2BR",
+    "source_type": "YouTube",
+    "url_or_query": "https://www.youtube.com/%402br.agency",
+    "check": "новые видео, темы, описания, реакции, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "2BR",
+    "source_type": "Доп. медиа",
+    "url_or_query": "https://www.behance",
+    "check": "публикации, кейсы, темы и упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Creative Mind bureau",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Creative Mind bureau\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.c-mind.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "Sueta",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Sueta\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://sueta.team/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Sueta",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://sueta.team/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Sueta",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/sueta_team",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Sueta",
+    "source_type": "VC",
+    "url_or_query": "https://vc.ru/id1425644",
+    "check": "публикации, кейсы, комментарии, темы, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
+  },
+  {
+    "competitor": "Sueta",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/sueta?locale=ru",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "Барбарис",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Барбарис\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://dsbarberry.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Барбарис",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://dsbarberry.ru/blog/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
+  },
+  {
+    "competitor": "Барбарис",
+    "source_type": "VK",
+    "url_or_query": "https://vk.com/dsbarberry",
+    "check": "новые посты, темы, реакции, комментарии, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальная VK-страница, найденная на сайте или в базе"
+  },
+  {
+    "competitor": "Барбарис",
+    "source_type": "Telegram",
+    "url_or_query": "https://t.me/design_barberry",
+    "check": "новые посты, темы, просмотры, хештеги, упоминания брендов",
+    "frequency": "еженедельно",
+    "comment": "официальный Telegram-канал, найденный на сайте или в базе"
+  },
+  {
+    "competitor": "Барбарис",
+    "source_type": "Behance",
+    "url_or_query": "https://www.behance.net/dsbarberry",
+    "check": "новые проекты, визуальные кейсы, клиентские бренды",
+    "frequency": "еженедельно",
+    "comment": "дополнительная площадка из Excel-базы"
   },
   {
     "competitor": "ICEBERG INTERACTIVE",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ICEBERG INTERACTIVE\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://iceberg.group/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ICEBERG INTERACTIVE",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://iceberg.group/news.html",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "ESH gruppa",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ESH gruppa\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://eshgruppa.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "ESH gruppa",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://eshgruppa.com/works",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Fabula Branding",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Fabula Branding\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://fabula-branding.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Fabula Branding",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://fabula-branding.ru/portfolio/",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Brand Brothers",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Brand Brothers\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.brandbrothers.ru/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "Brand Brothers",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://www.brandbrothers.ru/portfolio",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "ПИНК",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"ПИНК\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://pinks.agency/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   },
   {
     "competitor": "КИРПИЧ",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"КИРПИЧ\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://kirpichagency.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
+  },
+  {
+    "competitor": "КИРПИЧ",
+    "source_type": "Новости/блог",
+    "url_or_query": "https://kirpichagency.com/blog",
+    "check": "новые статьи, новости, кейсы, темы публикаций, упомянутые бренды",
+    "frequency": "еженедельно",
+    "comment": "новостной блок, блог, медиа или раздел проектов из Excel"
   },
   {
     "competitor": "Electric Brand Consultants",
-    "source_type": "СМИ-запрос",
-    "url_or_query": "\"Electric Brand Consultants\"",
-    "check": "упоминания в СМИ, рейтингах, интервью, подборках и экспертных комментариях",
+    "source_type": "Сайт",
+    "url_or_query": "https://electric-consultants.com/",
+    "check": "изменения на сайте, услуги, новые блоки, кейсы, позиционирование",
     "frequency": "еженедельно",
-    "comment": "нужно добавить сайт и соцсети после ручной проверки"
+    "comment": "официальный сайт агентства"
   }
 ]
