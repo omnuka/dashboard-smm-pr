@@ -41,7 +41,7 @@
           <p>Темы, услуги, площадки, теги, бренды клиентов, СМИ и реакции конкурентов.</p>
         </div>
         <div class="top-actions">
-          <button id="loadDemoBtn" class="ghost">Перезагрузить демо-данные</button>
+          <a id="runUpdateBtn" class="ghost action-link" href="https://github.com/omnuka/dashboard-smm-pr/actions/workflows/weekly-monitoring.yml" target="_blank" rel="noreferrer">Обновить данные</a>
           <button id="exportBtn" class="primary">Экспорт JSON</button>
         </div>
       </header>
@@ -78,7 +78,7 @@
 
       <section id="emptyState" class="empty-state hidden">
         <h2>Живых находок пока нет</h2>
-        <p>База конкурентов уже подключена. Чтобы появились свежие данные, запусти сборщик или импортируй файл weekly_findings.json. Демо-кнопка выше показывает, как будет выглядеть заполненный дашборд.</p>
+        <p>База конкурентов уже подключена. Если находок пока нет, запусти обновление через GitHub Actions или дождись планового запуска по понедельникам.</p>
       </section>
 
       <section class="view active" id="view-summary">

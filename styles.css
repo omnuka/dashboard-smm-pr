@@ -68,3 +68,16 @@ table{border-collapse:collapse;width:100%;min-width:1080px;background:#fff}th,td
 .title-link{color:var(--fuchsia);text-decoration:underline;text-underline-offset:3px;font-weight:800}
 .source-url{color:var(--fuchsia);text-decoration:underline;text-underline-offset:3px;word-break:break-word}
 @media(max-width:1100px){.shell{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.sidebar-note{position:static;margin-top:20px}.filters{grid-template-columns:1fr 1fr}.kpi-grid,.grid-2,.source-layout{grid-template-columns:1fr}.topbar{display:block}.top-actions{margin-top:16px}.main{padding:20px}}
+
+
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.update-note {
+  color: var(--muted);
+  font-size: 12px;
+}

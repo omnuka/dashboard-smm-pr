@@ -299,7 +299,6 @@ async function init(){
   $('typeFilter').addEventListener('change', e => {state.filters.type=e.target.value; renderAll();});
   $('serviceFilter').addEventListener('change', e => {state.filters.service=e.target.value; renderAll();});
   $('searchInput').addEventListener('input', e => {state.filters.search=e.target.value; renderAll();});
-  $('loadDemoBtn').addEventListener('click', loadDemo);
   $('exportBtn').addEventListener('click', () => download('weekly_findings_export.json', JSON.stringify(filteredFindings(), null, 2)));
 }
 init();
