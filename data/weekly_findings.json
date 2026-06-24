@@ -9,7 +9,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Студия Артемия Лебедева",
-    "title": "Заказчик хочет посмотреть логотип на стакане, на чехле и на худи сразу? Раньше это был день возни с фотошопом. Теперь — пять минут в «Мокапусе». Достаточно загрузить файл, применит | просмотры: 487",
+    "title": "Заказчик хочет посмотреть логотип на стакане, на чехле и на худи сразу? Раньше это был день возни с фотошопом. Теперь — пять минут в «Мокапусе». Достаточно загрузить файл, применит | просмотры: 848",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/artlebedev/8065",
     "url_key": "https://t.me/artlebedev/8065",
@@ -25,7 +25,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "6f8d919015262419",
@@ -53,7 +54,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "a5a3dc4f6a52f818",
@@ -83,7 +85,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Отчеты / исследования» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "26fc86f4d612b6b4",
@@ -109,7 +112,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "3bbca23a48eb5a66",
@@ -138,7 +142,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Анонсы / события» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "201ebcffe582f1c8",
@@ -167,7 +172,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Рейтинги / премии» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e66eed022a940270",
@@ -193,7 +199,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Брендинг». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "658e7d6ab422303b",
@@ -219,7 +226,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d4f661cbcc631a22",
@@ -231,7 +239,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Два слова | Conspiracy.works",
-    "title": "Polaroid запустил кампанию против цифровой зависимости — с билбордами на пляжах и в городах Polaroid запустил глобальную кампанию «The Best of Summer Is Analog» в честь выхода каме | просмотры: 58",
+    "title": "Polaroid запустил кампанию против цифровой зависимости — с билбордами на пляжах и в городах Polaroid запустил глобальную кампанию «The Best of Summer Is Analog» в честь выхода каме | просмотры: 62",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dvaslovaoreklame/5991",
     "url_key": "https://t.me/dvaslovaoreklame/5991",
@@ -247,7 +255,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Реклама / кампании» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "85781e09c5c3e017",
@@ -275,7 +284,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «PR». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "b3775ce8be124324",
@@ -303,7 +313,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «PR». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "16f15298c7ee4aa3",
@@ -332,7 +343,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Стратегия». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "420ea6aa9e3e703e",
@@ -361,7 +373,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Digital». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "69533871128af748",
@@ -390,7 +403,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Упаковка». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "a38be80d17a5ec02",
@@ -418,7 +432,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «PR». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f381b304c31ae1c4",
@@ -446,7 +461,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «PR». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "99d49012c81aab91",
@@ -476,7 +492,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Айдентика». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "3d200659331bede8",
@@ -488,7 +505,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Radar",
-    "title": "Решает упаковка или атмосфера торговой точки? CEO Татьяна Абушаева примет участие в «Неделе российского ритейла – 2026» и вместе с топами индустрии поговорит о: 🌟 новых правилах ро | просмотры: 46",
+    "title": "Решает упаковка или атмосфера торговой точки? CEO Татьяна Абушаева примет участие в «Неделе российского ритейла – 2026» и вместе с топами индустрии поговорит о: 🌟 новых правилах ро | просмотры: 51",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/radaradvertising/2167",
     "url_key": "https://t.me/radaradvertising/2167",
@@ -504,111 +521,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "2f29f5ecdd42c4b9",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "RElabel",
-    "title": "USD 74.62",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/usd",
-    "url_key": "https://vc.ru/quote/usd",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "1cd07dd3e5faa153",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "RElabel",
-    "title": "EUR 85.48",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/eur",
-    "url_key": "https://vc.ru/quote/eur",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "23f86c973084dd32",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "RElabel",
-    "title": "BTC /USD 61.1K",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/btc",
-    "url_key": "https://vc.ru/quote/btc",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "c89e9528085b2389",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "RElabel",
-    "title": "TON /USD 1.56",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/ton",
-    "url_key": "https://vc.ru/quote/ton",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "442cd74b0e2b42c0",
@@ -620,7 +534,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "😊 Хочешь попасть на G8 2026? Может быть, и на Айда-фест сходить? Мы устроили конкурс. Если отправишь кубик в комменты и выпадет 4 — забираешь проходку на два фестиваля сразу. Пробу | просмотры: 281",
+    "title": "😊 Хочешь попасть на G8 2026? Может быть, и на Айда-фест сходить? Мы устроили конкурс. Если отправишь кубик в комменты и выпадет 4 — забираешь проходку на два фестиваля сразу. Пробу | просмотры: 302",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3676",
     "url_key": "https://t.me/REDKEDSAGENCY/3676",
@@ -634,7 +548,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "471dce2730714c6d",
@@ -646,7 +561,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "☠ Что не так с вашей презентацией? Простой вопрос, но ответ на него может дать только тот, кто платит. А тот, кто платит, обычно, либо не заинтересован в этом вообще, либо не даст  | просмотры: 182",
+    "title": "☠ Что не так с вашей презентацией? Простой вопрос, но ответ на него может дать только тот, кто платит. А тот, кто платит, обычно, либо не заинтересован в этом вообще, либо не даст  | просмотры: 223",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3677",
     "url_key": "https://t.me/REDKEDSAGENCY/3677",
@@ -662,23 +577,54 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
-    "id": "c689ae4ea9b0aabc",
+    "id": "6956ddd112d1e64f",
+    "date": "2026-06-24",
+    "theme": "Новости агентства",
+    "content_theme": "Новости агентства",
+    "service": "Стратегия",
+    "source_type": "Пост",
+    "placement": "Telegram",
+    "channel": "Telegram",
+    "competitor": "Plenum",
+    "title": "Ищем коммуникационных стратегов для проектного сотрудничества! Сейчас мы обновляем базу партнёров по стратегии и хотим познакомиться с сильными специалистами (мидл, сеньор), которы | просмотры: 170",
+    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
+    "url": "https://t.me/plenumcx/1915",
+    "url_key": "https://t.me/plenumcx/1915",
+    "source_url": "https://t.me/plenumcx",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Новости агентства",
+      "Стратегия"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Новости агентства» уже звучит у конкурентов.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "f1d955ff6e78a668",
     "date": "2026-06-24",
     "theme": "Инфоповод",
     "content_theme": "Инфоповод",
     "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "Pic-o-matic",
-    "title": "USD 74.62",
+    "source_type": "Пост",
+    "placement": "Telegram",
+    "channel": "Telegram",
+    "competitor": "OTVETDESIGN",
+    "title": "⚙️ Правки... как много в этом слове боли Наш ведущий графический дизайнер Саша Новикова — честно о том, как воспринимать неизбежное, превращая его в бесценный дизайнерский опыт (и  | просмотры: 123",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/usd",
-    "url_key": "https://vc.ru/quote/usd",
-    "source_url": "https://vc.ru",
+    "url": "https://t.me/otvetdesign/1821",
+    "url_key": "https://t.me/otvetdesign/1821",
+    "source_url": "https://t.me/otvetdesign",
     "views": null,
     "reactions": null,
     "comments": null,
@@ -686,87 +632,10 @@
     "hashtags": [],
     "mentioned_brands": [],
     "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
+    "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "9e3865edf6e6d17a",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "Pic-o-matic",
-    "title": "EUR 85.48",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/eur",
-    "url_key": "https://vc.ru/quote/eur",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "7a59b518dd2e09e4",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "Pic-o-matic",
-    "title": "BTC /USD 61.1K",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/btc",
-    "url_key": "https://vc.ru/quote/btc",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "5ac2d4790b02c6f9",
-    "date": "2026-06-24",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Новость",
-    "placement": "VC",
-    "channel": "VC",
-    "competitor": "Pic-o-matic",
-    "title": "TON /USD 1.56",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://vc.ru/quote/ton",
-    "url_key": "https://vc.ru/quote/ton",
-    "source_url": "https://vc.ru",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "eb3b4f85de5cd300",
@@ -795,7 +664,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Мнение / комментарий» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "0b8d904838dbad62",
@@ -807,7 +677,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "LINII Group",
-    "title": "Спасибо, что собрали в 10 раз больше лайков, чем мы просили. Рассказываем, как обещали. Михаил Губергриц, CEO LINII, модерировал сессию на Неделе Российского Ритейла по теме «Дизай | просмотры: 119",
+    "title": "Спасибо, что собрали в 10 раз больше лайков, чем мы просили. Рассказываем, как обещали. Михаил Губергриц, CEO LINII, модерировал сессию на Неделе Российского Ритейла по теме «Дизай | просмотры: 206",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/liniigroup/3702",
     "url_key": "https://t.me/liniigroup/3702",
@@ -821,7 +691,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1bc0a4c385051109",
@@ -851,35 +722,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Отчеты / исследования» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "0cc4c71301ccb711",
-    "date": "2026-06-24",
-    "theme": "Кейсы",
-    "content_theme": "Кейсы",
-    "service": "PR",
-    "source_type": "Кейс",
-    "placement": "Сайт",
-    "channel": "Сайт",
-    "competitor": "Heads",
-    "title": "https://wellhead.ru/my-nbsp-prinjali-uchastie-v-nbsp-sreda-portfolio-reviews",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://wellhead.ru/my-nbsp-prinjali-uchastie-v-nbsp-sreda-portfolio-reviews",
-    "url_key": "https://wellhead.ru/my-nbsp-prinjali-uchastie-v-nbsp-sreda-portfolio-reviews",
-    "source_url": "https://wellhead.ru/live/",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [
-      "PR"
-    ],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «PR». Можно сравнить подачу и аргументацию.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "887692ec3a4f7cd7",
@@ -905,7 +749,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "b623c5e59ae17254",
@@ -931,7 +776,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "bdf8f3fa85408e5a",
@@ -957,7 +803,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "4804e47fd1359c6b",
@@ -983,7 +830,37 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "9fb9a7bc197e2555",
+    "date": "2026-06-24",
+    "theme": "Рейтинги / премии",
+    "content_theme": "Рейтинги / премии",
+    "service": "Брендинг",
+    "source_type": "Пост",
+    "placement": "Telegram",
+    "channel": "Telegram",
+    "competitor": "Getbrand",
+    "title": "На месте 😎 Getbrand на премии «Брендинг года» ✨ | просмотры: 39",
+    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
+    "url": "https://t.me/getbrand_ru/4678",
+    "url_key": "https://t.me/getbrand_ru/4678",
+    "source_url": "https://t.me/getbrand_ru",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Рейтинги / премии"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f7b013c5bfb7cb04",
@@ -995,7 +872,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка пользы В нашем агентстве не только про B2B показывают и рассказывают, коллеги. А еще и про всякое другое интересное. Попросили наших друзей Ваню и Нику рассказать п | просмотры: 152",
+    "title": "Друзья, минутка пользы В нашем агентстве не только про B2B показывают и рассказывают, коллеги. А еще и про всякое другое интересное. Попросили наших друзей Ваню и Нику рассказать п | просмотры: 204",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1417",
     "url_key": "https://t.me/reseachers/1417",
@@ -1011,7 +888,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "9207c6f6fd08ab2e",
@@ -1023,7 +901,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Depot",
-    "title": "🫂 В гостях у Mondelēz Проводить встречи с компанией, когда мы работаем не с одним брендом, а с целой группой и несколькими бренд‑командами, — это всегда ценный обмен опытом. Это во | просмотры: 255",
+    "title": "🫂 В гостях у Mondelēz Проводить встречи с компанией, когда мы работаем не с одним брендом, а с целой группой и несколькими бренд‑командами, — это всегда ценный обмен опытом. Это во | просмотры: 313",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/depot_branding/2381",
     "url_key": "https://t.me/depot_branding/2381",
@@ -1039,7 +917,35 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Новости агентства» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "cdcf5132753c9b8b",
+    "date": "2026-06-24",
+    "theme": "Инфоповод",
+    "content_theme": "Инфоповод",
+    "service": "Брендинг",
+    "source_type": "Пост",
+    "placement": "Telegram",
+    "channel": "Telegram",
+    "competitor": "Depot",
+    "title": "Пристегните ремни, мы взлетаем 🛷 На курорте « Манжерок » открылся летний сезон парка « Дримвуд » — крупнейшего центра семейного отдыха в Сибири. Аттракционы, тематические зоны, шоу | просмотры: 195",
+    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
+    "url": "https://t.me/depot_branding/2385",
+    "url_key": "https://t.me/depot_branding/2385",
+    "source_url": "https://t.me/depot_branding",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "3d65bd64d5274dfc",
@@ -1065,7 +971,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e6ea0b290443e1b2",
@@ -1091,7 +998,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "932a1d3eb62b9c81",
@@ -1119,7 +1027,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "85453a9377ace42b",
@@ -1147,7 +1056,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f968d1234c12d258",
@@ -1175,7 +1085,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "808a418decd30577",
@@ -1203,7 +1114,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "25e59ed95d743e29",
@@ -1231,7 +1143,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "0b7e86e60d8ed95c",
@@ -1259,7 +1172,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "aafdc0aa69f9f511",
@@ -1271,7 +1185,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Art Area",
-    "title": "🔵 Сайт есть. А вы уверены, что он оформлен правильно? Прочитайте этот чек-лист, если не хотите получить 💛 💛 💛 💛 💛 | просмотры: 18",
+    "title": "🔵 Сайт есть. А вы уверены, что он оформлен правильно? Прочитайте этот чек-лист, если не хотите получить 💛 💛 💛 💛 💛 | просмотры: 30",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/artareastudio/1866",
     "url_key": "https://t.me/artareastudio/1866",
@@ -1287,7 +1201,38 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "5920f99b71fb3dd9",
+    "date": "2026-06-24",
+    "theme": "Мнение / комментарий",
+    "content_theme": "Мнение / комментарий",
+    "service": "Брендинг",
+    "source_type": "Пост",
+    "placement": "Telegram",
+    "channel": "Telegram",
+    "competitor": "2BR",
+    "title": "Погасили свечи, загадали желание, и знаете, что? Свидание случилось — с лучшим агентством в Краснодаре! ❤️ У 2BR ДР! 🎂 Прошёл год: наша команда выросла, экспертиза — углубилась, ко | просмотры: 17",
+    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
+    "url": "https://t.me/twobrbr/1575",
+    "url_key": "https://t.me/twobrbr/1575",
+    "source_url": "https://t.me/twobrbr",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Мнение / комментарий",
+      "Новости агентства"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Мнение / комментарий» уже звучит у конкурентов.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "c8d530f3a0c42ed5",
@@ -1299,7 +1244,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Умное Сердце (ex. SmartHeart)",
-    "title": "Хотите первыми увидеть наши новые кейсы? 16 июня на «Точке касания» на Движении в Сочи основатель агентства Станислав Окрух и директор по развитию Дарья Халепа выступили с темой: « | просмотры: 132",
+    "title": "Хотите первыми увидеть наши новые кейсы? 16 июня на «Точке касания» на Движении в Сочи основатель агентства Станислав Окрух и директор по развитию Дарья Халепа выступили с темой: « | просмотры: 137",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/umnoe_serdce/3964",
     "url_key": "https://t.me/umnoe_serdce/3964",
@@ -1313,7 +1258,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "6c8d20691ef7fae9",
@@ -1325,7 +1271,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Студия Артемия Лебедева",
-    "title": "⚡️ Логотип кальянной «Лисья нора» Есть верное средство от жизни тяжелой, чтоб стала легка и быстра: поехать наполнить себе альвеолы в кальянную «Лисья нора»! Дымятся растения, буль | просмотры: 1.33K",
+    "title": "⚡️ Логотип кальянной «Лисья нора» Есть верное средство от жизни тяжелой, чтоб стала легка и быстра: поехать наполнить себе альвеолы в кальянную «Лисья нора»! Дымятся растения, буль | просмотры: 1.45K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/artlebedev/8060",
     "url_key": "https://t.me/artlebedev/8060",
@@ -1341,7 +1287,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "4f2345f67007c06d",
@@ -1371,7 +1318,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Тренды» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "8d0cb6bc083c0cfd",
@@ -1383,7 +1331,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Два слова | Conspiracy.works",
-    "title": "Сеть KFC провела ребрендинг, который назвали Bucketverse KFC Bucketverse представляет собой амбициозный шаг бренда в сторону цифровизации и геймификации клиентского опыта. Основная | просмотры: 85",
+    "title": "Сеть KFC провела ребрендинг, который назвали Bucketverse KFC Bucketverse представляет собой амбициозный шаг бренда в сторону цифровизации и геймификации клиентского опыта. Основная | просмотры: 87",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dvaslovaoreklame/5982",
     "url_key": "https://t.me/dvaslovaoreklame/5982",
@@ -1397,7 +1345,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "a8a496a255d7f3d6",
@@ -1409,7 +1358,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Два слова | Conspiracy.works",
-    "title": "Пост Telegram | просмотры: 74",
+    "title": "Пост Telegram | просмотры: 77",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dvaslovaoreklame/5989",
     "url_key": "https://t.me/dvaslovaoreklame/5989",
@@ -1425,7 +1374,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "21f46d8c54b3696a",
@@ -1437,7 +1387,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Два слова | Conspiracy.works",
-    "title": "«В другом крыле есть проход из преисподни, через которую каждое утро на работу прибывают работники офиса. Нужно проследить за Рикардо, он относит туда отчеты каждый день ровно в тр | просмотры: 78",
+    "title": "«В другом крыле есть проход из преисподни, через которую каждое утро на работу прибывают работники офиса. Нужно проследить за Рикардо, он относит туда отчеты каждый день ровно в тр | просмотры: 81",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dvaslovaoreklame/5990",
     "url_key": "https://t.me/dvaslovaoreklame/5990",
@@ -1453,7 +1403,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Отчеты / исследования» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "969074567aae9a6c",
@@ -1465,7 +1416,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Восход",
-    "title": "А теперь к новостям культуры ( 🎭 ) Спектакль Екатеринбургского театра кукол «Зойкина квартира» стал лауреатом «Золотой маски» в номинации «Лучший спектакль театра кукол»! Увидеть б | просмотры: 405",
+    "title": "А теперь к новостям культуры ( 🎭 ) Спектакль Екатеринбургского театра кукол «Зойкина квартира» стал лауреатом «Золотой маски» в номинации «Лучший спектакль театра кукол»! Увидеть б | просмотры: 412",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/voskhod_creative/1718",
     "url_key": "https://t.me/voskhod_creative/1718",
@@ -1481,7 +1432,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Новости агентства» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "190d09ac8176a5e2",
@@ -1513,7 +1465,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d70791b1d6f6f4a2",
@@ -1525,7 +1478,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "#новости_партнеров «Креативная премия G8 Creative Awards 2026» открыла прием работ. Подать заявку можно до 31 июля. 🥰 @adindex | просмотры: 328",
+    "title": "#новости_партнеров «Креативная премия G8 Creative Awards 2026» открыла прием работ. Подать заявку можно до 31 июля. 🥰 @adindex | просмотры: 340",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3675",
     "url_key": "https://t.me/REDKEDSAGENCY/3675",
@@ -1545,7 +1498,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "3bfe532bdb1d9cd0",
@@ -1557,7 +1511,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "OHMYBRAND",
-    "title": "Ура, распаковка №16 упаковки СТМ Nravizza сети магазинов «Соседи» 🔥 Расширение ассортимента бренда потребовало редизайн и разработку обновления дизайн-концепции. Ребрендинг должен  | просмотры: 126",
+    "title": "Ура, распаковка №16 упаковки СТМ Nravizza сети магазинов «Соседи» 🔥 Расширение ассортимента бренда потребовало редизайн и разработку обновления дизайн-концепции. Ребрендинг должен  | просмотры: 130",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/ohmybrand_studio/2084",
     "url_key": "https://t.me/ohmybrand_studio/2084",
@@ -1575,7 +1529,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Продукты / запуски» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e32cb1dc8e7041e6",
@@ -1587,7 +1542,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "LINII Group",
-    "title": "Три лайка, и мы расскажем, почему Михаил Губергриц показывал грибы в рамках своего выступления на Неделе российского ритейла. | просмотры: 330",
+    "title": "Три лайка, и мы расскажем, почему Михаил Губергриц показывал грибы в рамках своего выступления на Неделе российского ритейла. | просмотры: 357",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/liniigroup/3701",
     "url_key": "https://t.me/liniigroup/3701",
@@ -1601,7 +1556,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e2b760bd8d28d551",
@@ -1613,7 +1569,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Heads",
-    "title": "Самое цифровое поколение на планете — digital natives, выросшие со смартфонами в руках, — обнаружило глубокое ментальное выгорание от бесконечного скроллинга и культа продуктивност | просмотры: 40",
+    "title": "Самое цифровое поколение на планете — digital natives, выросшие со смартфонами в руках, — обнаружило глубокое ментальное выгорание от бесконечного скроллинга и культа продуктивност | просмотры: 42",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/heads_branding/1546",
     "url_key": "https://t.me/heads_branding/1546",
@@ -1630,7 +1586,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Продукты / запуски» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "c8d4991a66d5207c",
@@ -1642,7 +1599,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Getbrand",
-    "title": "GETBRAND НА БРЕНДИНГ ГОДА 2026 24 июня в Сити Бизнес Клубе пройдёт «Брендинг года 2026: Церемония награждения победителей. Летний митап», посвящённый премии «Брендинг года» , котор | просмотры: 70",
+    "title": "GETBRAND НА БРЕНДИНГ ГОДА 2026 24 июня в Сити Бизнес Клубе пройдёт «Брендинг года 2026: Церемония награждения победителей. Летний митап», посвящённый премии «Брендинг года» , котор | просмотры: 82",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/getbrand_ru/4676",
     "url_key": "https://t.me/getbrand_ru/4676",
@@ -1658,35 +1615,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "0116d3f23228d192",
-    "date": "2026-06-23",
-    "theme": "Кейсы",
-    "content_theme": "Кейсы",
-    "service": "PR",
-    "source_type": "Кейс",
-    "placement": "Dprofile",
-    "channel": "Dprofile",
-    "competitor": "ENDY",
-    "title": "Ночлежка — Dprofile",
-    "summary": "Dprofile — Ночлежка — благотворительная организация, которая помогает людям вернуться домой с улицы и поддерживает тех, кто пока не имеет возможности сделать это. За время существования её работа вышла далеко за пределы гуманитарных проектов — ночного автобуса и горячих обедов.",
-    "url": "https://dprofile.ru/case/176728/noclezka",
-    "url_key": "https://dprofile.ru/case/176728/noclezka",
-    "source_url": "https://dprofile.ru/endy",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [
-      "PR"
-    ],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «PR». Можно сравнить подачу и аргументацию.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1fa3fd0ab9665559",
@@ -1698,7 +1628,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка контрактов и реальной жизни Независимо от того, что написано в законах конкретной страны, в процессе развития люди сформировали некие общие принципы/нормы, которые  | просмотры: 276",
+    "title": "Друзья, минутка контрактов и реальной жизни Независимо от того, что написано в законах конкретной страны, в процессе развития люди сформировали некие общие принципы/нормы, которые  | просмотры: 294",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1416",
     "url_key": "https://t.me/reseachers/1416",
@@ -1712,7 +1642,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "a62369295c5be9a4",
@@ -1741,7 +1672,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "76e04534dc259e42",
@@ -1753,7 +1685,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Depot",
-    "title": "▶️ Фархад Кучкаров дал комментарий о том, как брендам расти в ретейл-медиа и не потерять контроль над аудиторией — включайте новый выпуск «Радио Sostav» прямо сейчас! #depot_expert | просмотры: 384",
+    "title": "▶️ Фархад Кучкаров дал комментарий о том, как брендам расти в ретейл-медиа и не потерять контроль над аудиторией — включайте новый выпуск «Радио Sostav» прямо сейчас! #depot_expert | просмотры: 400",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/depot_branding/2370",
     "url_key": "https://t.me/depot_branding/2370",
@@ -1773,7 +1705,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Мнение / комментарий» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d49cde673dafa4dd",
@@ -1785,7 +1718,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Depot",
-    "title": "Пост Telegram | просмотры: 356",
+    "title": "Пост Telegram | просмотры: 371",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/depot_branding/2371",
     "url_key": "https://t.me/depot_branding/2371",
@@ -1801,7 +1734,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "597deb5c144848e0",
@@ -1813,7 +1747,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Depot",
-    "title": "▶️ Радио Sostav: «Как не утонуть в ретейл-медиа? » Ретейл-медиа выглядит как идеальный короткий путь к покупателю: быстрые продажи, заметность на полке и ощущение, что рост можно к | просмотры: 389",
+    "title": "▶️ Радио Sostav: «Как не утонуть в ретейл-медиа? » Ретейл-медиа выглядит как идеальный короткий путь к покупателю: быстрые продажи, заметность на полке и ощущение, что рост можно к | просмотры: 406",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/depot_branding/2372",
     "url_key": "https://t.me/depot_branding/2372",
@@ -1829,7 +1763,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "b1b7302c25628899",
@@ -1841,7 +1776,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Depot",
-    "title": "Ищем в команду младшего руководителя проектов , который держит в голове 10+ задач, не теряется в дедлайнах и не боится писем с пометкой «АСАП» 💻 Тебе предстоит: — общаться с крупны | просмотры: 586",
+    "title": "Ищем в команду младшего руководителя проектов , который держит в голове 10+ задач, не теряется в дедлайнах и не боится писем с пометкой «АСАП» 💻 Тебе предстоит: — общаться с крупны | просмотры: 611",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/depot_branding/2373",
     "url_key": "https://t.me/depot_branding/2373",
@@ -1855,7 +1790,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d0bf4049ba75e629",
@@ -1883,36 +1819,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "db8ca92466d18dcc",
-    "date": "2026-06-23",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Упаковка",
-    "source_type": "Новость",
-    "placement": "Сайт",
-    "channel": "Сайт",
-    "competitor": "DEZA",
-    "title": "Упаковка бизнеса: что должно быть у компании в бизнесе, маркетинге, брендинге и коммуникациях — от минимума до максимума",
-    "summary": "Упаковка бизнеса: что должно быть у компании в бизнесе, маркетинге, брендинге и коммуникациях — от минимума до максимума | Блог студии DEZA",
-    "url": "https://dezzza.ru/blog/upakovka-biznesa-chto-dolzhno-byt-u-kompanii-v-biznese-marketinge-brendinge-i-kommunikaciyah-ot-minimuma-do-maksimuma",
-    "url_key": "https://dezzza.ru/blog/upakovka-biznesa-chto-dolzhno-byt-u-kompanii-v-biznese-marketinge-brendinge-i-kommunikaciyah-ot-minimuma-do-maksimuma",
-    "source_url": "https://dezzza.ru/blog/",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [
-      "SMM",
-      "Упаковка"
-    ],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "2a2a61f012e5ed2c",
@@ -1924,7 +1832,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEZA",
-    "title": "Бизнес — это система и никак иначе Многие предприниматели воспринимают бизнес как набор отдельных «фишек»: сайт, реклама, логотип, скрипты продаж. Но бизнес — это система. Довольно | просмотры: 106",
+    "title": "Бизнес — это система и никак иначе Многие предприниматели воспринимают бизнес как набор отдельных «фишек»: сайт, реклама, логотип, скрипты продаж. Но бизнес — это система. Довольно | просмотры: 108",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dezastudio/4637",
     "url_key": "https://t.me/dezastudio/4637",
@@ -1942,7 +1850,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Реклама / кампании» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "2c6653fdd8243e98",
@@ -1954,7 +1863,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DDVB",
-    "title": "🟨 Брендинг — базовый минимум ⏩ В новом выпуске рубрики «Сигналы КИ» проекта Красной кнопки ФКИ Екатерина Белугина , стратег DDVB, рассказывает о том, как территориальный брендинг п | просмотры: 93",
+    "title": "🟨 Брендинг — базовый минимум ⏩ В новом выпуске рубрики «Сигналы КИ» проекта Красной кнопки ФКИ Екатерина Белугина , стратег DDVB, рассказывает о том, как территориальный брендинг п | просмотры: 97",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/ddvbagency/1386",
     "url_key": "https://t.me/ddvbagency/1386",
@@ -1970,7 +1879,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "4177cd2aa7799620",
@@ -1982,7 +1892,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DDVB",
-    "title": "Каждая креативная индустрия проходит путь от отдельных инициатив к полноценному сектору экономики. В рубрике #СигналыКИ лидеры отраслей отмечают изменения, которые говорят о взросл | просмотры: 91",
+    "title": "Каждая креативная индустрия проходит путь от отдельных инициатив к полноценному сектору экономики. В рубрике #СигналыКИ лидеры отраслей отмечают изменения, которые говорят о взросл | просмотры: 96",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/ddvbagency/1387",
     "url_key": "https://t.me/ddvbagency/1387",
@@ -2000,7 +1910,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "a32ed545a1be77eb",
@@ -2012,7 +1923,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "CreativePeople",
-    "title": "Стратегически важные новости 🤩 Екатерина Трубникова — среди 27 лучших бренд-стратегов по версии Brand Hub top100! В рейтинг вошли специалисты, которые работают со стратегическим ра | просмотры: 468",
+    "title": "Стратегически важные новости 🤩 Екатерина Трубникова — среди 27 лучших бренд-стратегов по версии Brand Hub top100! В рейтинг вошли специалисты, которые работают со стратегическим ра | просмотры: 479",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/cpeople_ru/1810",
     "url_key": "https://t.me/cpeople_ru/1810",
@@ -2030,7 +1941,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "ecd93dcef83811ca",
@@ -2042,7 +1954,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "COMPASS",
-    "title": "Парк Горького. Парк города. Презентация нового фирменного стиля парка Горького: 28 июня, 15:00, лекторий на поляне в парке. Когда мы запускали «Лабораторию брендинга парка горького | просмотры: 181",
+    "title": "Парк Горького. Парк города. Презентация нового фирменного стиля парка Горького: 28 июня, 15:00, лекторий на поляне в парке. Когда мы запускали «Лабораторию брендинга парка горького | просмотры: 186",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/compassbrand/920",
     "url_key": "https://t.me/compassbrand/920",
@@ -2059,7 +1971,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "42b9cf63ea2c420c",
@@ -2071,7 +1984,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "AGIMA",
-    "title": "Через 2 недели встречаемся на RUNIT: https://runit.digital/ 5 июля в Мещерском парке пройдет RUNIT — наш большой летний фестиваль для ИТ- и диджитал-сообщества. Это не только про б | просмотры: 282",
+    "title": "Через 2 недели встречаемся на RUNIT: https://runit.digital/ 5 июля в Мещерском парке пройдет RUNIT — наш большой летний фестиваль для ИТ- и диджитал-сообщества. Это не только про б | просмотры: 288",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/AGIMAdesign/2513",
     "url_key": "https://t.me/AGIMAdesign/2513",
@@ -2087,7 +2000,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "564263efb9184e5f",
@@ -2099,7 +2013,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "2050.LAB",
-    "title": "⏳ Остался 1 день до встречи с создателем дизайна «Бычка» Константин Потехин — тот, кто пришёл на ЗИЛ инженером-механиком, а стал автором дизайна легендарного грузовика. За его плеч | просмотры: 284",
+    "title": "⏳ Остался 1 день до встречи с создателем дизайна «Бычка» Константин Потехин — тот, кто пришёл на ЗИЛ инженером-механиком, а стал автором дизайна легендарного грузовика. За его плеч | просмотры: 285",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/lab2050/2719",
     "url_key": "https://t.me/lab2050/2719",
@@ -2113,7 +2027,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "94bc7adf6ab938d2",
@@ -2125,7 +2040,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "19agency84",
-    "title": "Если вы вдруг пропустили нашу фестивальную неделю в @mads_courses — ловите пост, в котором собирали все, чем поделились ⚡️ | просмотры: 113",
+    "title": "Если вы вдруг пропустили нашу фестивальную неделю в @mads_courses — ловите пост, в котором собирали все, чем поделились ⚡️ | просмотры: 115",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/aloha19agency84/2264",
     "url_key": "https://t.me/aloha19agency84/2264",
@@ -2139,7 +2054,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "095df9e1797d8f97",
@@ -2151,7 +2067,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "19agency84",
-    "title": "Вот и подошла наша гостевая неделя к концу — финалимся 💃 Вот короткий дайджест этой недели: ⚡ ️ Составили список фестивалей для молодых креаторов . ⚡️ Разобрались, как упаковать ке | просмотры: 112",
+    "title": "Вот и подошла наша гостевая неделя к концу — финалимся 💃 Вот короткий дайджест этой недели: ⚡ ️ Составили список фестивалей для молодых креаторов . ⚡️ Разобрались, как упаковать ке | просмотры: 115",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/aloha19agency84/2265",
     "url_key": "https://t.me/aloha19agency84/2265",
@@ -2167,7 +2083,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "34a94faa460d38b8",
@@ -2179,7 +2096,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Два слова | Conspiracy.works",
-    "title": "Давайте начнем понедельник с пива! Агентство Otherway разработало для Lagunitas новую бренд-платформу, включающую обновленную визуальную и вербальную идентичность, единый стиль ком | просмотры: 108",
+    "title": "Давайте начнем понедельник с пива! Агентство Otherway разработало для Lagunitas новую бренд-платформу, включающую обновленную визуальную и вербальную идентичность, единый стиль ком | просмотры: 110",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dvaslovaoreklame/5979",
     "url_key": "https://t.me/dvaslovaoreklame/5979",
@@ -2196,7 +2113,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Новости агентства» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "6b0c8f5103ad4fac",
@@ -2208,7 +2126,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Восход",
-    "title": "Итак, объявляем итоги второго «Каннского прогноза» by Voskhod! На этот раз просмотр авторской подборки претендентов на победу в главном рекламном фестивале мира прошёл в Екатеринбу | просмотры: 544",
+    "title": "Итак, объявляем итоги второго «Каннского прогноза» by Voskhod! На этот раз просмотр авторской подборки претендентов на победу в главном рекламном фестивале мира прошёл в Екатеринбу | просмотры: 548",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/voskhod_creative/1715",
     "url_key": "https://t.me/voskhod_creative/1715",
@@ -2226,7 +2144,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Отчеты / исследования» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d3014579783b4432",
@@ -2255,7 +2174,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Новости агентства» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "fb31a7dcaa9318a8",
@@ -2267,7 +2187,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Getbrand",
-    "title": "Новая неделя – НОВЫЙ КЕЙС из нашего ПОРТФОЛИО ☄️ Возвратимся к теме холодного чая с нашим новым кейсом - редизайн лого и этикетки «ZEN» 🍃 ☯️ Мы обновили дизайн холодного чая по мет | просмотры: 94",
+    "title": "Новая неделя – НОВЫЙ КЕЙС из нашего ПОРТФОЛИО ☄️ Возвратимся к теме холодного чая с нашим новым кейсом - редизайн лого и этикетки «ZEN» 🍃 ☯️ Мы обновили дизайн холодного чая по мет | просмотры: 98",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/getbrand_ru/4672",
     "url_key": "https://t.me/getbrand_ru/4672",
@@ -2283,7 +2203,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "206bae26f21e2809",
@@ -2295,7 +2216,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "ENDY",
-    "title": "ОДИН ПЛАКАТ ВАМ ИЛИ ДВА ДРУГОМУ? Или оба на конкурс от агентства SLOY 😎 Ребята переехали в новый офис и хотят украсить его стены вашими креативными плакатами! А мы в ENDY как раз с | просмотры: 811",
+    "title": "ОДИН ПЛАКАТ ВАМ ИЛИ ДВА ДРУГОМУ? Или оба на конкурс от агентства SLOY 😎 Ребята переехали в новый офис и хотят украсить его стены вашими креативными плакатами! А мы в ENDY как раз с | просмотры: 822",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/endybrand/2873",
     "url_key": "https://t.me/endybrand/2873",
@@ -2309,7 +2230,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "250877421c08c883",
@@ -2337,7 +2259,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1adcd55fc63ae89f",
@@ -2363,7 +2286,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e13380c4492ffddc",
@@ -2375,7 +2299,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "COMPASS",
-    "title": "👀 Обозреваем: эффект Барбары Стрейзанд На связи Ирина Рябова , директор по стратегии брендингового агентства КОМПАС. Сегодня разбираем, что происходит на FIFA — и там действительно | просмотры: 108",
+    "title": "👀 Обозреваем: эффект Барбары Стрейзанд На связи Ирина Рябова , директор по стратегии брендингового агентства КОМПАС. Сегодня разбираем, что происходит на FIFA — и там действительно | просмотры: 110",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/compassbrand/914",
     "url_key": "https://t.me/compassbrand/914",
@@ -2391,7 +2315,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1e7fc62cd8a6ed7f",
@@ -2403,7 +2328,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "BBDO Branding",
-    "title": "Must read — книжные фавориты Эллы Стюарт 📚 В подборке главы BBDO Group перечислены произведения, которые Элла не только рекомендует другим, но и к которым возвращается сама. ⚪ «Сид | просмотры: 496",
+    "title": "Must read — книжные фавориты Эллы Стюарт 📚 В подборке главы BBDO Group перечислены произведения, которые Элла не только рекомендует другим, но и к которым возвращается сама. ⚪ «Сид | просмотры: 503",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/bbdo_twtw/1406",
     "url_key": "https://t.me/bbdo_twtw/1406",
@@ -2417,7 +2342,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "5d8d580df71e93a0",
@@ -2429,7 +2355,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "AGIMA",
-    "title": "Ещё одна хорошая подборка постеров: anothergraphic.org ( хотя бы это ИИ пока не захватил ) | просмотры: 392",
+    "title": "Ещё одна хорошая подборка постеров: anothergraphic.org ( хотя бы это ИИ пока не захватил ) | просмотры: 393",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/AGIMAdesign/2512",
     "url_key": "https://t.me/AGIMAdesign/2512",
@@ -2445,7 +2371,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Тренды» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1583b06d19044753",
@@ -2457,7 +2384,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "2BR",
-    "title": "Стартуем новую неделю с дайджеста! 🚀 ✨ У вас джип в Москве? А у нас — подборка новостей! Всё живое и настоящее: что-то даже можно купить рядом с домом 😉 Но давайте по порядку: в O' | просмотры: 31",
+    "title": "Стартуем новую неделю с дайджеста! 🚀 ✨ У вас джип в Москве? А у нас — подборка новостей! Всё живое и настоящее: что-то даже можно купить рядом с домом 😉 Но давайте по порядку: в O' | просмотры: 34",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/twobrbr/1565",
     "url_key": "https://t.me/twobrbr/1565",
@@ -2475,7 +2402,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Тренды» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "6db1cd1491104fe2",
@@ -2487,7 +2415,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "2050.LAB",
-    "title": "⏳ Остался 1 день до встречи с создателем дизайна «Бычка» Константин Потехин — тот, кто пришёл на ЗИЛ инженером-механиком, а стал автором дизайна легендарного грузовика. За его плеч | просмотры: 267",
+    "title": "⏳ Остался 1 день до встречи с создателем дизайна «Бычка» Константин Потехин — тот, кто пришёл на ЗИЛ инженером-механиком, а стал автором дизайна легендарного грузовика. За его плеч | просмотры: 268",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/lab2050/2716",
     "url_key": "https://t.me/lab2050/2716",
@@ -2501,7 +2429,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "28c0c06ce506fe73",
@@ -2513,7 +2442,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка пользы с красотой Вика Трубицина , арт-директор Dotorg, рассказала про анти-дизайн. О чем шла речь? Сейчас современные бренды всё чаще отказываются от классической  | просмотры: 366",
+    "title": "Друзья, минутка пользы с красотой Вика Трубицина , арт-директор Dotorg, рассказала про анти-дизайн. О чем шла речь? Сейчас современные бренды всё чаще отказываются от классической  | просмотры: 382",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1415",
     "url_key": "https://t.me/reseachers/1415",
@@ -2527,7 +2456,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "22279f5d0381aba8",
@@ -2555,33 +2485,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "8dff251424a1ab22",
-    "date": "2026-06-21",
-    "theme": "Инфоповод",
-    "content_theme": "Инфоповод",
-    "service": "Брендинг",
-    "source_type": "Пост",
-    "placement": "Telegram",
-    "channel": "Telegram",
-    "competitor": "Depot",
-    "title": "Маленькие, да удаленькие ⚽️ Открываем новую рубрику, вдохновлённую ЧМ-2026, обзором кейса — историей Capelli Sport, спортивного бренда, который умудряется конкурировать с гигантами | просмотры: 571",
-    "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
-    "url": "https://t.me/depot_branding/2360",
-    "url_key": "https://t.me/depot_branding/2360",
-    "source_url": "https://t.me/depot_branding",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "5568275af34147a3",
@@ -2610,7 +2515,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Продукты / запуски» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "82b0226f7d0f5a16",
@@ -2638,7 +2544,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Продукты / запуски» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "587b66e2968576d4",
@@ -2667,7 +2574,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f568873da397563a",
@@ -2679,7 +2587,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "⟶ Доброе утро, вставай уже! Лилия и Свят уже готовятся к прямому эфиру . Переходи в @prosvyatlily , подписывайся и сохраняй ссылку в Zoom . Начинаем ровно в 12:00! | просмотры: 408",
+    "title": "⟶ Доброе утро, вставай уже! Лилия и Свят уже готовятся к прямому эфиру . Переходи в @prosvyatlily , подписывайся и сохраняй ссылку в Zoom . Начинаем ровно в 12:00! | просмотры: 419",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3673",
     "url_key": "https://t.me/REDKEDSAGENCY/3673",
@@ -2695,7 +2603,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d6ee82bf62439358",
@@ -2707,7 +2616,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка конкуренции Обычно, под конкуренцией подразумевают соревнования нескольких компаний за некий единственный приз. Тогда как в реальности призов хватит всем, просто ко | просмотры: 406",
+    "title": "Друзья, минутка конкуренции Обычно, под конкуренцией подразумевают соревнования нескольких компаний за некий единственный приз. Тогда как в реальности призов хватит всем, просто ко | просмотры: 414",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1414",
     "url_key": "https://t.me/reseachers/1414",
@@ -2721,7 +2630,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "8f140b85bc42f16b",
@@ -2747,7 +2657,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "eba9f28a9e6abce7",
@@ -2773,7 +2684,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "be8b98678a370f3a",
@@ -2785,7 +2697,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Два слова | Conspiracy.works",
-    "title": "Фуксия захватила ЧМ-26, и неспроста Как известно, к таким большим спортивным мероприятиям бренды начинают готовится за несколько лет, и им приходится быть изворотливыми, чтобы попа | просмотры: 141",
+    "title": "Фуксия захватила ЧМ-26, и неспроста Как известно, к таким большим спортивным мероприятиям бренды начинают готовится за несколько лет, и им приходится быть изворотливыми, чтобы попа | просмотры: 144",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dvaslovaoreklame/5974",
     "url_key": "https://t.me/dvaslovaoreklame/5974",
@@ -2801,7 +2713,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "ca44e7cfb758821f",
@@ -2813,7 +2726,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "opencore",
-    "title": "Друзья, на связи «рок-н-рольный брендинг» 🤘 Сегодня в разборе — Pepsi. Бренд, который хотел вдохновить новое поколение, а получил один из самых известных маркетинговых казусов в ис | просмотры: 71",
+    "title": "Друзья, на связи «рок-н-рольный брендинг» 🤘 Сегодня в разборе — Pepsi. Бренд, который хотел вдохновить новое поколение, а получил один из самых известных маркетинговых казусов в ис | просмотры: 77",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/opncr_pro/681",
     "url_key": "https://t.me/opncr_pro/681",
@@ -2835,7 +2748,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "0f2745973ef9ce7b",
@@ -2847,7 +2761,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "aic",
-    "title": "пятничная подборка 🆕 тело как данные, экран как магазин, клиника как сервис: инфраструктура будущего строится прямо сейчас 😦 📺 Connected TV превращается в точку продаж 📌 shoppable  | просмотры: 214",
+    "title": "пятничная подборка 🆕 тело как данные, экран как магазин, клиника как сервис: инфраструктура будущего строится прямо сейчас 😦 📺 Connected TV превращается в точку продаж 📌 shoppable  | просмотры: 219",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/aicxyic/2160",
     "url_key": "https://t.me/aicxyic/2160",
@@ -2863,7 +2777,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Тренды» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e2f1e85b174ededb",
@@ -2875,7 +2790,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Radar",
-    "title": "Пятница вдвойне приятна с такими новостями: команда Radar заняла уверенную пятую строчку в рейтинге брендинговых компаний НР2К и вошла в топ-50 коммуникационных компаний. Всегда пр | просмотры: 94",
+    "title": "Пятница вдвойне приятна с такими новостями: команда Radar заняла уверенную пятую строчку в рейтинге брендинговых компаний НР2К и вошла в топ-50 коммуникационных компаний. Всегда пр | просмотры: 97",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/radaradvertising/2166",
     "url_key": "https://t.me/radaradvertising/2166",
@@ -2892,7 +2807,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "464423fe40835730",
@@ -2904,7 +2820,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "G8 2026 ⟶ Вопрос-ответ 8️⃣ Где можно узнать категории? ⟶ В этом посте и на сайте G8.ART . 8️⃣ Где подавать работы на Креативную премию G8 2026? ⟶ На нашем сайте: G8.ART . 8️⃣ Как п | просмотры: 442",
+    "title": "G8 2026 ⟶ Вопрос-ответ 8️⃣ Где можно узнать категории? ⟶ В этом посте и на сайте G8.ART . 8️⃣ Где подавать работы на Креативную премию G8 2026? ⟶ На нашем сайте: G8.ART . 8️⃣ Как п | просмотры: 452",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3672",
     "url_key": "https://t.me/REDKEDSAGENCY/3672",
@@ -2922,7 +2838,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "5f1e912fff392b34",
@@ -2934,7 +2851,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "OTVETDESIGN",
-    "title": "👸 Мы снова в ТОПе! (и сразу дважды) Финалим неделю победами: 👉 OTVETDESIGN вошёл в Национальный рейтинг коммуникационных компаний 2026 , а также в ТОП-3 Индустриального рейтинга НР | просмотры: 331",
+    "title": "👸 Мы снова в ТОПе! (и сразу дважды) Финалим неделю победами: 👉 OTVETDESIGN вошёл в Национальный рейтинг коммуникационных компаний 2026 , а также в ТОП-3 Индустриального рейтинга НР | просмотры: 361",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/otvetdesign/1810",
     "url_key": "https://t.me/otvetdesign/1810",
@@ -2950,7 +2867,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1a5ee08c9d1a2ef6",
@@ -2962,7 +2880,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "ONY",
-    "title": "Аудитория каждый день рассказывает брендам о своих привычках, потребностях и болях. Но как превратить тысячи сообщений в полезные инсайты? «Большинство компаний начинают изучать ау | просмотры: 976",
+    "title": "Аудитория каждый день рассказывает брендам о своих привычках, потребностях и болях. Но как превратить тысячи сообщений в полезные инсайты? «Большинство компаний начинают изучать ау | просмотры: 1.03K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/onyagency/1201",
     "url_key": "https://t.me/onyagency/1201",
@@ -2978,7 +2896,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "92319b24cda65d5b",
@@ -2990,7 +2909,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "OHMYBRAND",
-    "title": "Волны жизненной энергии: линейка напитков ПСЫЖ Биттер и ПСЫЖ со вкусом и ароматом ☀️ Мы давно дружим с брендом «Аквалайн» , поэтому когда у них появилась задача расширить ассортиме | просмотры: 304",
+    "title": "Волны жизненной энергии: линейка напитков ПСЫЖ Биттер и ПСЫЖ со вкусом и ароматом ☀️ Мы давно дружим с брендом «Аквалайн» , поэтому когда у них появилась задача расширить ассортиме | просмотры: 307",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/ohmybrand_studio/2077",
     "url_key": "https://t.me/ohmybrand_studio/2077",
@@ -3006,7 +2925,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Продукты / запуски» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "5dbc1618be9fb12f",
@@ -3018,7 +2938,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Getbrand",
-    "title": "Чемпионат мира по футболу 2026 года уже восю набирает обороты! ⚽️ И такое событие не только олицетворяет собой спортивный праздник и красивый футбол, но и является огромнейшей меди | просмотры: 122",
+    "title": "Чемпионат мира по футболу 2026 года уже восю набирает обороты! ⚽️ И такое событие не только олицетворяет собой спортивный праздник и красивый футбол, но и является огромнейшей меди | просмотры: 123",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/getbrand_ru/4668",
     "url_key": "https://t.me/getbrand_ru/4668",
@@ -3034,7 +2954,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f8061fbc58333562",
@@ -3062,7 +2983,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "ebcbdabb0daf6b10",
@@ -3074,7 +2996,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "ENDY",
-    "title": "📣 ⬛️ 🔴 Годнота про фестивали для молодых креаторов В начале пути может быть страшно и тяжело ворваться на реальный рынок. Важно двигаться в нужном направлении и начать с фестивалей | просмотры: 1.62K",
+    "title": "📣 ⬛️ 🔴 Годнота про фестивали для молодых креаторов В начале пути может быть страшно и тяжело ворваться на реальный рынок. Важно двигаться в нужном направлении и начать с фестивалей | просмотры: 1.64K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/endybrand/2865",
     "url_key": "https://t.me/endybrand/2865",
@@ -3088,7 +3010,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "382fef0c0dcfde3d",
@@ -3100,7 +3023,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "ENDY",
-    "title": "🌷 Новый кейс. Ребрендинг фонда «Бумажная птица» Паллиативная помощь — одна из самых закрытых тем в публичном поле. Люди боятся, избегают, не знают, как начать разговор. Мы попробов | просмотры: 1.1K",
+    "title": "🌷 Новый кейс. Ребрендинг фонда «Бумажная птица» Паллиативная помощь — одна из самых закрытых тем в публичном поле. Люди боятся, избегают, не знают, как начать разговор. Мы попробов | просмотры: 1.11K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/endybrand/2866",
     "url_key": "https://t.me/endybrand/2866",
@@ -3114,7 +3037,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "9896d517d7a0e12b",
@@ -3142,7 +3066,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f326ffd87be34816",
@@ -3170,7 +3095,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "7298f8cd46832b70",
@@ -3196,7 +3122,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "3ab27632fa46c718",
@@ -3208,7 +3135,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEZA",
-    "title": "Люди с улицы. Самоучки студии Deza / №5 Друзья, наша рубрика «Люди с улицы» завершается. Последним в ней выступит копирайтер Антон, который и придумал рубрику. Получивший образован | просмотры: 224",
+    "title": "Люди с улицы. Самоучки студии Deza / №5 Друзья, наша рубрика «Люди с улицы» завершается. Последним в ней выступит копирайтер Антон, который и придумал рубрику. Получивший образован | просмотры: 227",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dezastudio/4630",
     "url_key": "https://t.me/dezastudio/4630",
@@ -3222,7 +3149,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "310bb7111ad0e8ef",
@@ -3234,7 +3162,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEVISION",
-    "title": "🎤 Проверено на практике: ТОП-5 проектных решений, которые можно масштабировать Сегодня выигрывает не тот, кто придумал уникальное решение, а тот, кто умеет замечать и тиражировать  | просмотры: 1K",
+    "title": "🎤 Проверено на практике: ТОП-5 проектных решений, которые можно масштабировать Сегодня выигрывает не тот, кто придумал уникальное решение, а тот, кто умеет замечать и тиражировать  | просмотры: 1.01K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/devisionagency/3311",
     "url_key": "https://t.me/devisionagency/3311",
@@ -3250,7 +3178,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "4a84af05e86464f8",
@@ -3262,7 +3191,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEVISION",
-    "title": "Пост Telegram | просмотры: 1.06K",
+    "title": "Пост Telegram | просмотры: 1.07K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/devisionagency/3312",
     "url_key": "https://t.me/devisionagency/3312",
@@ -3278,7 +3207,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "343a023f8051176b",
@@ -3304,7 +3234,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "94fcc086840599f6",
@@ -3316,7 +3247,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "AGIMA",
-    "title": "Хотелось бы написать «в копилку адских капч», но говорят, что Google сейчас тестирует такое: предлагают помахать рукой перед камерой. 🤬 | просмотры: 577",
+    "title": "Хотелось бы написать «в копилку адских капч», но говорят, что Google сейчас тестирует такое: предлагают помахать рукой перед камерой. 🤬 | просмотры: 578",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/AGIMAdesign/2511",
     "url_key": "https://t.me/AGIMAdesign/2511",
@@ -3330,7 +3261,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "84d4440f7bd97784",
@@ -3356,7 +3288,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f05858d8c8d09d71",
@@ -3368,7 +3301,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Восход",
-    "title": "«Получить обратную связь от целевой аудитории до запуска большой кампании — разумно и нужно; но выбор креативной идеи, которая пойдет в эфир, — это не то решение, которое можно отд | просмотры: 829",
+    "title": "«Получить обратную связь от целевой аудитории до запуска большой кампании — разумно и нужно; но выбор креативной идеи, которая пойдет в эфир, — это не то решение, которое можно отд | просмотры: 835",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/voskhod_creative/1714",
     "url_key": "https://t.me/voskhod_creative/1714",
@@ -3385,7 +3318,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "6c50421a788a5438",
@@ -3397,7 +3331,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Sueta",
-    "title": "↗️ Брендбук: что это, из чего состоит и зачем нужен бизнесу? Брендбук — это система правил и смыслов, которая помогает бренду оставаться узнаваемым и цельным в любых форматах и сит | просмотры: 229",
+    "title": "↗️ Брендбук: что это, из чего состоит и зачем нужен бизнесу? Брендбук — это система правил и смыслов, которая помогает бренду оставаться узнаваемым и цельным в любых форматах и сит | просмотры: 231",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/sueta_team/3551",
     "url_key": "https://t.me/sueta_team/3551",
@@ -3411,7 +3345,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1297830ef5655c61",
@@ -3423,7 +3358,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "😊 Твой мужчина обещал заточить ножи и пропал? Проще купить новые по акции за 1 рубль в «Пятёрочке». Кстати, это мы баннеры придумали. 👉 — уже коплю наклейки 🍓 — все еще жду заточку | просмотры: 545",
+    "title": "😊 Твой мужчина обещал заточить ножи и пропал? Проще купить новые по акции за 1 рубль в «Пятёрочке». Кстати, это мы баннеры придумали. 👉 — уже коплю наклейки 🍓 — все еще жду заточку | просмотры: 548",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3668",
     "url_key": "https://t.me/REDKEDSAGENCY/3668",
@@ -3439,7 +3374,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Реклама / кампании» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "cbcad381c22c86e6",
@@ -3451,7 +3387,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "REDKEDS",
-    "title": "💨 Отказ редко звучит как честная обратная связь. Часто это вежливое «мы подумаем». А где именно вы потеряли клиента? Пока презентовали продукт, показывали примеры кейсов или выстав | просмотры: 1.52K",
+    "title": "💨 Отказ редко звучит как честная обратная связь. Часто это вежливое «мы подумаем». А где именно вы потеряли клиента? Пока презентовали продукт, показывали примеры кейсов или выстав | просмотры: 1.53K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/REDKEDSAGENCY/3671",
     "url_key": "https://t.me/REDKEDSAGENCY/3671",
@@ -3467,7 +3403,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Продукты / запуски» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "4d65deaaefe65f4b",
@@ -3496,7 +3433,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "50e1c99b7b148526",
@@ -3522,7 +3460,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "69c7617a10a94d61",
@@ -3534,7 +3473,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка стратегии и её реализации Читаю толковую книгу, (опять с руку толщиной 🤦‍♂️ ) встретил мысль, которая прямо в точку описывает то, как стратегия успешно внедряется в | просмотры: 452",
+    "title": "Друзья, минутка стратегии и её реализации Читаю толковую книгу, (опять с руку толщиной 🤦‍♂️ ) встретил мысль, которая прямо в точку описывает то, как стратегия успешно внедряется в | просмотры: 457",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1412",
     "url_key": "https://t.me/reseachers/1412",
@@ -3550,7 +3489,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "7753fb6950a2ba96",
@@ -3562,7 +3502,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка очевидно невероятного «В 2025 году в топ-3 наиболее эффективных каналов продвижения для промышленных предприятий вошли прямые продажи и участие в выставках и конфер | просмотры: 479",
+    "title": "Друзья, минутка очевидно невероятного «В 2025 году в топ-3 наиболее эффективных каналов продвижения для промышленных предприятий вошли прямые продажи и участие в выставках и конфер | просмотры: 487",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1413",
     "url_key": "https://t.me/reseachers/1413",
@@ -3579,7 +3519,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "232c7398116510a9",
@@ -3608,7 +3549,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "111ba792a327e0bc",
@@ -3634,7 +3576,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Брендинг». Можно сравнить подачу и аргументацию.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d27c73a3601116ad",
@@ -3646,7 +3589,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEVISION",
-    "title": "⌨ Проект без бюджета — это проект, который не случается вообще? | просмотры: 945",
+    "title": "⌨ Проект без бюджета — это проект, который не случается вообще? | просмотры: 946",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/devisionagency/3300",
     "url_key": "https://t.me/devisionagency/3300",
@@ -3660,7 +3603,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f006648821b33547",
@@ -3686,7 +3630,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f5dd94a5c702d1a8",
@@ -3698,7 +3643,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEVISION",
-    "title": "📎 Презентация — сохраняйте чтобы не потерять Записаться к Валентине на экспресс-аудит экскизного проекта, можно у нас на стенде | просмотры: 926",
+    "title": "📎 Презентация — сохраняйте чтобы не потерять Записаться к Валентине на экспресс-аудит экскизного проекта, можно у нас на стенде | просмотры: 927",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/devisionagency/3305",
     "url_key": "https://t.me/devisionagency/3305",
@@ -3712,7 +3657,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "b9803c3c9b9b276d",
@@ -3724,7 +3670,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEVISION",
-    "title": "Пост Telegram | просмотры: 953",
+    "title": "Пост Telegram | просмотры: 954",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/devisionagency/3306",
     "url_key": "https://t.me/devisionagency/3306",
@@ -3740,7 +3686,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "238a0e5e11e50460",
@@ -3766,7 +3713,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "2e3806b9124e2900",
@@ -3795,7 +3743,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "57b0c3d7bed8e04f",
@@ -3807,7 +3756,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "CreativePeople",
-    "title": "Получаем награды, чтобы получить награду за получение наград 🗿 Это мы про рейтинг самых награждаемых диджитал-агентств Рунета от Workspace. И CreativePeople в нём — на 8 месте. При | просмотры: 961",
+    "title": "Получаем награды, чтобы получить награду за получение наград 🗿 Это мы про рейтинг самых награждаемых диджитал-агентств Рунета от Workspace. И CreativePeople в нём — на 8 месте. При | просмотры: 969",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/cpeople_ru/1808",
     "url_key": "https://t.me/cpeople_ru/1808",
@@ -3823,7 +3772,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "fa7914d30818f0cb",
@@ -3835,7 +3785,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "BBDO Branding",
-    "title": "Почему рекламе не хватает слов и зачем ей новые? 📣 Сникерсни, скитлстрянка, безлимитище вам знакомы? Уже в эту субботу пройдет день открытых дверей магистратуры «Филологические исс | просмотры: 800",
+    "title": "Почему рекламе не хватает слов и зачем ей новые? 📣 Сникерсни, скитлстрянка, безлимитище вам знакомы? Уже в эту субботу пройдет день открытых дверей магистратуры «Филологические исс | просмотры: 805",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/bbdo_twtw/1405",
     "url_key": "https://t.me/bbdo_twtw/1405",
@@ -3851,7 +3801,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Реклама / кампании» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "8785706d2a969c44",
@@ -3863,7 +3814,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "AGIMA",
-    "title": "А какое ты скругление в MacOS сегодня? 🥸 | просмотры: 652",
+    "title": "А какое ты скругление в MacOS сегодня? 🥸 | просмотры: 653",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/AGIMAdesign/2509",
     "url_key": "https://t.me/AGIMAdesign/2509",
@@ -3877,7 +3828,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "2bf5033b0c457afb",
@@ -3905,7 +3857,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Описание услуги» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "53978a01bf289586",
@@ -3931,7 +3884,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "2e0c489cbe231bdf",
@@ -3943,7 +3897,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Терминал дизайн",
-    "title": "Вчера у Димы был день рождения и мы анонсировали выход своей шрифтовой гарнитуры! Подписывайтесь на наш шрифтовой канал и приобретайте шрифты, если они вам нужны и нравятся | просмотры: 216",
+    "title": "Вчера у Димы был день рождения и мы анонсировали выход своей шрифтовой гарнитуры! Подписывайтесь на наш шрифтовой канал и приобретайте шрифты, если они вам нужны и нравятся | просмотры: 219",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/terminaldesign/1293",
     "url_key": "https://t.me/terminaldesign/1293",
@@ -3959,7 +3913,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "b4b1497c5e913ad9",
@@ -3971,7 +3926,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Терминал дизайн",
-    "title": "16.06.26. Мне 26, а TTF Grotesk официально видит свет Рады объявить о долгожданным релизе! Разработка заняла продолжительное время, так как хотелось поймать правильный баланс. Сдел | просмотры: 210",
+    "title": "16.06.26. Мне 26, а TTF Grotesk официально видит свет Рады объявить о долгожданным релизе! Разработка заняла продолжительное время, так как хотелось поймать правильный баланс. Сдел | просмотры: 214",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/terminaldesign/1294",
     "url_key": "https://t.me/terminaldesign/1294",
@@ -3985,7 +3940,219 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "f2eef4eb4df0874a",
+    "date": "2026-06-17",
+    "theme": "Рейтинги / премии",
+    "content_theme": "Рейтинги / премии",
+    "service": "Брендинг",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "Результаты премии НПБК Эффективность",
+    "summary": "Агентство Восход получило пять наград Национальной премии НПБК Эффективность 2026",
+    "url": "https://voskhod.agency/news/npbc-efficiency-2026",
+    "url_key": "https://voskhod.agency/news/npbc-efficiency-2026",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Отчеты / исследования",
+      "Рейтинги / премии"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Рейтинги / премии» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "109a277b161f5785",
+    "date": "2026-06-17",
+    "theme": "Рейтинги / премии",
+    "content_theme": "Рейтинги / премии",
+    "service": "Брендинг",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "White Square 2026: итоги международного фестиваля маркетинга",
+    "summary": "Агентство Восход получило 18 наград и спецприз международного фестиваля рекламы Белый квадрат",
+    "url": "https://voskhod.agency/news/white-square-2026",
+    "url_key": "https://voskhod.agency/news/white-square-2026",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Отчеты / исследования",
+      "Рейтинги / премии",
+      "Реклама / кампании"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Рейтинги / премии» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "1a812bc9a05796ec",
+    "date": "2026-06-17",
+    "theme": "Продукты / запуски",
+    "content_theme": "Продукты / запуски",
+    "service": "Упаковка",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "Как правильно упаковывать продукт в 2026 году",
+    "summary": "Каким должен быть дизайн упаковки товара в 2026 году. Интервью с белорусским брендинговым агентством AVC.",
+    "url": "https://voskhod.agency/news/good-packaging",
+    "url_key": "https://voskhod.agency/news/good-packaging",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "PR",
+      "Мнение / комментарий",
+      "Продукты / запуски",
+      "Упаковка"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Продукты / запуски» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "7911dffc651361f6",
+    "date": "2026-06-17",
+    "theme": "Анонсы / события",
+    "content_theme": "Анонсы / события",
+    "service": "Digital",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "Восход на Create4Design в Бишкеке",
+    "summary": "Бренд-дизайн директор РА Восход Владислав Деревянных стал хедлайнером недели креативности Create 4 в Бишкеке! Лекция «PostDigital — дизайн после кнопки Generate» .",
+    "url": "https://voskhod.agency/news/create-4-2026",
+    "url_key": "https://voskhod.agency/news/create-4-2026",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Digital",
+      "Анонсы / события"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Анонсы / события» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "2887aad370e4b588",
+    "date": "2026-06-17",
+    "theme": "Рейтинги / премии",
+    "content_theme": "Рейтинги / премии",
+    "service": "Брендинг",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "Восход — самое награждаемое агентство E+ Awards и E+ Awards Central Asia!",
+    "summary": "Результаты E+ Awards и E+ Awards Central Asia. Агентство Восход взяло 11 наград на фестивале маркетинговой эффективности.",
+    "url": "https://voskhod.agency/news/e-awards-2026",
+    "url_key": "https://voskhod.agency/news/e-awards-2026",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Отчеты / исследования",
+      "Рейтинги / премии"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Рейтинги / премии» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "378adfe7c0655d36",
+    "date": "2026-06-17",
+    "theme": "Реклама / кампании",
+    "content_theme": "Реклама / кампании",
+    "service": "Брендинг",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "Восход в жюри White Square",
+    "summary": "Креативный директор агентства Восход Антон Рожин — в жюри международного фестиваля рекламы White Square",
+    "url": "https://voskhod.agency/news/white-square-anton-rozhin",
+    "url_key": "https://voskhod.agency/news/white-square-anton-rozhin",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Реклама / кампании"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Реклама / кампании» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
+  },
+  {
+    "id": "439853025c7a1e45",
+    "date": "2026-06-17",
+    "theme": "Рейтинги / премии",
+    "content_theme": "Рейтинги / премии",
+    "service": "Брендинг",
+    "source_type": "Новость",
+    "placement": "Сайт",
+    "channel": "Сайт",
+    "competitor": "Восход",
+    "title": "Восход в жюри E+ Awards",
+    "summary": "Михаил Пишванов, Дмитрий Доник, Дарья Калабина и Павел Скосырский в жюри конкурса маркетинговой эффективности E+ Awards",
+    "url": "https://voskhod.agency/news/e-awards-jury",
+    "url_key": "https://voskhod.agency/news/e-awards-jury",
+    "source_url": "https://voskhod.agency/news/",
+    "views": null,
+    "reactions": null,
+    "comments": null,
+    "tags": [
+      "Рейтинги / премии"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [],
+    "sentiment": "нейтрально",
+    "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Рейтинги / премии» на своем сайте.",
+    "baseline": false,
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "c8a44b4539ede59d",
@@ -3997,7 +4164,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Восход",
-    "title": "Главное событие мира рекламы — фестиваль «Каннские львы» — уже совсем близко. И у нас есть первые претенденты на победу! По итогам прошедшего в Москве просмотра зрители отдали пред | просмотры: 838",
+    "title": "Главное событие мира рекламы — фестиваль «Каннские львы» — уже совсем близко. И у нас есть первые претенденты на победу! По итогам прошедшего в Москве просмотра зрители отдали пред | просмотры: 843",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/voskhod_creative/1711",
     "url_key": "https://t.me/voskhod_creative/1711",
@@ -4014,7 +4181,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Анонсы / события» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "890547420a581d11",
@@ -4026,7 +4194,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Восход",
-    "title": "Пять наград конкурса НПБК Эффективность, и все — за проекты Восхода для Точка Банк! ( ⚡ ) Золото за лучший запуск нового продукта получила кампания « День счастливого бухгалтера »  | просмотры: 815",
+    "title": "Пять наград конкурса НПБК Эффективность, и все — за проекты Восхода для Точка Банк! ( ⚡ ) Золото за лучший запуск нового продукта получила кампания « День счастливого бухгалтера »  | просмотры: 820",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/voskhod_creative/1713",
     "url_key": "https://t.me/voskhod_creative/1713",
@@ -4045,7 +4213,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d4e07f8288e7788f",
@@ -4057,7 +4226,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "ONY",
-    "title": "Как говорить о донорстве костного мозга без страха и сложных терминов Регистр доноров костного мозга Пироговского Университета — проект, сочетающий медицину, науку и помощь пациент | просмотры: 1.17K",
+    "title": "Как говорить о донорстве костного мозга без страха и сложных терминов Регистр доноров костного мозга Пироговского Университета — проект, сочетающий медицину, науку и помощь пациент | просмотры: 1.2K",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/onyagency/1195",
     "url_key": "https://t.me/onyagency/1195",
@@ -4071,7 +4240,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "0fb4065197a347a2",
@@ -4083,7 +4253,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "LINII Group",
-    "title": "Недавно у нас был отличный повод собраться вместе — день рождения основателя LINII — Михаила Губергрица 🎉 Ради этого мы привезли в Москву коллег из других городов, наконец увиделис | просмотры: 608",
+    "title": "Недавно у нас был отличный повод собраться вместе — день рождения основателя LINII — Михаила Губергрица 🎉 Ради этого мы привезли в Москву коллег из других городов, наконец увиделис | просмотры: 625",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/liniigroup/3694",
     "url_key": "https://t.me/liniigroup/3694",
@@ -4097,7 +4267,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "6e08cf9fe4a4838b",
@@ -4109,7 +4280,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Getbrand",
-    "title": "В рубрике #НепопулярноеМнение эксперты креативных индустрий разбирают распространённые представления о своей сфере и объясняют, почему в реальности всё работает иначе. В новом выпу | просмотры: 104",
+    "title": "В рубрике #НепопулярноеМнение эксперты креативных индустрий разбирают распространённые представления о своей сфере и объясняют, почему в реальности всё работает иначе. В новом выпу | просмотры: 106",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/getbrand_ru/4651",
     "url_key": "https://t.me/getbrand_ru/4651",
@@ -4128,7 +4299,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Мнение / комментарий» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "079d3879abd95368",
@@ -4140,7 +4312,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Getbrand",
-    "title": "Выше с коллегами из Красная кнопка ФКИ делились своей экспертизой 🔺 И правда, бренд строится не вокруг логотипа, а вокруг ценностей и опыта. Опора только на визуальную привлекатель | просмотры: 130",
+    "title": "Выше с коллегами из Красная кнопка ФКИ делились своей экспертизой 🔺 И правда, бренд строится не вокруг логотипа, а вокруг ценностей и опыта. Опора только на визуальную привлекатель | просмотры: 131",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/getbrand_ru/4659",
     "url_key": "https://t.me/getbrand_ru/4659",
@@ -4157,36 +4329,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Мнение / комментарий» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
-  },
-  {
-    "id": "2eeb086ddf673db4",
-    "date": "2026-06-17",
-    "theme": "Кейсы",
-    "content_theme": "Кейсы",
-    "service": "Digital",
-    "source_type": "Кейс",
-    "placement": "Dprofile",
-    "channel": "Dprofile",
-    "competitor": "ENDY",
-    "title": "Мобиль — Dprofile",
-    "summary": "Dprofile — Корпоративный сайт для фасадной компании",
-    "url": "https://dprofile.ru/case/182746/mobil",
-    "url_key": "https://dprofile.ru/case/182746/mobil",
-    "source_url": "https://dprofile.ru/endy",
-    "views": null,
-    "reactions": null,
-    "comments": null,
-    "tags": [
-      "Digital",
-      "PR"
-    ],
-    "hashtags": [],
-    "mentioned_brands": [],
-    "sentiment": "нейтрально",
-    "serenity_pr_smm_use": "Свежий сигнал: конкурент выводит тему «Кейсы» через услугу «Digital». Можно сравнить подачу и аргументацию.",
-    "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "094c9600aa76cf7a",
@@ -4198,7 +4342,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Dotorg branding & strategy",
-    "title": "Друзья, минутка размышлений от цитат Утром Олег прислал мне цитату из книги Михаила Дымшица , « Манипулирование покупателем », которую сейчас плотно курит. У нас как раз планируетс | просмотры: 508",
+    "title": "Друзья, минутка размышлений от цитат Утром Олег прислал мне цитату из книги Михаила Дымшица , « Манипулирование покупателем », которую сейчас плотно курит. У нас как раз планируетс | просмотры: 509",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/reseachers/1411",
     "url_key": "https://t.me/reseachers/1411",
@@ -4212,7 +4356,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d7a1df03b789ad84",
@@ -4240,7 +4385,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e3559604b3e22df2",
@@ -4268,7 +4414,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "d690de44c4efabf5",
@@ -4296,7 +4443,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Новости агентства» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "e99e0588c67cea30",
@@ -4322,7 +4470,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Материал показывает, как конкурент подает тему «Инфоповод» на своем сайте.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "a2579c12373d0972",
@@ -4334,7 +4483,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEZA",
-    "title": "E-commerce — новая реальность Быстро, удобно, без долгих очередей и мук выбора. Приветливые мобильные приложения, выгодные цены, широкий ассортимент — и отзывы прямо в карточках то | просмотры: 200",
+    "title": "E-commerce — новая реальность Быстро, удобно, без долгих очередей и мук выбора. Приветливые мобильные приложения, выгодные цены, широкий ассортимент — и отзывы прямо в карточках то | просмотры: 202",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dezastudio/4618",
     "url_key": "https://t.me/dezastudio/4618",
@@ -4350,7 +4499,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Продукты / запуски» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "55958ef2f31f13c9",
@@ -4362,7 +4512,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "DEZA",
-    "title": "Июньское интеллектуальное Открываем регистрацию на пятую ЧГК сезона, друзья! И сразу напоминаем правила регистрации: ▫️ Регистрацию команды на игру проводит один человек (капитан/д | просмотры: 252",
+    "title": "Июньское интеллектуальное Открываем регистрацию на пятую ЧГК сезона, друзья! И сразу напоминаем правила регистрации: ▫️ Регистрацию команды на игру проводит один человек (капитан/д | просмотры: 255",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/dezastudio/4623",
     "url_key": "https://t.me/dezastudio/4623",
@@ -4376,7 +4526,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "f029f9beb753e7b5",
@@ -4404,7 +4555,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "208f3c14f9388744",
@@ -4416,7 +4568,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "BBDO Branding",
-    "title": "Встречайте нового ACD BBDO ⚡ В нашей команде пополнение, спешим познакомить вас с Олегом Уколовым , Associate Creative Director BBDO . Более 20 лет опыта в самых различных категори | просмотры: 927",
+    "title": "Встречайте нового ACD BBDO ⚡ В нашей команде пополнение, спешим познакомить вас с Олегом Уколовым , Associate Creative Director BBDO . Более 20 лет опыта в самых различных категори | просмотры: 930",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/bbdo_twtw/1404",
     "url_key": "https://t.me/bbdo_twtw/1404",
@@ -4430,7 +4582,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "12fb04f64f0cd91b",
@@ -4442,7 +4595,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "Art Area",
-    "title": "Rexona провернула один из самых креативных рекламных ходов на ЧМ по футболу. Бренд разместил логотип прямо на табличках для замен. Каждый раз, когда арбитр поднимает её над головой | просмотры: 51",
+    "title": "Rexona провернула один из самых креативных рекламных ходов на ЧМ по футболу. Бренд разместил логотип прямо на табличках для замен. Каждый раз, когда арбитр поднимает её над головой | просмотры: 54",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/artareastudio/1864",
     "url_key": "https://t.me/artareastudio/1864",
@@ -4459,7 +4612,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Реклама / кампании» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "1bcf529b5af8c79f",
@@ -4471,7 +4625,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "AGIMA",
-    "title": "Как вам такой дизайн (или dark pattern?): это порог у ворот японской крепости. Когда атакующие врывались, они не замечали его и спотыкались прямо на входе. Ну и получали от защитни | просмотры: 632",
+    "title": "Как вам такой дизайн (или dark pattern?): это порог у ворот японской крепости. Когда атакующие врывались, они не замечали его и спотыкались прямо на входе. Ну и получали от защитни | просмотры: 633",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/AGIMAdesign/2508",
     "url_key": "https://t.me/AGIMAdesign/2508",
@@ -4485,7 +4639,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "b4dcda0980c23754",
@@ -4497,7 +4652,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "2050.LAB",
-    "title": "А вы уже зарегистрировались на «Беседу о промдизайне в музеях с Константином Потехиным»? 🗓 Ждем вас 23 июня в Музее Москвы. В гостях у Лаб 20/50 — человек, который знает о скорости | просмотры: 685",
+    "title": "А вы уже зарегистрировались на «Беседу о промдизайне в музеях с Константином Потехиным»? 🗓 Ждем вас 23 июня в Музее Москвы. В гостях у Лаб 20/50 — человек, который знает о скорости | просмотры: 686",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/lab2050/2712",
     "url_key": "https://t.me/lab2050/2712",
@@ -4511,7 +4666,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "ecba1f3506075d11",
@@ -4523,7 +4679,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "19agency84",
-    "title": "Вчера наш ньюбиз Артём съездил в Москву на премию «НПБК. Эффективность»! ⚡️ В этот раз увозим только шорт-лист за наш кейс «Мыслим логистически» для «Магнит Логистики». Но для дебю | просмотры: 187",
+    "title": "Вчера наш ньюбиз Артём съездил в Москву на премию «НПБК. Эффективность»! ⚡️ В этот раз увозим только шорт-лист за наш кейс «Мыслим логистически» для «Магнит Логистики». Но для дебю | просмотры: 189",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/aloha19agency84/2261",
     "url_key": "https://t.me/aloha19agency84/2261",
@@ -4545,7 +4701,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Рейтинги / премии» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "0b61bc1064b92c10",
@@ -4557,7 +4714,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "19agency84",
-    "title": "До конца недели снова в гостях у ребят @mads_courses — делимся фестивальным опытом ⚡️ Спойлер: уже завтра объявим там розыгрыш нашей уникальной агентской раскраски 🤫 | просмотры: 183",
+    "title": "До конца недели снова в гостях у ребят @mads_courses — делимся фестивальным опытом ⚡️ Спойлер: уже завтра объявим там розыгрыш нашей уникальной агентской раскраски 🤫 | просмотры: 185",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/aloha19agency84/2262",
     "url_key": "https://t.me/aloha19agency84/2262",
@@ -4571,7 +4728,8 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   },
   {
     "id": "9e0db6eded83ef6b",
@@ -4583,7 +4741,7 @@
     "placement": "Telegram",
     "channel": "Telegram",
     "competitor": "19agency84",
-    "title": "— А если я только учусь или только начинаю свой путь? Какие мне фестивали? Принято считать, что фестивали — это закрытая тусовка для огромных сетевых агентств с внушительными бюдже | просмотры: 215",
+    "title": "— А если я только учусь или только начинаю свой путь? Какие мне фестивали? Принято считать, что фестивали — это закрытая тусовка для огромных сетевых агентств с внушительными бюдже | просмотры: 217",
     "summary": "Материал найден в недельном мониторинге. Проверь страницу перед выводами.",
     "url": "https://t.me/aloha19agency84/2263",
     "url_key": "https://t.me/aloha19agency84/2263",
@@ -4597,6 +4755,7 @@
     "sentiment": "нейтрально",
     "serenity_pr_smm_use": "Свежий сигнал для контента Serenity: тема «Инфоповод» уже звучит у конкурентов.",
     "baseline": false,
-    "date_confidence": "found_on_page_or_feed"
+    "date_confidence": "found_on_page_or_feed",
+    "monitor_scope": "competitor"
   }
 ]
