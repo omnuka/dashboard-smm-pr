@@ -136,6 +136,10 @@ function competitorSite(name){
   return item ? item.site : '';
 }
 
+function isCompetitorFinding(f){
+  return f && f.monitor_scope !== 'client_brand' && !!competitorSite(f.competitor);
+}
+
 function leaderNameHtml(name){
   if(!name || name === '-') return '-';
   const site = competitorSite(name);
@@ -143,11 +147,12 @@ function leaderNameHtml(name){
 }
 
 function renderLeaderCards(data){
-  const [caseName, caseCount] = topPair(countBy(data.filter(f => f.source_type === 'Кейс'), 'competitor'));
+  const competitorData = data.filter(isCompetitorFinding);
+  const [caseName, caseCount] = topPair(countBy(competitorData.filter(f => f.source_type === 'Кейс'), 'competitor'));
   $('leaderCasesName').innerHTML = leaderNameHtml(caseName);
   $('leaderCasesMeta').textContent = caseCount ? `${caseCount} кейс${caseCount > 1 ? 'а/ов' : ''}` : 'кейсов за период нет';
 
-  const social = data.filter(isSocial);
+  const social = competitorData.filter(isSocial);
   const [smmName, smmCount] = topPair(countBy(social, 'competitor'));
   const smmItems = social.filter(f => f.competitor === smmName);
   const smmViews = smmItems.reduce((s,f)=>s+num(f.views),0);
@@ -155,12 +160,12 @@ function renderLeaderCards(data){
   $('leaderSmmName').innerHTML = leaderNameHtml(smmName);
   $('leaderSmmMeta').textContent = smmCount ? `${smmCount} поста/видео, ${smmViews || 0} просмотров, ${smmReactions || 0} реакций` : 'постов за период нет';
 
-  const [mediaName, mediaCount] = topPair(countBy(data.filter(f => f.source_type === 'СМИ' || f.channel === 'СМИ'), 'competitor'));
+  const [mediaName, mediaCount] = topPair(countBy(competitorData.filter(f => f.source_type === 'СМИ' || f.channel === 'СМИ'), 'competitor'));
   $('leaderMediaName').innerHTML = leaderNameHtml(mediaName);
   $('leaderMediaMeta').textContent = mediaCount ? `${mediaCount} упоминание/й` : 'упоминаний за период нет';
 
   const scores = new Map();
-  data.forEach(f => scores.set(f.competitor || 'Без агентства', (scores.get(f.competitor || 'Без агентства') || 0) + activityScore(f)));
+  competitorData.forEach(f => scores.set(f.competitor || 'Без агентства', (scores.get(f.competitor || 'Без агентства') || 0) + activityScore(f)));
   const sorted = [...scores.entries()].sort((a,b)=>b[1]-a[1]);
   if(sorted.length){
     $('leaderOverallName').innerHTML = leaderNameHtml(sorted[0][0]);
@@ -269,7 +274,7 @@ function renderAll(){
   ];
   renderTable($('tagRows'), data.filter(f => asArray(f.tags).length || asArray(f.hashtags).length), tagCols, 'Теги и хештеги пока не собраны');
 
-  const social = data.filter(isSocial);
+  const social = competitorData.filter(isSocial);
   const socialCols = [f=>fmt(f.date), f=>sourceLink(f), f=>fmt(f.competitor), f=>fmt(contentTheme(f)), f=>inlineTags(f.tags), f=>titleBlock(f), f=>fmt(f.views), f=>fmt(f.reactions), f=>fmt(f.comments)];
   renderTable($('socialRows'), social, socialCols, 'Соцданные пока не собраны');
 

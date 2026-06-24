@@ -22,6 +22,8 @@ COMPETITORS_PATH = DATA / "competitors.json"
 FINDINGS_PATH = DATA / "weekly_findings.json"
 STATUS_PATH = DATA / "collector_status.json"
 LAST_RUN_PATH = DATA / "last_run_summary.json"
+MEDIA_SOURCES_PATH = DATA / "media_sources.json"
+CLIENT_BRANDS_PATH = DATA / "client_brands.json"
 
 TODAY_DATE = date.today()
 TODAY = TODAY_DATE.isoformat()
@@ -35,6 +37,7 @@ MAX_LINKS_PER_SOURCE = 24
 MAX_FINDINGS_PER_SOURCE = 8
 MAX_DETAIL_FETCHES = 700
 MAX_NEWS_MENTIONS_PER_COMPETITOR = 4
+MAX_NEWS_MENTIONS_PER_CLIENT = 8
 
 SERVICE_KEYWORDS = [
     ("Упаковка", ["упаков", "pack", "package", "fmcg", "этикет"]),
@@ -60,11 +63,35 @@ CONTENT_THEME_KEYWORDS = [
     ("Новости агентства", ["новост", "обновлен", "партнерств", "сотрудничеств", "команда", "назначен"]),
 ]
 
+CLIENT_BRAND_NAMES = [
+    "Группа Компаний Красное Золото",
+    "Красное Золото",
+    "Русаков",
+    "Тунгутун",
+    "Авача",
+    "Виктория Бис",
+    "Укинский леман",
+]
+
 KNOWN_BRANDS = [
+    *CLIENT_BRAND_NAMES,
     "Добрый", "НМЖК", "Самокат", "Магнит", "Пятерочка", "Перекресток", "ВкусВилл", "Сбер", "МТС",
     "Яндекс", "Ozon", "Wildberries", "Аэрофлот", "Билайн", "Т-Банк", "Газпром", "Лукойл",
     "Черкизово", "Danone", "Pepsi", "Coca-Cola", "Borjomi", "Боржоми", "Меридиан", "Санта-Бремор",
     "Русская картошка", "Вкусно и точка", "Rive Gauche", "Рив Гош", "X5", "Fix Price", "Лента",
+]
+
+DEFAULT_MEDIA_SOURCES = [
+    {"name": "Sostav", "domain": "sostav.ru"},
+    {"name": "AdIndex", "domain": "adindex.ru"},
+    {"name": "VC", "domain": "vc.ru"},
+    {"name": "Cossa", "domain": "cossa.ru"},
+    {"name": "РБК", "domain": "rbc.ru"},
+    {"name": "РБК Компании", "domain": "companies.rbc.ru"},
+    {"name": "Retail.ru", "domain": "retail.ru"},
+    {"name": "New Retail", "domain": "new-retail.ru"},
+    {"name": "RB.RU", "domain": "rb.ru"},
+    {"name": "Деловой Петербург", "domain": "dp.ru"},
 ]
 
 CONTENT_WORDS = [
@@ -104,6 +131,7 @@ class Candidate:
     placement: str
     channel: str
     published_date: str | None = None
+    monitor_scope: str = "competitor"
 
 
 def read_json(path: Path, fallback: Any) -> Any:
@@ -529,6 +557,48 @@ def detect_hashtags(text: str) -> list[str]:
     return sorted(set(re.findall(r"#[\wа-яА-ЯеЕёЁ-]+", text)))[:12]
 
 
+def is_noise_title(text: str) -> bool:
+    value = clean_text(text)
+    if not value:
+        return True
+    low = value.lower()
+    # Виджеты курсов, крипты, биржевые значения: USD 74.62, EUR 85.48, BTC / USD 61.1K
+    if re.fullmatch(r"[A-ZА-Я]{2,6}(?:\s*/\s*[A-ZА-Я]{2,6})?\s+[\d.,]+\s*[KkКкMmМм%₽$€£]*", value):
+        return True
+    if re.fullmatch(r"(?:usd|eur|btc|eth|usdt|cny|gbp|brent|moex|s&p|nasdaq)[\s/:-]+[\d.,]+\s*[kKmM%₽$€£]*", low):
+        return True
+    noise_words = [
+        "курс валют", "курсы валют", "биржевые котировки", "котировки", "погода",
+        "подписаться", "войти", "регистрация", "читать далее", "показать еще",
+        "наверх", "меню", "контакты", "политика конфиденциальности"
+    ]
+    if low in noise_words:
+        return True
+    if len(value) <= 3:
+        return True
+    return False
+
+
+def load_client_brands() -> list[dict[str, str]]:
+    raw = read_json(CLIENT_BRANDS_PATH, [])
+    if isinstance(raw, list) and raw:
+        brands = []
+        for item in raw:
+            if isinstance(item, str):
+                brands.append({"name": item, "category": "клиент Serenity"})
+            elif isinstance(item, dict) and item.get("name"):
+                brands.append(item)
+        return brands
+    return [{"name": name, "category": "клиент Serenity"} for name in CLIENT_BRAND_NAMES]
+
+
+def load_media_sources() -> list[dict[str, str]]:
+    raw = read_json(MEDIA_SOURCES_PATH, [])
+    if isinstance(raw, list) and raw:
+        return [x for x in raw if isinstance(x, dict) and (x.get("name") or x.get("domain"))]
+    return DEFAULT_MEDIA_SOURCES
+
+
 def detect_brands(text: str) -> list[dict[str, str]]:
     found = []
     lower = text.lower()
@@ -578,7 +648,11 @@ def pr_smm_use(theme: str, service: str, source_type: str) -> str:
 
 def make_finding(candidate: Candidate, detail_budget: list[int]) -> dict[str, Any] | None:
     title, summary, published = detail_text_and_date(candidate, detail_budget)
+    # В дашборде должна быть дата публикации материала, а не дата сканирования.
+    # Если публикационная дата не найдена или она вне недельного окна, материал не показываем.
     if not date_in_window(published):
+        return None
+    if is_noise_title(title) or is_noise_title(candidate.anchor):
         return None
     text = f"{title} {summary} {candidate.anchor} {candidate.url}"
     source_type = classify_type(text, candidate.url, candidate.channel)
@@ -613,6 +687,7 @@ def make_finding(candidate: Candidate, detail_budget: list[int]) -> dict[str, An
         "serenity_pr_smm_use": pr_smm_use(theme, service, source_type),
         "baseline": False,
         "date_confidence": "found_on_page_or_feed",
+        "monitor_scope": getattr(candidate, "monitor_scope", "competitor"),
     }
 
 
@@ -660,37 +735,82 @@ def collect_candidates_for_source(source: dict[str, Any], status: dict[str, Any]
     return []
 
 
-def gdelt_mentions(competitor: dict[str, Any], status: dict[str, Any]) -> list[Candidate]:
-    name = str(competitor.get("name") or competitor.get("agency") or "").strip()
-    if not name or len(name) < 3:
-        return []
-    query = f'"{name}" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг)'
+def media_name_from_domain(domain: str, media_sources: list[dict[str, str]]) -> str:
+    host = (domain or "").lower().replace("www.", "")
+    for item in media_sources:
+        d = str(item.get("domain") or "").lower().replace("www.", "")
+        if d and (host == d or host.endswith("." + d)):
+            return str(item.get("name") or d)
+    return domain or "СМИ"
+
+
+def gdelt_search(query: str, status: dict[str, Any], max_records: int) -> list[dict[str, Any]]:
     url = "https://api.gdeltproject.org/api/v2/doc/doc?" + \
-        f"query={quote(query)}&mode=ArtList&format=json&timespan={LOOKBACK_DAYS}d&maxrecords={MAX_NEWS_MENTIONS_PER_COMPETITOR}&sort=HybridRel"
+        f"query={quote(query)}&mode=ArtList&format=json&timespan={LOOKBACK_DAYS}d&maxrecords={max_records}&sort=HybridRel"
     text, err = fetch(url)
     time.sleep(SLEEP_BETWEEN_REQUESTS)
     if err or not text:
         status["media_failed"] += 1
         if err:
-            status["notes"].append({"media_query": name, "error": err})
+            status["notes"].append({"media_query": query[:180], "error": err})
         return []
     try:
         data = json.loads(text)
     except Exception:
         status["media_failed"] += 1
         return []
-    articles = data.get("articles") or []
     status["media_queries_checked"] += 1
+    return data.get("articles") or []
+
+
+def gdelt_articles_to_candidates(
+    articles: list[dict[str, Any]],
+    owner_name: str,
+    source_query: str,
+    status: dict[str, Any],
+    media_sources: list[dict[str, str]],
+    monitor_scope: str = "competitor",
+    brand_name: str | None = None,
+    max_records: int = MAX_NEWS_MENTIONS_PER_COMPETITOR,
+) -> list[Candidate]:
     result = []
-    for item in articles[:MAX_NEWS_MENTIONS_PER_COMPETITOR]:
+    for item in articles[:max_records]:
         art_url = item.get("url") or ""
         title = clean_text(item.get("title") or "")
-        domain = clean_text(item.get("domain") or urlparse(art_url).netloc.replace("www.", ""))
+        if is_noise_title(title):
+            continue
+        raw_domain = clean_text(item.get("domain") or urlparse(art_url).netloc.replace("www.", ""))
+        media_name = media_name_from_domain(raw_domain, media_sources)
         published = to_iso_date(item.get("seendate") or item.get("datetime") or "")
         if not art_url or not date_in_window(published):
             continue
-        result.append(Candidate(name, "СМИ", url, normalize_url(art_url, keep_query=True), title or "СМИ-упоминание", domain or "СМИ", domain or "СМИ", published))
+        c = Candidate(owner_name, "СМИ", source_query, normalize_url(art_url, keep_query=True), title or "СМИ-упоминание", media_name, "СМИ", published)
+        c.monitor_scope = monitor_scope
+        result.append(c)
     return result
+
+
+def gdelt_mentions(competitor: dict[str, Any], status: dict[str, Any], media_sources: list[dict[str, str]]) -> list[Candidate]:
+    name = str(competitor.get("name") or competitor.get("agency") or "").strip()
+    if not name or len(name) < 3:
+        return []
+    query = f'"{name}" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)'
+    articles = gdelt_search(query, status, MAX_NEWS_MENTIONS_PER_COMPETITOR)
+    return gdelt_articles_to_candidates(articles, name, query, status, media_sources, "competitor", max_records=MAX_NEWS_MENTIONS_PER_COMPETITOR)
+
+
+def gdelt_client_mentions(client: dict[str, str], status: dict[str, Any], media_sources: list[dict[str, str]]) -> list[Candidate]:
+    name = str(client.get("name") or "").strip()
+    if not name or len(name) < 3:
+        return []
+    context = " OR ".join(["икра", "рыба", "морепродукты", "деликатесы", "продукты", "ритейл", "бренд", "упаковка", "производство"])
+    query = f'"{name}" ({context})'
+    articles = gdelt_search(query, status, MAX_NEWS_MENTIONS_PER_CLIENT)
+    candidates = gdelt_articles_to_candidates(articles, "Клиенты Serenity", query, status, media_sources, "client_brand", brand_name=name, max_records=MAX_NEWS_MENTIONS_PER_CLIENT)
+    # Подмешиваем бренд в текст якоря, чтобы detect_brands нашел его даже если в заголовке СМИ он сокращен.
+    for c in candidates:
+        c.anchor = f"{c.anchor} {name}"
+    return candidates
 
 
 def collect() -> None:
@@ -700,6 +820,8 @@ def collect() -> None:
         raise SystemExit("data/sources.json must be a list")
     if not isinstance(competitors, list):
         competitors = []
+    media_sources = load_media_sources()
+    client_brands = load_client_brands()
 
     status = {
         "last_run": datetime.utcnow().isoformat(timespec="seconds") + "Z",
@@ -710,7 +832,8 @@ def collect() -> None:
         "sources_checked": 0,
         "sources_skipped": 0,
         "sources_failed": 0,
-        "media_queries_total": len(competitors),
+        "media_queries_total": len(competitors) + len(client_brands),
+        "client_brands_total": len(client_brands),
         "media_queries_checked": 0,
         "media_failed": 0,
         "findings_total": 0,
@@ -741,9 +864,9 @@ def collect() -> None:
             findings.append(finding)
             emitted += 1
 
-    # СМИ ищем отдельно по названиям агентств. Это не замена сервису мониторинга, но дает открытый недельный срез.
+    # СМИ ищем отдельно за последние 7 дней: по агентствам и по текущим клиентам Serenity.
     for comp in competitors:
-        for c in gdelt_mentions(comp, status):
+        for c in gdelt_mentions(comp, status, media_sources):
             key = (c.competitor, url_key(c.url))
             if key in seen:
                 status["duplicates_skipped"] += 1
@@ -751,6 +874,28 @@ def collect() -> None:
             finding = make_finding(c, detail_budget)
             if not finding:
                 continue
+            seen.add(key)
+            findings.append(finding)
+
+    for client in client_brands:
+        for c in gdelt_client_mentions(client, status, media_sources):
+            key = (c.competitor, url_key(c.url))
+            if key in seen:
+                status["duplicates_skipped"] += 1
+                continue
+            finding = make_finding(c, detail_budget)
+            if not finding:
+                continue
+            # Явно фиксируем бренд-клиент, чтобы он появился во вкладке «Бренды и клиенты».
+            client_name = str(client.get("name") or "").strip()
+            if client_name:
+                existing = [b.get("name") for b in finding.get("mentioned_brands", []) if isinstance(b, dict)]
+                if client_name not in existing:
+                    finding.setdefault("mentioned_brands", []).append({
+                        "name": client_name,
+                        "category": client.get("category") or "клиент Serenity",
+                        "context": "мониторинг текущих клиентов Serenity"
+                    })
             seen.add(key)
             findings.append(finding)
 
