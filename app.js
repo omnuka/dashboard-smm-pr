@@ -130,9 +130,27 @@ function renderBars(el, pairs, emptyText='Данных пока нет'){
   `).join('');
 }
 
-function link(url, text='открыть'){
+function link(url, text='открыть', className='link'){
   if(!url) return '<span class="muted">-</span>';
-  return `<a class="link" href="${url}" target="_blank" rel="noreferrer">${text}</a>`;
+  return `<a class="${className}" href="${url}" target="_blank" rel="noreferrer">${text}</a>`;
+}
+
+function sourceLink(f){
+  const label = placementText(f);
+  if(!f.url) return label;
+  return link(f.url, label, 'source-link');
+}
+
+function titleBlock(f){
+  const title = f.url ? link(f.url, fmt(f.title), 'title-link') : fmt(f.title);
+  return `${title}<div class="muted">${fmt(f.summary)}</div>`;
+}
+
+function urlOrQueryLink(value){
+  if(!value) return '<span class="muted">-</span>';
+  const raw = String(value).trim();
+  if(/^https?:\/\//i.test(raw)) return link(raw, raw, 'source-url');
+  return raw;
 }
 
 function placementText(f){
@@ -178,31 +196,31 @@ function renderAll(){
     f => `<span class="tag">${fmt(f.theme)}</span>`,
     f => fmt(f.service),
     f => fmt(f.source_type),
-    f => placementText(f),
+    f => sourceLink(f),
     f => fmt(f.competitor),
-    f => `${fmt(f.title)}<div class="muted">${fmt(f.summary)}</div>${link(f.url)}`,
+    f => titleBlock(f),
     f => `<span class="metric">${reactionText(f)}</span>`,
     f => fmt(f.serenity_pr_smm_use)
   ];
   renderTable($('latestRows'), data.slice(0,12), latestCols, 'Находок по выбранным фильтрам нет');
 
   const themeCols = [
-    f => `<strong>${fmt(f.theme)}</strong>`, f => fmt(f.service), f => fmt(f.source_type), f => placementText(f), f => fmt(f.competitor),
-    f => `${fmt(f.title)}<div class="muted">${fmt(f.summary)}</div>`, f => fmt(f.date), f => reactionText(f), f => link(f.url)
+    f => `<strong>${fmt(f.theme)}</strong>`, f => fmt(f.service), f => fmt(f.source_type), f => sourceLink(f), f => fmt(f.competitor),
+    f => titleBlock(f), f => fmt(f.date), f => reactionText(f), f => link(f.url)
   ];
   renderTable($('themeRows'), data, themeCols, 'Тематики появятся после сбора или импорта находок');
 
   const tagCols = [
-    f=>fmt(f.date), f=>fmt(f.theme), f=>fmt(f.competitor), f=>placementText(f), f=>inlineTags(f.tags), f=>inlineTags(f.hashtags), f=>`${fmt(f.title)} ${link(f.url)}`
+    f=>fmt(f.date), f=>fmt(f.theme), f=>fmt(f.competitor), f=>sourceLink(f), f=>inlineTags(f.tags), f=>inlineTags(f.hashtags), f=>titleBlock(f)
   ];
   renderTable($('tagRows'), data.filter(f => asArray(f.tags).length || asArray(f.hashtags).length), tagCols, 'Теги и хештеги пока не собраны');
 
   const social = data.filter(isSocial);
-  const socialCols = [f=>fmt(f.date), f=>fmt(f.channel), f=>fmt(f.competitor), f=>fmt(f.theme), f=>inlineTags(f.tags), f=>`${fmt(f.title)} ${link(f.url)}`, f=>fmt(f.views), f=>fmt(f.reactions), f=>fmt(f.comments), f=>fmt(f.serenity_pr_smm_use)];
+  const socialCols = [f=>fmt(f.date), f=>sourceLink(f), f=>fmt(f.competitor), f=>fmt(f.theme), f=>inlineTags(f.tags), f=>titleBlock(f), f=>fmt(f.views), f=>fmt(f.reactions), f=>fmt(f.comments), f=>fmt(f.serenity_pr_smm_use)];
   renderTable($('socialRows'), social, socialCols, 'Соцданные пока не собраны');
 
   const media = data.filter(f => f.source_type === 'СМИ' || f.channel === 'СМИ');
-  const mediaCols = [f=>fmt(f.date), f=>fmt(f.theme), f=>fmt(f.competitor), f=>placementText(f), f=>brandNames(f).join(', ') || '-', f=>`${fmt(f.title)} ${link(f.url)}`, f=>fmt(f.summary), f=>fmt(f.sentiment), f=>fmt(f.serenity_pr_smm_use)];
+  const mediaCols = [f=>fmt(f.date), f=>fmt(f.theme), f=>fmt(f.competitor), f=>sourceLink(f), f=>brandNames(f).join(', ') || '-', f=>titleBlock(f), f=>fmt(f.summary), f=>fmt(f.sentiment), f=>fmt(f.serenity_pr_smm_use)];
   renderTable($('mediaRows'), media, mediaCols, 'СМИ-упоминания пока не собраны');
 
   renderServiceSummary(data);
@@ -217,7 +235,7 @@ function renderBrandSummary(data){
   const cols = [
     b => fmt(b.name),
     b => fmt(b.category),
-    b => placementText(b.finding),
+    b => sourceLink(b.finding),
     b => fmt(b.finding.competitor),
     b => fmt(b.finding.source_type),
     b => fmt(b.finding.theme),
@@ -242,7 +260,7 @@ function renderSources(){
     ].filter(x => x[1] && !String(x[1]).includes('не найдено')).map(([t,u]) => `<a href="${u}" target="_blank" rel="noreferrer">${t}</a>`).join('');
     return `<article class="competitor"><h3>${c.rank}. ${c.name}</h3><p>${fmt(c.services)}</p><p class="muted">${fmt(c.monitor_focus)}</p><p class="source-status">${fmt(c.status)}</p><div class="competitor-links">${links}</div></article>`;
   }).join('');
-  renderTable($('sourceRows'), state.sources, [s=>fmt(s.competitor), s=>fmt(s.source_type), s=>fmt(s.check), s=>fmt(s.url_or_query)], 'Источников нет');
+  renderTable($('sourceRows'), state.sources, [s=>fmt(s.competitor), s=>fmt(s.source_type), s=>fmt(s.check), s=>urlOrQueryLink(s.url_or_query)], 'Источников нет');
 }
 
 async function loadDemo(){
