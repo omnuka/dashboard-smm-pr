@@ -1,0 +1,802 @@
+[
+  {
+    "competitor": "Depot",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.depotwpf.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Depot",
+    "source_type": "Кейсы",
+    "url_or_query": "https://www.depotwpf.ru/projects/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Depot",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://www.depotwpf.ru/news/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Depot",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/depot_branding; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; сайт: новости и блог",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Depot",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Depot\" OR \"Depot WPF\" OR \"depotwpf\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Студия Артемия Лебедева",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.artlebedev.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Студия Артемия Лебедева",
+    "source_type": "Кейсы",
+    "url_or_query": "https://www.artlebedev.ru/everything/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Студия Артемия Лебедева",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://www.artlebedev.ru/news/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Студия Артемия Лебедева",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.youtube.com/user/artlebedevstudio/videos; не найдено в быстрой проверке; https://www.artlebedev.ru/media/",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Студия Артемия Лебедева",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Студия Артемия Лебедева\" OR \"artlebedev\" OR \"Лебедев студия\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "ONY",
+    "source_type": "Сайт",
+    "url_or_query": "https://ony.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "ONY",
+    "source_type": "Кейсы",
+    "url_or_query": "https://ony.ru/projects/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "ONY",
+    "source_type": "Блог / новости",
+    "url_or_query": "не найдено в быстрой проверке",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "ONY",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/onyagency; https://vk.com/onyagency; https://www.youtube.com/channel/UCvlx1yLAxUUQ_teP93_ps9A; не найдено в быстрой проверке; https://vc.ru/id1017892; Behance, Dribbble на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "ONY",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"ONY\" \"брендинговое агентство\" OR \"ony agency\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "OTVETDESIGN",
+    "source_type": "Сайт",
+    "url_or_query": "https://otvetdesign.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "OTVETDESIGN",
+    "source_type": "Кейсы",
+    "url_or_query": "https://otvetdesign.ru/projects",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "OTVETDESIGN",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://otvetdesign.ru/blog",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "OTVETDESIGN",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/otvetdesign; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/otvetdesign; Pinterest и Dprofile на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "OTVETDESIGN",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"OTVETDESIGN\" OR \"Ответ дизайн\" OR \"otvetdesign\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Dotorg branding & strategy",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.dotorg.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Dotorg branding & strategy",
+    "source_type": "Кейсы",
+    "url_or_query": "https://www.dotorg.ru/portfolio",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Dotorg branding & strategy",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://www.dotorg.ru/blog",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Dotorg branding & strategy",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/reseachers; https://vk.com/dotorg; https://www.youtube.com/user/dotorgagency; https://www.instagram.com/dotorg.agency; VC и Behance на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Dotorg branding & strategy",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Dotorg\" OR \"dotorg agency\" OR \"dotorg брендинг\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Умное Сердце / SmartHeart",
+    "source_type": "Сайт",
+    "url_or_query": "https://sh.agency/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Умное Сердце / SmartHeart",
+    "source_type": "Кейсы",
+    "url_or_query": "https://sh.agency/portfolio",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Умное Сердце / SmartHeart",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://sh.agency/blog/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Умное Сердце / SmartHeart",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "ссылка есть в форме сайта, URL проверить; не найдено в быстрой проверке; ссылка есть в форме сайта, URL проверить; ссылка есть в форме сайта, URL проверить; https://sh.agency/news/",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Умное Сердце / SmartHeart",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"SmartHeart\" OR \"Умное Сердце\" \"брендинг\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.ddvb.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "Кейсы",
+    "url_or_query": "https://www.ddvb.ru/portfolio",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://www.ddvb.ru/blog",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/ddvbagency; https://vk.com/ddvbagency; https://www.youtube.com/channel/UCX1noxYlKYmVsBE1xI9sP8g; https://instagram.com/ddvb.ru; https://www.behance.net/DDVB; https://www.ddvb.ru/news",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "DDVB",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"DDVB\" OR \"ddvb agency\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Getbrand",
+    "source_type": "Сайт",
+    "url_or_query": "https://www.getbrand.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Getbrand",
+    "source_type": "Кейсы",
+    "url_or_query": "https://www.getbrand.ru/portfolio/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Getbrand",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://www.getbrand.ru/articles/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Getbrand",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/getbrand_ru; https://vk.com/getbrand_agency; https://www.youtube.com/channel/UCV4reXpGntmbZc4D1yzcwUg; не найдено в быстрой проверке; https://dzen.ru/getbrand",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Getbrand",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Getbrand\" OR \"getbrand agency\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "LINII Group",
+    "source_type": "Сайт",
+    "url_or_query": "https://linii.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "LINII Group",
+    "source_type": "Кейсы",
+    "url_or_query": "https://linii.ru/projects/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "LINII Group",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://linii.ru/articles/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "LINII Group",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/liniigroup; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/liniidesignlab; подкаст и Vimeo на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "LINII Group",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"LINII Group\" OR \"linii branding\" OR \"liniigroup\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "OHMYBRAND",
+    "source_type": "Сайт",
+    "url_or_query": "https://ohmybrand.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "OHMYBRAND",
+    "source_type": "Кейсы",
+    "url_or_query": "https://ohmybrand.ru/portfolio/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "OHMYBRAND",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://ohmybrand.ru/blog/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "OHMYBRAND",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/ohmybrand_studio; ссылка есть на сайте, URL проверить; https://www.youtube.com/@ohmybrand/videos; https://www.instagram.com/ohmybrand_studio/; Behance и Dprofile на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "OHMYBRAND",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"OHMYBRAND\" OR \"ohmybrand studio\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Восход",
+    "source_type": "Сайт",
+    "url_or_query": "https://voskhod.agency/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Восход",
+    "source_type": "Кейсы",
+    "url_or_query": "https://voskhod.agency/portfolio/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Восход",
+    "source_type": "Блог / новости",
+    "url_or_query": "не найдено в быстрой проверке",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Восход",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/voskhod_creative; https://vk.com/voskhodagency; https://www.youtube.com/channel/UCTXaRjOAK06AcjIfeIBvhPA; не найдено в быстрой проверке; Vimeo на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Восход",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Восход\" \"агентство\" \"брендинг\" OR \"voskhod agency\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "Сайт",
+    "url_or_query": "https://endylab.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "Кейсы",
+    "url_or_query": "https://endylab.ru/projects",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://endylab.ru/blog",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/endybrand; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://vc.ru/id177351; https://www.behance.net/ENDY; https://dprofile.ru/endy",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "ENDY",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"ENDY\" \"брендинг\" OR \"endylab\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Щука",
+    "source_type": "Сайт",
+    "url_or_query": "https://shuka.design/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Щука",
+    "source_type": "Кейсы",
+    "url_or_query": "https://shuka.design/work",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Щука",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://shuka.design/blog",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Щука",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.instagram.com/shukagram/; https://www.behance.net/shuka; LinkedIn на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Щука",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Щука\" \"дизайн\" OR \"shuka.design\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Volga Volga Brand Identity",
+    "source_type": "Сайт",
+    "url_or_query": "https://volga-volga.com/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Volga Volga Brand Identity",
+    "source_type": "Кейсы",
+    "url_or_query": "https://volga-volga.com/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Volga Volga Brand Identity",
+    "source_type": "Блог / новости",
+    "url_or_query": "не найдено в быстрой проверке",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Volga Volga Brand Identity",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/VVBI; https://dprofile.ru/vvbiagency; VC на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Volga Volga Brand Identity",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Volga Volga Brand Identity\" OR \"VVBI\" \"брендинг\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "DEZA",
+    "source_type": "Сайт",
+    "url_or_query": "https://dezzza.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "DEZA",
+    "source_type": "Кейсы",
+    "url_or_query": "https://dezzza.ru/projects/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "DEZA",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://dezzza.ru/blog/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "DEZA",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; https://www.behance.net/Studio_DEZA; VC, Pinterest, Dprofile на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "DEZA",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"DEZA\" \"брендинг\" OR \"dezzza\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Z&G Branding",
+    "source_type": "Сайт",
+    "url_or_query": "https://zg-brand.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Z&G Branding",
+    "source_type": "Кейсы",
+    "url_or_query": "https://zg-brand.ru/portfolio/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Z&G Branding",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://zg-brand.ru/articles/",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Z&G Branding",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.behance.net/ZGbrandingZg",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Z&G Branding",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Z&G Branding\" OR \"ZG Branding\" OR \"zg-brand\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "makelove",
+    "source_type": "Сайт",
+    "url_or_query": "https://makeloveagency.com/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "makelove",
+    "source_type": "Кейсы",
+    "url_or_query": "https://makeloveagency.com/work",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "makelove",
+    "source_type": "Блог / новости",
+    "url_or_query": "не найдено в быстрой проверке",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "makelove",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; ссылка есть на сайте, URL проверить; ссылка есть на сайте, URL проверить; LinkedIn, Facebook, Inplace на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "makelove",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"makelove agency\" OR \"makelove\" \"бренд работодателя\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Plenum",
+    "source_type": "Сайт",
+    "url_or_query": "https://plenum.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Plenum",
+    "source_type": "Кейсы",
+    "url_or_query": "https://plenum.ru/projects",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Plenum",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://plenum.ru/blog",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Plenum",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; ссылка есть на сайте, URL проверить; не найдено в быстрой проверке; https://www.behance.net/plenumcx1; Pinterest на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Plenum",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Plenum\" \"брендинг\" OR \"plenum agency\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "CreativePeople",
+    "source_type": "Сайт",
+    "url_or_query": "https://cpeople.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "CreativePeople",
+    "source_type": "Кейсы",
+    "url_or_query": "https://cpeople.ru/",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "CreativePeople",
+    "source_type": "Блог / новости",
+    "url_or_query": "не найдено в быстрой проверке",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "CreativePeople",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "https://t.me/cpeople_ru; https://vk.com/cpeople; не найдено в быстрой проверке; не найдено в быстрой проверке; https://vc.ru/id540358; https://dprofile.ru/cpeople; Behance на сайте",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "CreativePeople",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"CreativePeople\" OR \"cpeople\" \"агентство\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  },
+  {
+    "competitor": "Radar",
+    "source_type": "Сайт",
+    "url_or_query": "https://radar-online.ru/",
+    "check": "изменения на главной, услуги, новые блоки, позиционирование",
+    "frequency": "еженедельно",
+    "comment": "официальный сайт"
+  },
+  {
+    "competitor": "Radar",
+    "source_type": "Кейсы",
+    "url_or_query": "https://radar-online.ru/portfolio",
+    "check": "новые кейсы, клиенты, категории, оформление, аргументы продажи",
+    "frequency": "еженедельно",
+    "comment": "если URL помечен как сайт, раздел кейсов встроен в главную"
+  },
+  {
+    "competitor": "Radar",
+    "source_type": "Блог / новости",
+    "url_or_query": "https://radar-online.ru/news",
+    "check": "новые статьи, новости, награды, мероприятия",
+    "frequency": "еженедельно",
+    "comment": "если стоит 'не найдено', источник нужно добрать вручную"
+  },
+  {
+    "competitor": "Radar",
+    "source_type": "Соцсети / медиа",
+    "url_or_query": "не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; не найдено в быстрой проверке; https://www.sostav.ru/radar-agency",
+    "check": "новые посты, видео, внешние публикации, активность команды",
+    "frequency": "еженедельно",
+    "comment": "часть соцсетей требует ручной проверки URL"
+  },
+  {
+    "competitor": "Radar",
+    "source_type": "СМИ-запрос",
+    "url_or_query": "\"Radar\" \"брендинг\" OR \"radar-online.ru\"",
+    "check": "упоминания в СМИ, рейтингах, конкурсах и обзорах рынка",
+    "frequency": "еженедельно",
+    "comment": "поисковый запрос для Google/Яндекс/новостного мониторинга"
+  }
+]
