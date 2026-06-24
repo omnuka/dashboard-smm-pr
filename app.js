@@ -26,6 +26,35 @@ function brandList(f){
 }
 function brandNames(f){ return brandList(f).map(b => b.name).filter(Boolean); }
 
+function textBlobForTheme(f){
+  return [
+    f.content_theme, f.theme, f.source_type, f.service, f.title, f.summary, f.url,
+    ...asArray(f.tags), ...asArray(f.hashtags), ...brandNames(f)
+  ].join(' ').toLowerCase();
+}
+
+function containsAny(text, words){
+  return words.some(w => text.includes(w));
+}
+
+function contentTheme(f){
+  if(f.content_theme) return f.content_theme;
+  const text = textBlobForTheme(f);
+  const type = f.source_type || '';
+  if(type === 'Кейс') return 'Кейсы';
+  if(containsAny(text, ['рейтинг', 'топ-', 'топ ', 'top ', 'преми', 'награ', 'award', 'шорт-лист', 'shortlist'])) return 'Рейтинги / премии';
+  if(containsAny(text, ['отчет', 'исслед', 'аналит', 'статист', 'итоги', 'результаты', 'обзор рынка', 'гайд', 'white paper'])) return 'Отчеты / исследования';
+  if(containsAny(text, ['прогноз', 'будущее', 'перспектив', 'что ждет', 'ожидается', 'будет расти', 'станет'])) return 'Прогнозы';
+  if(containsAny(text, ['тренд', 'trend', 'тенденц', 'подборка', 'что сейчас', 'новые форматы'])) return 'Тренды';
+  if(containsAny(text, ['анонс', 'запуск', 'старт', 'приглашаем', 'регистрация', 'вебинар', 'лекция', 'конференц', 'мероприят', 'выставк', 'событи'])) return 'Анонсы / события';
+  if(containsAny(text, ['реклам', 'кампани', 'промо', 'ролик', 'баннер', 'спецпроект', 'ooh', 'наружн', 'перформанс', 'performance'])) return 'Реклама / кампании';
+  if(containsAny(text, ['продукт', 'линейк', 'товар', 'новинка', 'ассортимент', 'бренд продукта', 'упаковка для', 'этикетка для'])) return 'Продукты / запуски';
+  if(containsAny(text, ['интервью', 'комментар', 'колонк', 'эксперт', 'мнение', 'цитирует', 'ответил'])) return 'Мнение / комментарий';
+  if(containsAny(text, ['услуг', 'что такое', 'как мы', 'разрабатываем', 'создаем', 'заказать', 'стоимость', 'подход к', 'этапы работ'])) return 'Описание услуги';
+  if(containsAny(text, ['новост', 'обновлен', 'партнерств', 'сотрудничеств', 'команда', 'назначен'])) return 'Новости агентства';
+  return 'Инфоповод';
+}
+
 function withinPeriod(item){
   if(state.filters.period === 'all' || !item.date) return true;
   const days = Number(state.filters.period);
@@ -43,7 +72,7 @@ function filteredFindings(){
     if(state.filters.service !== 'all' && f.service !== state.filters.service) return false;
     if(q){
       const blob = [
-        f.theme, f.service, f.title, f.summary, f.competitor, f.channel, f.placement, f.media_source,
+        contentTheme(f), f.service, f.title, f.summary, f.competitor, f.channel, f.placement, f.media_source,
         ...asArray(f.tags), ...asArray(f.hashtags), ...brandNames(f)
       ].join(' ').toLowerCase();
       if(!blob.includes(q)) return false;
@@ -74,7 +103,16 @@ function countMany(items, fn){
 }
 
 function topPair(pairs){ return pairs.length ? pairs[0] : ['-', 0]; }
-function isSocial(f){ return ['Пост','Видео'].includes(f.source_type) || ['Telegram','VK','YouTube','Instagram'].includes(f.channel); }
+function sourceChannel(f){ return f.channel || f.placement || f.media_source || f.resource || ''; }
+function isSocial(f){
+  const ch = sourceChannel(f);
+  return ['Telegram','VK','YouTube','Instagram'].includes(ch);
+}
+function isMediaOrSite(f){
+  if(isSocial(f)) return false;
+  const ch = sourceChannel(f);
+  return f.source_type === 'СМИ' || ['СМИ','Сайт','VC','Дзен','Behance','Dprofile'].includes(ch) || ['Кейс','Новость'].includes(f.source_type);
+}
 
 function activityScore(f){
   let score = 0;
@@ -87,9 +125,26 @@ function activityScore(f){
   return score;
 }
 
+function normalizeName(value){
+  return String(value || '').trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function competitorSite(name){
+  const target = normalizeName(name);
+  if(!target || target === '-') return '';
+  const item = state.competitors.find(c => normalizeName(c.name) === target);
+  return item ? item.site : '';
+}
+
+function leaderNameHtml(name){
+  if(!name || name === '-') return '-';
+  const site = competitorSite(name);
+  return site ? link(site, name, 'leader-link') : name;
+}
+
 function renderLeaderCards(data){
   const [caseName, caseCount] = topPair(countBy(data.filter(f => f.source_type === 'Кейс'), 'competitor'));
-  $('leaderCasesName').textContent = caseName;
+  $('leaderCasesName').innerHTML = leaderNameHtml(caseName);
   $('leaderCasesMeta').textContent = caseCount ? `${caseCount} кейс${caseCount > 1 ? 'а/ов' : ''}` : 'кейсов за период нет';
 
   const social = data.filter(isSocial);
@@ -97,21 +152,21 @@ function renderLeaderCards(data){
   const smmItems = social.filter(f => f.competitor === smmName);
   const smmViews = smmItems.reduce((s,f)=>s+num(f.views),0);
   const smmReactions = smmItems.reduce((s,f)=>s+num(f.reactions),0);
-  $('leaderSmmName').textContent = smmName;
+  $('leaderSmmName').innerHTML = leaderNameHtml(smmName);
   $('leaderSmmMeta').textContent = smmCount ? `${smmCount} поста/видео, ${smmViews || 0} просмотров, ${smmReactions || 0} реакций` : 'постов за период нет';
 
   const [mediaName, mediaCount] = topPair(countBy(data.filter(f => f.source_type === 'СМИ' || f.channel === 'СМИ'), 'competitor'));
-  $('leaderMediaName').textContent = mediaName;
+  $('leaderMediaName').innerHTML = leaderNameHtml(mediaName);
   $('leaderMediaMeta').textContent = mediaCount ? `${mediaCount} упоминание/й` : 'упоминаний за период нет';
 
   const scores = new Map();
   data.forEach(f => scores.set(f.competitor || 'Без агентства', (scores.get(f.competitor || 'Без агентства') || 0) + activityScore(f)));
   const sorted = [...scores.entries()].sort((a,b)=>b[1]-a[1]);
   if(sorted.length){
-    $('leaderOverallName').textContent = sorted[0][0];
+    $('leaderOverallName').innerHTML = leaderNameHtml(sorted[0][0]);
     $('leaderOverallMeta').textContent = `индекс активности ${sorted[0][1].toFixed(1)}`;
   } else {
-    $('leaderOverallName').textContent = '-';
+    $('leaderOverallName').innerHTML = '-';
     $('leaderOverallMeta').textContent = 'индекс активности';
   }
 }
@@ -185,7 +240,7 @@ function renderAll(){
   $('emptyState').classList.toggle('hidden', state.findings.length > 0);
 
   renderLeaderCards(data);
-  renderBars($('themeBars'), countBy(data, 'theme'));
+  renderBars($('themeBars'), countBy(data, contentTheme));
   renderBars($('serviceBars'), countBy(data, 'service'));
   renderBars($('tagBars'), countMany(data, f => asArray(f.tags)), 'Теги появятся после сбора постов, кейсов и СМИ');
   renderBars($('hashtagBars'), countMany(data, f => asArray(f.hashtags)), 'Хештеги появятся после сбора соцсетей');
@@ -193,34 +248,33 @@ function renderAll(){
 
   const latestCols = [
     f => `<span class="nowrap">${fmt(f.date)}</span>`,
-    f => `<span class="tag">${fmt(f.theme)}</span>`,
+    f => fmt(contentTheme(f)),
     f => fmt(f.service),
     f => fmt(f.source_type),
     f => sourceLink(f),
     f => fmt(f.competitor),
     f => titleBlock(f),
-    f => `<span class="metric">${reactionText(f)}</span>`,
-    f => fmt(f.serenity_pr_smm_use)
+    f => `<span class="metric">${reactionText(f)}</span>`
   ];
   renderTable($('latestRows'), data.slice(0,12), latestCols, 'Находок по выбранным фильтрам нет');
 
   const themeCols = [
-    f => `<strong>${fmt(f.theme)}</strong>`, f => fmt(f.service), f => fmt(f.source_type), f => sourceLink(f), f => fmt(f.competitor),
+    f => `<strong>${fmt(contentTheme(f))}</strong>`, f => fmt(f.service), f => fmt(f.source_type), f => sourceLink(f), f => fmt(f.competitor),
     f => titleBlock(f), f => fmt(f.date), f => reactionText(f), f => link(f.url)
   ];
   renderTable($('themeRows'), data, themeCols, 'Тематики появятся после сбора или импорта находок');
 
   const tagCols = [
-    f=>fmt(f.date), f=>fmt(f.theme), f=>fmt(f.competitor), f=>sourceLink(f), f=>inlineTags(f.tags), f=>inlineTags(f.hashtags), f=>titleBlock(f)
+    f=>fmt(f.date), f=>fmt(contentTheme(f)), f=>fmt(f.competitor), f=>sourceLink(f), f=>inlineTags(f.tags), f=>inlineTags(f.hashtags), f=>titleBlock(f)
   ];
   renderTable($('tagRows'), data.filter(f => asArray(f.tags).length || asArray(f.hashtags).length), tagCols, 'Теги и хештеги пока не собраны');
 
   const social = data.filter(isSocial);
-  const socialCols = [f=>fmt(f.date), f=>sourceLink(f), f=>fmt(f.competitor), f=>fmt(f.theme), f=>inlineTags(f.tags), f=>titleBlock(f), f=>fmt(f.views), f=>fmt(f.reactions), f=>fmt(f.comments), f=>fmt(f.serenity_pr_smm_use)];
+  const socialCols = [f=>fmt(f.date), f=>sourceLink(f), f=>fmt(f.competitor), f=>fmt(contentTheme(f)), f=>inlineTags(f.tags), f=>titleBlock(f), f=>fmt(f.views), f=>fmt(f.reactions), f=>fmt(f.comments)];
   renderTable($('socialRows'), social, socialCols, 'Соцданные пока не собраны');
 
-  const media = data.filter(f => f.source_type === 'СМИ' || f.channel === 'СМИ');
-  const mediaCols = [f=>fmt(f.date), f=>fmt(f.theme), f=>fmt(f.competitor), f=>sourceLink(f), f=>brandNames(f).join(', ') || '-', f=>titleBlock(f), f=>fmt(f.summary), f=>fmt(f.sentiment), f=>fmt(f.serenity_pr_smm_use)];
+  const media = data.filter(isMediaOrSite);
+  const mediaCols = [f=>fmt(f.date), f=>fmt(contentTheme(f)), f=>fmt(f.competitor), f=>sourceLink(f), f=>brandNames(f).join(', ') || '-', f=>titleBlock(f), f=>fmt(f.summary), f=>fmt(f.sentiment)];
   renderTable($('mediaRows'), media, mediaCols, 'СМИ-упоминания пока не собраны');
 
   renderServiceSummary(data);
@@ -238,7 +292,7 @@ function renderBrandSummary(data){
     b => sourceLink(b.finding),
     b => fmt(b.finding.competitor),
     b => fmt(b.finding.source_type),
-    b => fmt(b.finding.theme),
+    b => fmt(contentTheme(b.finding)),
     b => fmt(b.context || b.role),
     b => link(b.finding.url)
   ];
