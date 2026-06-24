@@ -1,0 +1,33 @@
+name: Weekly competitor monitoring
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect competitor updates
+        run: python tools/collect_updates.py
+
+      - name: Commit updated monitoring data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update competitor monitoring data'
+          file_pattern: data/weekly_findings.json data/link_snapshot.json data/collector_status.json
