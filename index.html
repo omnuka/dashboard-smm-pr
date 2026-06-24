@@ -20,9 +20,10 @@
         <button class="nav active" data-view="summary">Сводка</button>
         <button class="nav" data-view="themes">Тематики</button>
         <button class="nav" data-view="services">Услуги</button>
+        <button class="nav" data-view="tags">Теги</button>
+        <button class="nav" data-view="brands">Бренды и клиенты</button>
         <button class="nav" data-view="social">Соцсети</button>
         <button class="nav" data-view="media">СМИ</button>
-        <button class="nav" data-view="seo">SEO</button>
         <button class="nav" data-view="sources">Источники</button>
       </nav>
       <div class="sidebar-note">
@@ -34,7 +35,7 @@
       <header class="topbar">
         <div>
           <h1>Инфополе конкурентов Serenity</h1>
-          <p>Демо-структура: темы, услуги, соцсети, СМИ, SEO-сигналы и реакции конкурентов.</p>
+          <p>Темы, услуги, площадки, теги, бренды клиентов, СМИ и реакции конкурентов.</p>
         </div>
         <div class="top-actions">
           <button id="loadDemoBtn" class="ghost">Перезагрузить демо-данные</button>
@@ -59,7 +60,6 @@
             <option value="Кейс">Кейсы</option>
             <option value="Пост">Посты</option>
             <option value="СМИ">СМИ</option>
-            <option value="SEO">SEO</option>
             <option value="Видео">Видео</option>
           </select>
         </label>
@@ -68,8 +68,8 @@
           <select id="serviceFilter"><option value="all">Все услуги</option></select>
         </label>
         <label class="search-label">
-          Поиск по теме, услуге, заголовку
-          <input id="searchInput" placeholder="например: упаковка, нейминг, AI, FMCG" />
+          Поиск по теме, услуге, бренду, тегу
+          <input id="searchInput" placeholder="например: упаковка, нейминг, AI, Добрый, FMCG" />
         </label>
       </section>
 
@@ -80,10 +80,26 @@
 
       <section class="view active" id="view-summary">
         <div class="kpi-grid">
-          <article class="kpi"><span>Новые кейсы</span><strong id="kpiCases">0</strong><em>за выбранный период</em></article>
-          <article class="kpi"><span>Посты в соцсетях</span><strong id="kpiPosts">0</strong><em>с реакциями, где доступны</em></article>
-          <article class="kpi"><span>СМИ-упоминания</span><strong id="kpiMedia">0</strong><em>новости, рейтинги, интервью</em></article>
-          <article class="kpi"><span>SEO-сигналы</span><strong id="kpiSeo">0</strong><em>ключи и позиции из импорта</em></article>
+          <article class="kpi leader-card">
+            <span>Лидер по кейсам</span>
+            <strong id="leaderCasesName">-</strong>
+            <em id="leaderCasesMeta">кейсов за период нет</em>
+          </article>
+          <article class="kpi leader-card">
+            <span>Лидер по SMM</span>
+            <strong id="leaderSmmName">-</strong>
+            <em id="leaderSmmMeta">постов за период нет</em>
+          </article>
+          <article class="kpi leader-card">
+            <span>Лидер по СМИ</span>
+            <strong id="leaderMediaName">-</strong>
+            <em id="leaderMediaMeta">упоминаний за период нет</em>
+          </article>
+          <article class="kpi leader-card">
+            <span>Лидер недели</span>
+            <strong id="leaderOverallName">-</strong>
+            <em id="leaderOverallMeta">индекс активности</em>
+          </article>
         </div>
 
         <div class="grid-2">
@@ -97,7 +113,7 @@
           <section class="card">
             <div class="card-head">
               <h2>Услуги, которые чаще всплывают</h2>
-              <span>по кейсам, постам, СМИ и SEO</span>
+              <span>по кейсам, постам и СМИ</span>
             </div>
             <div id="serviceBars" class="bars"></div>
           </section>
@@ -111,7 +127,7 @@
           <div class="table-wrap">
             <table>
               <thead>
-                <tr><th>Дата</th><th>Тема</th><th>Услуга</th><th>Тип</th><th>Агентство</th><th>Заголовок</th><th>Реакции</th><th>Для PR/SMM Serenity</th></tr>
+                <tr><th>Дата</th><th>Тема</th><th>Услуга</th><th>Тип</th><th>Где размещено</th><th>Агентство</th><th>Заголовок</th><th>Реакции</th><th>Для PR/SMM Serenity</th></tr>
               </thead>
               <tbody id="latestRows"></tbody>
             </table>
@@ -123,12 +139,12 @@
         <section class="card full">
           <div class="card-head">
             <h2>Таблица тематик</h2>
-            <span>главное поле: тема, агентство идет отдельным столбцом</span>
+            <span>сначала тема, потом агентство</span>
           </div>
           <div class="table-wrap">
             <table>
               <thead>
-                <tr><th>Тематика</th><th>Услуга</th><th>Тип</th><th>Канал</th><th>Агентство</th><th>Что вышло</th><th>Дата</th><th>Реакции / просмотры</th><th>Ссылка</th></tr>
+                <tr><th>Тематика</th><th>Услуга</th><th>Тип</th><th>Где размещено</th><th>Агентство</th><th>Что вышло</th><th>Дата</th><th>Реакции / просмотры</th><th>Ссылка</th></tr>
               </thead>
               <tbody id="themeRows"></tbody>
             </table>
@@ -143,10 +159,54 @@
             <div id="serviceSummary" class="service-list"></div>
           </section>
           <section class="card">
-            <div class="card-head"><h2>Услуги из базы конкурентов</h2><span>что заявлено на сайтах</span></div>
+            <div class="card-head"><h2>Услуги из базы конкурентов</h2><span>что заявлено на сайтах и в базе</span></div>
             <div id="baseServiceSummary" class="service-list"></div>
           </section>
         </div>
+      </section>
+
+      <section class="view" id="view-tags">
+        <div class="grid-2">
+          <section class="card">
+            <div class="card-head"><h2>Частые теги</h2><span>из постов, кейсов и СМИ</span></div>
+            <div id="tagBars" class="bars"></div>
+          </section>
+          <section class="card">
+            <div class="card-head"><h2>Частые хештеги</h2><span>где они доступны</span></div>
+            <div id="hashtagBars" class="bars"></div>
+          </section>
+        </div>
+        <section class="card full">
+          <div class="card-head"><h2>Теги по находкам</h2><span>что конкуренты повторяют в инфополе</span></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Дата</th><th>Тема</th><th>Агентство</th><th>Где размещено</th><th>Теги</th><th>Хештеги</th><th>Заголовок</th></tr></thead>
+              <tbody id="tagRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="view-brands">
+        <div class="grid-2">
+          <section class="card">
+            <div class="card-head"><h2>Частые бренды и клиенты</h2><span>любое упоминание</span></div>
+            <div id="brandBars" class="bars"></div>
+          </section>
+          <section class="card">
+            <div class="card-head"><h2>Категории брендов</h2><span>FMCG, retail, b2b и другие</span></div>
+            <div id="brandCategoryBars" class="bars"></div>
+          </section>
+        </div>
+        <section class="card full">
+          <div class="card-head"><h2>Сводка упоминаний брендов</h2><span>кто и в каком контексте всплыл</span></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Бренд / компания</th><th>Категория</th><th>Где упомянут</th><th>Агентство</th><th>Тип</th><th>Тема</th><th>Контекст</th><th>Ссылка</th></tr></thead>
+              <tbody id="brandRows"></tbody>
+            </table>
+          </div>
+        </section>
       </section>
 
       <section class="view" id="view-social">
@@ -154,7 +214,7 @@
           <div class="card-head"><h2>Соцсети и реакции</h2><span>посты, видео, просмотры, комментарии</span></div>
           <div class="table-wrap">
             <table>
-              <thead><tr><th>Дата</th><th>Канал</th><th>Агентство</th><th>Тема</th><th>Заголовок</th><th>Просмотры</th><th>Реакции</th><th>Комментарии</th><th>Вывод</th></tr></thead>
+              <thead><tr><th>Дата</th><th>Канал</th><th>Агентство</th><th>Тема</th><th>Теги</th><th>Заголовок</th><th>Просмотры</th><th>Реакции</th><th>Комментарии</th><th>Вывод</th></tr></thead>
               <tbody id="socialRows"></tbody>
             </table>
           </div>
@@ -166,30 +226,8 @@
           <div class="card-head"><h2>СМИ и публичные инфоповоды</h2><span>какие темы забирают медиа</span></div>
           <div class="table-wrap">
             <table>
-              <thead><tr><th>Дата</th><th>Тематика</th><th>Агентство</th><th>Заголовок</th><th>Контекст</th><th>Тональность</th><th>Что взять Serenity</th></tr></thead>
+              <thead><tr><th>Дата</th><th>Тематика</th><th>Агентство</th><th>Где размещено</th><th>Бренды</th><th>Заголовок</th><th>Контекст</th><th>Тональность</th><th>Что взять Serenity</th></tr></thead>
               <tbody id="mediaRows"></tbody>
-            </table>
-          </div>
-        </section>
-      </section>
-
-      <section class="view" id="view-seo">
-        <div class="grid-2">
-          <section class="card">
-            <div class="card-head"><h2>SEO-сводка</h2><span>из импорта ключей и позиций</span></div>
-            <div id="seoBars" class="bars"></div>
-          </section>
-          <section class="card note-card">
-            <h2>Как подключать SEO</h2>
-            <p>Для SEO нужен отдельный импорт: ключ, URL конкурента, позиция, частотность, дата проверки. Это нельзя надежно получить простым парсингом сайтов.</p>
-            <p>Формат файла лежит в <code>data/seo_snapshot.template.csv</code>.</p>
-          </section>
-        </div>
-        <section class="card full">
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>Ключ</th><th>Позиция</th><th>Агентство</th><th>URL</th><th>Услуга</th><th>Тема</th><th>Дата</th></tr></thead>
-              <tbody id="seoRows"></tbody>
             </table>
           </div>
         </section>

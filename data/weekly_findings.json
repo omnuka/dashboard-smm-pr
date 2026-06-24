@@ -6,6 +6,7 @@
     "competitor": "Depot",
     "channel": "Сайт",
     "source_type": "Кейс",
+    "placement": "Сайт",
     "service": "Упаковка",
     "theme": "FMCG / редизайн упаковки",
     "title": "Демо-находка: новый кейс упаковки",
@@ -14,9 +15,25 @@
     "reactions": null,
     "views": null,
     "comments": null,
-    "seo_keyword": "",
-    "seo_position": "",
     "sentiment": "нейтрально",
+    "tags": [
+      "FMCG",
+      "упаковка",
+      "редизайн",
+      "категорийные коды"
+    ],
+    "hashtags": [
+      "#упаковка",
+      "#брендинг"
+    ],
+    "mentioned_brands": [
+      {
+        "name": "Добрый",
+        "category": "напитки / FMCG",
+        "context": "пример клиента в кейсе",
+        "role": "клиентский бренд"
+      }
+    ],
     "serenity_pr_smm_use": "Можно использовать как повод для поста про упаковку и категорийные коды.",
     "status": "demo"
   },
@@ -27,6 +44,7 @@
     "competitor": "ONY",
     "channel": "Telegram",
     "source_type": "Пост",
+    "placement": "Telegram",
     "service": "Стратегия",
     "theme": "ИИ в брендинге",
     "title": "Демо-находка: пост про AI-процесс",
@@ -35,9 +53,24 @@
     "reactions": 42,
     "views": 2300,
     "comments": 5,
-    "seo_keyword": "",
-    "seo_position": "",
     "sentiment": "позитивно",
+    "tags": [
+      "ИИ",
+      "бренд-стратегия",
+      "процесс агентства"
+    ],
+    "hashtags": [
+      "#AI",
+      "#branding"
+    ],
+    "mentioned_brands": [
+      {
+        "name": "Самокат",
+        "category": "retail / e-commerce",
+        "context": "упомянут как пример цифрового продукта",
+        "role": "пример рынка"
+      }
+    ],
     "serenity_pr_smm_use": "Тема подходит для экспертного поста Serenity о том, где AI ускоряет агентскую работу.",
     "status": "demo"
   },
@@ -48,6 +81,8 @@
     "competitor": "Студия Артемия Лебедева",
     "channel": "СМИ",
     "source_type": "СМИ",
+    "placement": "РБК",
+    "media_source": "РБК",
     "service": "Digital",
     "theme": "Публичная экспертиза агентства",
     "title": "Демо-находка: упоминание в СМИ",
@@ -56,10 +91,93 @@
     "reactions": null,
     "views": null,
     "comments": null,
-    "seo_keyword": "брендинговое агентство",
-    "seo_position": "",
     "sentiment": "нейтрально",
+    "tags": [
+      "публичная экспертиза",
+      "digital",
+      "интервью"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [
+      {
+        "name": "НМЖК",
+        "category": "продукты / FMCG",
+        "context": "пример компании в новости",
+        "role": "бренд из инфоповода"
+      }
+    ],
     "serenity_pr_smm_use": "Можно сравнить, какие темы СМИ берут у агентств и где Serenity может предложить экспертный комментарий.",
+    "status": "demo"
+  },
+  {
+    "id": "demo-004",
+    "date": "2026-06-23",
+    "week": "2026-W26",
+    "competitor": "Getbrand",
+    "channel": "VK",
+    "source_type": "Пост",
+    "placement": "VK",
+    "service": "Нейминг",
+    "theme": "Запуск новой линейки",
+    "title": "Демо-находка: пост с разбором нейминга",
+    "url": "",
+    "summary": "Демонстрация того, как в дашборде появятся посты VK с тегами и брендами.",
+    "reactions": 31,
+    "views": 1800,
+    "comments": 3,
+    "sentiment": "позитивно",
+    "tags": [
+      "нейминг",
+      "запуск линейки",
+      "FMCG"
+    ],
+    "hashtags": [
+      "#нейминг",
+      "#fmcg"
+    ],
+    "mentioned_brands": [
+      {
+        "name": "Русская картошка",
+        "category": "снеки / FMCG",
+        "context": "упомянута как пример категории",
+        "role": "пример рынка"
+      }
+    ],
+    "serenity_pr_smm_use": "Можно взять тему для короткого поста о том, как название помогает линейке быстрее считываться на полке.",
+    "status": "demo"
+  },
+  {
+    "id": "demo-005",
+    "date": "2026-06-22",
+    "week": "2026-W26",
+    "competitor": "DDVB",
+    "channel": "Сайт",
+    "source_type": "Кейс",
+    "placement": "Сайт",
+    "service": "Айдентика",
+    "theme": "Ребрендинг компании",
+    "title": "Демо-находка: кейс ребрендинга",
+    "url": "",
+    "summary": "Демонстрация кейса для блока брендов и клиентов.",
+    "reactions": null,
+    "views": null,
+    "comments": null,
+    "sentiment": "нейтрально",
+    "tags": [
+      "ребрендинг",
+      "айдентика",
+      "бренд-платформа"
+    ],
+    "hashtags": [],
+    "mentioned_brands": [
+      {
+        "name": "Боржоми",
+        "category": "напитки / FMCG",
+        "context": "пример клиента в кейсе",
+        "role": "клиентский бренд"
+      }
+    ],
+    "serenity_pr_smm_use": "Можно посмотреть, какие аргументы конкуренты используют для продажи ребрендинга.",
     "status": "demo"
   }
 ]
