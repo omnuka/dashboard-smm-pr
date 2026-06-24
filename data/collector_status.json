@@ -1,43 +1,102 @@
 {
-  "last_run": "2026-06-24T13:06:46Z",
+  "last_run": "2026-06-24T13:59:17Z",
+  "mode": "last_7_days_window",
+  "window_start": "2026-06-17",
+  "window_end": "2026-06-24",
   "sources_total": 405,
-  "sources_checked": 230,
-  "sources_skipped": 145,
-  "sources_failed": 30,
-  "new_findings": 7,
-  "baseline_findings": 0,
+  "sources_checked": 325,
+  "sources_skipped": 11,
+  "sources_failed": 80,
+  "media_queries_total": 118,
+  "media_queries_checked": 32,
+  "media_failed": 86,
+  "findings_total": 166,
+  "undated_candidates_skipped": 2641,
+  "duplicates_skipped": 0,
   "notes": [
+    {
+      "source": "https://www.behance.net/otvetdesign",
+      "error": "HTTP 403"
+    },
     {
       "source": "https://www.ddvb.ru/blog",
       "error": "HTTP 404"
     },
     {
+      "source": "https://www.behance.net/DDVB",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/liniidesignlab",
+      "error": "HTTP 403"
+    },
+    {
       "source": "https://voskhod.agency/",
-      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f20a52"
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f49c3f"
     },
     {
       "source": "https://voskhod.agency/news/",
       "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: /news/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f"
     },
     {
+      "source": "https://www.behance.net/ENDY",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/shuka",
+      "error": "HTTP 403"
+    },
+    {
       "source": "https://volga-volga.com/",
-      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f20a"
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f49c"
+    },
+    {
+      "source": "https://www.behance.net/VVBI",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/Studio_DEZA",
+      "error": "HTTP 403"
     },
     {
       "source": "https://zg-brand.ru/articles/",
       "error": "HTTP 404"
     },
     {
-      "source": "https://plenum.ru/blog",
+      "source": "https://www.behance.net/ZGbrandingZg",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/plenumcx1",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/repinabranding",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/Coruna?tracking_source=search_users%7Ccoruna%20branding",
       "error": "HTTP 403"
     },
     {
       "source": "https://www.artonica.ru/",
-      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f20a"
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f49c"
     },
     {
       "source": "https://artonica.ru/news",
-      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f20a4d73"
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f49c44dc"
+    },
+    {
+      "source": "https://www.behance.net/brandsonbrending",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://ra-vozduh.ru/portfolio/",
+      "error": "HTTP 400"
+    },
+    {
+      "source": "https://www.ozon.ru",
+      "error": "HTTP 403"
     },
     {
       "source": "https://www.terminaldesign.ru/",
@@ -48,19 +107,91 @@
       "error": "HTTPSConnectionPool(host='terminaldesign.ru', port=443): Max retries exceeded with url: /articles/news/ (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesign.ru', por"
     },
     {
+      "source": "https://www.behance.net/Terminaldesign",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://terminal-design.com",
+      "error": "HTTPSConnectionPool(host='terminal-design.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certif"
+    },
+    {
+      "source": "https://terminalizm.ru",
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f49c34"
+    },
+    {
+      "source": "https://terminaldesignshop.ru",
+      "error": "HTTPSConnectionPool(host='terminaldesignshop.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesignshop.ru', port=443)"
+    },
+    {
+      "source": "https://www.behance.net/ddc-design",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://proektmarketing.ru/projects/",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.nimax.ru/",
+      "error": "HTTPSConnectionPool(host='www.nimax.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nimax.ru', port=443) at 0x7f49c3d38c5"
+    },
+    {
+      "source": "https://www.nimax.ru/articles/",
+      "error": "HTTPSConnectionPool(host='www.nimax.ru', port=443): Max retries exceeded with url: /articles/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nimax.ru', port=443) at 0x7f"
+    },
+    {
+      "source": "https://aritime.pro",
+      "error": "HTTPSConnectionPool(host='aritime.pro', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='aritime.pro', port=443): Failed to resolve"
+    },
+    {
+      "source": "https://www.behance.net/heads_branding",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/aicru",
+      "error": "HTTP 403"
+    },
+    {
       "source": "https://katz.ru/",
-      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f20a5132c90>, 'Conne"
+      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f49c394cb50>, 'Conne"
     },
     {
       "source": "https://shik.agency/blog",
-      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f20a4e47"
+      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f49c394e"
     },
     {
-      "source": "https://aidapioneer.agency/",
-      "error": "HTTP 415"
+      "source": "https://www.behance.net/stolzmankatz",
+      "error": "HTTP 403"
     },
     {
-      "source": "https://weisswater.com/journal",
+      "source": "https://dprofile.ru/shik",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/TOMAT_DESIGN",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/weisswater",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/melekhovifilurin/projects",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/dviga",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/chromestudio",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://enbrand.ru/",
       "error": "HTTP 403"
     },
     {
@@ -68,11 +199,51 @@
       "error": "HTTPSConnectionPool(host='www.svoemnenie.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.svoemnenie.com', port=443) at 0"
     },
     {
-      "source": "https://idbrandagency.ru/",
+      "source": "https://www.behance.net/agima",
       "error": "HTTP 403"
     },
     {
-      "source": "https://picomatic.agency/blog",
+      "source": "https://vc.ru/logomachine",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/Logomachine",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://idbrandagency.ru/",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/designstudioperm",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://brandperm.com",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/designdepot",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://workspace.ru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
       "error": "HTTP 403"
     },
     {
@@ -81,31 +252,59 @@
     },
     {
       "source": "https://sichkargroup.com/press",
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "source": "https://cleverbranding.ru/",
       "error": "HTTPSConnectionPool(host='cleverbranding.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshak"
     },
     {
+      "source": "https://www.behance.net/Mind-Republic",
+      "error": "HTTP 403"
+    },
+    {
       "source": "https://www.ra-ma.ru/",
-      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f20a4c9611"
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f49c39911d"
     },
     {
       "source": "https://www.ra-ma.ru/portfolio/",
       "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: /portfolio/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7"
     },
     {
+      "source": "https://www.behance.net/ilartech",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/hermongroupru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/supermarket-agency",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://insta",
+      "error": "HTTPSConnectionPool(host='insta', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='insta', port=443): Failed to resolve 'insta' ([E"
+    },
+    {
+      "source": "https://www.behance.net/rockwellagency",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/bulvaragency",
+      "error": "HTTP 403"
+    },
+    {
       "source": "https://ragordost.ru/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f20a494b1d"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f49c403fbd"
     },
     {
       "source": "https://ragordost.ru/works/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f20a"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f49c"
     },
     {
-      "source": "https://www.ak-premier.ru/",
-      "error": "HTTP 456"
+      "source": "https://www.behance.net/anvilhook",
+      "error": "HTTP 403"
     },
     {
       "source": "https://2br.agency/",
@@ -116,7 +315,15 @@
       "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: /blog/ (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to estab"
     },
     {
-      "source": "https://sueta.team/blog",
+      "source": "https://www.behance",
+      "error": "HTTPSConnectionPool(host='www.behance', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.behance', port=443): Failed to resolve"
+    },
+    {
+      "source": "https://www.behance.net/sueta?locale=ru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/dsbarberry",
       "error": "HTTP 403"
     },
     {
@@ -126,6 +333,342 @@
     {
       "source": "https://electric-consultants.com/",
       "error": "HTTPSConnectionPool(host='electric-consultants.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='electric-consultants.com', por"
+    },
+    {
+      "media_query": "Depot",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Студия Артемия Лебедева",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ONY",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "OTVETDESIGN",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Умное Сердце (ex. SmartHeart)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "DDVB",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Getbrand",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "OHMYBRAND",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ENDY",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Щука",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Volga Volga Brand Identity",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "makelove",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Plenum",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "CreativePeople",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Radar",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Repina Branding",
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
+    },
+    {
+      "media_query": "BBDO Branding",
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
+    },
+    {
+      "media_query": "COMPASS",
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
+    },
+    {
+      "media_query": "REDKEDS",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Артоника",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "A.STUDIO",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Супрематика",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Brand Hub",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Ruport",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ICU",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Два слова | Conspiracy.works",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Адекватные Люди",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "DDC.Group",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Proektmarketing +1",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Соль",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Redin",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Heads",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "KIAN",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "2SHARP",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "aic",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "DS1 branding",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Штольцман и Кац",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "TomatDesign",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Weiss",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Мелехов и Филюрин",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "DVIGA",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "19agency84",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ХРОМ",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Weavers Brand Consultancy",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "enDESIGN Branding agency",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Свое мнение",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "AGIMA",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Логомашина",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "idBRAND",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "LABELMEN",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Artstyle",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "CultBrand",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Mish",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Март",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "RElabel",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Pic-o-matic",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Decide Branding Agency",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "VIEWPOINT",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Oxygen",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "The Clients",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "SICHKAR GROUP",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Yasno.branding agency",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Kuznets",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "SUPPORT AGENCY",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "RED AGENCY",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "CUBA Branding",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Mind Republic",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Метрополия",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ILAR",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Hermon Group",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Supermarket",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "BULVAR",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Graphit",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Гордость",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ПРЕМЬЕР",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "2050.LAB",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Anvilhook branding",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Sueta",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ICEBERG INTERACTIVE",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ESH gruppa",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Brand Brothers",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "ПИНК",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "КИРПИЧ",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "Electric Brand Consultants",
+      "error": "HTTP 429"
     }
   ]
 }
