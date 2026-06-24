@@ -111,7 +111,7 @@ function isSocial(f){
 function isMediaOrSite(f){
   if(isSocial(f)) return false;
   const ch = sourceChannel(f);
-  return f.source_type === 'СМИ' || ['СМИ','Сайт','VC','Дзен','Behance','Dprofile'].includes(ch) || ['Кейс','Новость'].includes(f.source_type);
+  return f.source_type === 'СМИ' || ch === 'СМИ' || Boolean(f.media_source);
 }
 
 function activityScore(f){
@@ -274,6 +274,7 @@ function renderAll(){
   ];
   renderTable($('tagRows'), data.filter(f => asArray(f.tags).length || asArray(f.hashtags).length), tagCols, 'Теги и хештеги пока не собраны');
 
+  const competitorData = data.filter(isCompetitorFinding);
   const social = competitorData.filter(isSocial);
   const socialCols = [f=>fmt(f.date), f=>sourceLink(f), f=>fmt(f.competitor), f=>fmt(contentTheme(f)), f=>inlineTags(f.tags), f=>titleBlock(f), f=>fmt(f.views), f=>fmt(f.reactions), f=>fmt(f.comments)];
   renderTable($('socialRows'), social, socialCols, 'Соцданные пока не собраны');
