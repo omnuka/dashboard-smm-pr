@@ -1,21 +1,1028 @@
 {
-  "last_run": "2026-06-26T07:16:19Z",
+  "last_run": "2026-06-26T12:33:44Z",
   "mode": "last_7_days_window",
   "window_start": "2026-06-19",
   "window_end": "2026-06-26",
   "sources_total": 405,
-  "sources_checked": 327,
-  "sources_skipped": 11,
-  "sources_failed": 78,
-  "media_queries_total": 125,
+  "sources_checked": 324,
+  "sources_skipped": 10,
+  "sources_failed": 81,
+  "media_queries_total": 27,
+  "media_queries_available": 125,
+  "media_query_limit_competitors": 20,
+  "media_query_limit_total": 27,
   "client_brands_total": 7,
-  "media_queries_checked": 70,
-  "media_failed": 55,
-  "media_429_count": 211,
+  "media_queries_checked": 1,
+  "media_failed": 1,
+  "media_429_count": 3,
   "media_findings_total": 0,
-  "media_queries_skipped": 0,
-  "findings_total": 135,
-  "undated_candidates_skipped": 2692,
+  "media_queries_skipped": 123,
+  "media_status": "rate_limited",
+  "media_consecutive_429": 3,
+  "media_query_details": [
+    {
+      "query": "\"Группа Компаний Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "owner": "Группа Компаний Красное Золото",
+      "scope": "client_brand",
+      "status": "checked",
+      "error": "",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "\"Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "owner": "Красное Золото",
+      "scope": "client_brand",
+      "status": "failed",
+      "error": "HTTP 429",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Repina Branding",
+      "owner": "Repina Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "BBDO Branding",
+      "owner": "BBDO Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "COMPASS",
+      "owner": "COMPASS",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "REDKEDS",
+      "owner": "REDKEDS",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Coruna Branding",
+      "owner": "Coruna Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Mildberry",
+      "owner": "Mildberry",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Артоника",
+      "owner": "Артоника",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Brandson (TSN)",
+      "owner": "Brandson (TSN)",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "VOZDUH Brand&Communications",
+      "owner": "VOZDUH Brand&Communications",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "A.STUDIO",
+      "owner": "A.STUDIO",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Супрематика",
+      "owner": "Супрематика",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Brand Hub",
+      "owner": "Brand Hub",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Лавмиду (lovemedo)",
+      "owner": "Лавмиду (lovemedo)",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Ruport",
+      "owner": "Ruport",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ICU",
+      "owner": "ICU",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Два слова | Conspiracy.works",
+      "owner": "Два слова | Conspiracy.works",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Адекватные Люди",
+      "owner": "Адекватные Люди",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Терминал дизайн",
+      "owner": "Терминал дизайн",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "DDC.Group",
+      "owner": "DDC.Group",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Proektmarketing +1",
+      "owner": "Proektmarketing +1",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Nimax",
+      "owner": "Nimax",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Соль",
+      "owner": "Соль",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Redin",
+      "owner": "Redin",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Heads",
+      "owner": "Heads",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "KIAN",
+      "owner": "KIAN",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "2SHARP",
+      "owner": "2SHARP",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ZAMEDIA",
+      "owner": "ZAMEDIA",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "aic",
+      "owner": "aic",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Пирс 5",
+      "owner": "Пирс 5",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "AdWorm",
+      "owner": "AdWorm",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "DS1 branding",
+      "owner": "DS1 branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Штольцман и Кац",
+      "owner": "Штольцман и Кац",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "TomatDesign",
+      "owner": "TomatDesign",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Aida Pioneer",
+      "owner": "Aida Pioneer",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Weiss",
+      "owner": "Weiss",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Мелехов и Филюрин",
+      "owner": "Мелехов и Филюрин",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "DVIGA",
+      "owner": "DVIGA",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "19agency84",
+      "owner": "19agency84",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "TutkovBudkov",
+      "owner": "TutkovBudkov",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ХРОМ",
+      "owner": "ХРОМ",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Weavers Brand Consultancy",
+      "owner": "Weavers Brand Consultancy",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "enDESIGN Branding agency",
+      "owner": "enDESIGN Branding agency",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Свое мнение",
+      "owner": "Свое мнение",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "AGIMA",
+      "owner": "AGIMA",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Логомашина",
+      "owner": "Логомашина",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "idBRAND",
+      "owner": "idBRAND",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "LABELMEN",
+      "owner": "LABELMEN",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Artstyle",
+      "owner": "Artstyle",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ДизайнДепо",
+      "owner": "ДизайнДепо",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "CultBrand",
+      "owner": "CultBrand",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Mish",
+      "owner": "Mish",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Soldis",
+      "owner": "Soldis",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Март",
+      "owner": "Март",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "RElabel",
+      "owner": "RElabel",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Pic-o-matic",
+      "owner": "Pic-o-matic",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Zurashvili Branding",
+      "owner": "Zurashvili Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Decide Branding Agency",
+      "owner": "Decide Branding Agency",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "VIEWPOINT",
+      "owner": "VIEWPOINT",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Oxygen",
+      "owner": "Oxygen",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "The Clients",
+      "owner": "The Clients",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "SICHKAR GROUP",
+      "owner": "SICHKAR GROUP",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Yasno.branding agency",
+      "owner": "Yasno.branding agency",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "DEVISION",
+      "owner": "DEVISION",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Kuznets",
+      "owner": "Kuznets",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Clёver Branding",
+      "owner": "Clёver Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "SUPPORT AGENCY",
+      "owner": "SUPPORT AGENCY",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "RED AGENCY",
+      "owner": "RED AGENCY",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "opencore",
+      "owner": "opencore",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "UPRISE",
+      "owner": "UPRISE",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "SLAVA",
+      "owner": "SLAVA",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "GreenMars",
+      "owner": "GreenMars",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "CUBA Branding",
+      "owner": "CUBA Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Mind Republic",
+      "owner": "Mind Republic",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Метрополия",
+      "owner": "Метрополия",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ILAR",
+      "owner": "ILAR",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "goryanin brothers",
+      "owner": "goryanin brothers",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Hermon Group",
+      "owner": "Hermon Group",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Supermarket",
+      "owner": "Supermarket",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Rockwell branding agency",
+      "owner": "Rockwell branding agency",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "BULVAR",
+      "owner": "BULVAR",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Graphit",
+      "owner": "Graphit",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Гордость",
+      "owner": "Гордость",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Art Area",
+      "owner": "Art Area",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ПРЕМЬЕР",
+      "owner": "ПРЕМЬЕР",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "2050.LAB",
+      "owner": "2050.LAB",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Quantum Graphics",
+      "owner": "Quantum Graphics",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Anvilhook branding",
+      "owner": "Anvilhook branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "2BR",
+      "owner": "2BR",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Creative Mind bureau",
+      "owner": "Creative Mind bureau",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Sueta",
+      "owner": "Sueta",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Барбарис",
+      "owner": "Барбарис",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ICEBERG INTERACTIVE",
+      "owner": "ICEBERG INTERACTIVE",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ESH gruppa",
+      "owner": "ESH gruppa",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Fabula Branding",
+      "owner": "Fabula Branding",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Brand Brothers",
+      "owner": "Brand Brothers",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "ПИНК",
+      "owner": "ПИНК",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "КИРПИЧ",
+      "owner": "КИРПИЧ",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "query": "Electric Brand Consultants",
+      "owner": "Electric Brand Consultants",
+      "scope": "competitor",
+      "status": "skipped",
+      "error": "outside_per_run_limit",
+      "articles_returned": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    }
+  ],
+  "findings_total": 147,
+  "undated_candidates_skipped": 2683,
   "duplicates_skipped": 0,
   "notes": [
     {
@@ -35,6 +1042,14 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://voskhod.agency/",
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f036ee"
+    },
+    {
+      "source": "https://voskhod.agency/news/",
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: /news/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f"
+    },
+    {
       "source": "https://www.behance.net/ENDY",
       "error": "HTTP 403"
     },
@@ -44,7 +1059,7 @@
     },
     {
       "source": "https://volga-volga.com/",
-      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f8e1"
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f036"
     },
     {
       "source": "https://www.behance.net/VVBI",
@@ -76,11 +1091,11 @@
     },
     {
       "source": "https://www.artonica.ru/",
-      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f8e1"
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f036"
     },
     {
       "source": "https://artonica.ru/news",
-      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f8e1f42c"
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f036edcf"
     },
     {
       "source": "https://www.behance.net/brandsonbrending",
@@ -112,7 +1127,7 @@
     },
     {
       "source": "https://terminalizm.ru",
-      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f8e204"
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f036ee"
     },
     {
       "source": "https://terminaldesignshop.ru",
@@ -135,20 +1150,20 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://aic.ru/",
+      "error": "HTTPSConnectionPool(host='aic.ru', port=443): Read timed out. (read timeout=18)"
+    },
+    {
       "source": "https://www.behance.net/aicru",
       "error": "HTTP 403"
     },
     {
-      "source": "https://pirs5.ru/",
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
       "source": "https://katz.ru/",
-      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f8e1f811cd0>, 'Conne"
+      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f036d1ada50>, 'Conne"
     },
     {
       "source": "https://shik.agency/blog",
-      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f8e1f812"
+      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f036d1ac"
     },
     {
       "source": "https://www.behance.net/stolzmankatz",
@@ -164,7 +1179,7 @@
     },
     {
       "source": "https://aidapioneer.agency/",
-      "error": "HTTP 415"
+      "error": "HTTPSConnectionPool(host='aidapioneer.agency', port=443): Read timed out. (read timeout=18)"
     },
     {
       "source": "https://www.behance.net/weisswater",
@@ -260,7 +1275,7 @@
     },
     {
       "source": "https://www.ra-ma.ru/",
-      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f8e1f67cb9"
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f036efe025"
     },
     {
       "source": "https://www.ra-ma.ru/portfolio/",
@@ -292,11 +1307,15 @@
     },
     {
       "source": "https://ragordost.ru/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f8e1fa5755"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f036d3f815"
     },
     {
       "source": "https://ragordost.ru/works/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f8e1"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f036"
+    },
+    {
+      "source": "https://instagram.com/quantum_graphics",
+      "error": "HTTP 429"
     },
     {
       "source": "https://www.behance.net/anvilhook",
@@ -328,227 +1347,15 @@
     },
     {
       "source": "https://electric-consultants.com/",
-      "error": "HTTPSConnectionPool(host='electric-consultants.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='electric-consultants.com', por"
+      "error": "HTTPSConnectionPool(host='electric-consultants.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='electric-consultants.com', po"
     },
     {
       "media_query": "\"Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Русаков\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Тунгутун\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Depot\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ONY\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Умное Сердце (ex. SmartHeart)\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"DDVB\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"LINII Group\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ENDY\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Щука\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"DEZA\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Z&G Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"CreativePeople\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
-    },
-    {
-      "media_query": "\"COMPASS\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"REDKEDS\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Brandson (TSN)\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"A.STUDIO\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Супрематика\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ICU\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Proektmarketing +1\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Соль\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"KIAN\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ZAMEDIA\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"aic\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Пирс 5\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"DS1 branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Штольцман и Кац\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Aida Pioneer\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ХРОМ\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"AGIMA\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"LABELMEN\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ДизайнДепо\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"CultBrand\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Mish\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Март\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Zurashvili Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"VIEWPOINT\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
-    },
-    {
-      "media_query": "\"Oxygen\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"SICHKAR GROUP\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"DEVISION\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Clёver Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"GreenMars\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Mind Republic\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Метрополия\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ILAR\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Supermarket\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"BULVAR\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Art Area\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"2050.LAB\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"2BR\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Sueta\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ICEBERG INTERACTIVE\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Brand Brothers\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"ПИНК\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Electric Brand Consultants\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
+      "media": "stopped_after_consecutive_429",
+      "skipped": 25
     }
   ]
 }
