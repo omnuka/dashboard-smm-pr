@@ -30,4 +30,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'Update competitor monitoring data'
-          file_pattern: data/weekly_findings.json data/link_snapshot.json data/collector_status.json
+          file_pattern: data/weekly_findings.json data/collector_status.json data/last_run_summary.json
