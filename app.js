@@ -361,4 +361,8 @@ async function init(){
   $('searchInput').addEventListener('input', e => {state.filters.search=e.target.value; renderAll();});
   $('exportBtn').addEventListener('click', () => download('weekly_findings_export.json', JSON.stringify(filteredFindings(), null, 2)));
 }
-init();
+if(typeof document !== 'undefined') init();
+
+if(typeof module !== 'undefined' && module.exports){
+  module.exports = { isMediaOrSite, sourceChannel };
+}
