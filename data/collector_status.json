@@ -1,21 +1,21 @@
 {
-  "last_run": "2026-06-24T22:33:37Z",
+  "last_run": "2026-06-26T07:16:19Z",
   "mode": "last_7_days_window",
-  "window_start": "2026-06-17",
-  "window_end": "2026-06-24",
+  "window_start": "2026-06-19",
+  "window_end": "2026-06-26",
   "sources_total": 405,
-  "sources_checked": 326,
+  "sources_checked": 327,
   "sources_skipped": 11,
-  "sources_failed": 79,
+  "sources_failed": 78,
   "media_queries_total": 125,
   "client_brands_total": 7,
-  "media_queries_checked": 63,
-  "media_failed": 62,
-  "media_429_count": 223,
+  "media_queries_checked": 70,
+  "media_failed": 55,
+  "media_429_count": 211,
   "media_findings_total": 0,
   "media_queries_skipped": 0,
-  "findings_total": 158,
-  "undated_candidates_skipped": 2655,
+  "findings_total": 135,
+  "undated_candidates_skipped": 2692,
   "duplicates_skipped": 0,
   "notes": [
     {
@@ -35,14 +35,6 @@
       "error": "HTTP 403"
     },
     {
-      "source": "https://voskhod.agency/",
-      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f18d23"
-    },
-    {
-      "source": "https://voskhod.agency/news/",
-      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: /news/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f"
-    },
-    {
       "source": "https://www.behance.net/ENDY",
       "error": "HTTP 403"
     },
@@ -52,7 +44,7 @@
     },
     {
       "source": "https://volga-volga.com/",
-      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f18d"
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f8e1"
     },
     {
       "source": "https://www.behance.net/VVBI",
@@ -84,11 +76,11 @@
     },
     {
       "source": "https://www.artonica.ru/",
-      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f18d"
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f8e1"
     },
     {
       "source": "https://artonica.ru/news",
-      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f18d28dd"
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f8e1f42c"
     },
     {
       "source": "https://www.behance.net/brandsonbrending",
@@ -120,7 +112,7 @@
     },
     {
       "source": "https://terminalizm.ru",
-      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f18d2f"
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f8e204"
     },
     {
       "source": "https://terminaldesignshop.ru",
@@ -147,12 +139,16 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://pirs5.ru/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    },
+    {
       "source": "https://katz.ru/",
-      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f18d3080f10>, 'Conne"
+      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f8e1f811cd0>, 'Conne"
     },
     {
       "source": "https://shik.agency/blog",
-      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f18d30bd"
+      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f8e1f812"
     },
     {
       "source": "https://www.behance.net/stolzmankatz",
@@ -188,6 +184,10 @@
     },
     {
       "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://enbrand.ru/",
       "error": "HTTP 403"
     },
     {
@@ -260,7 +260,7 @@
     },
     {
       "source": "https://www.ra-ma.ru/",
-      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f18d1ab895"
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f8e1f67cb9"
     },
     {
       "source": "https://www.ra-ma.ru/portfolio/",
@@ -292,11 +292,11 @@
     },
     {
       "source": "https://ragordost.ru/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f18d23bf91"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f8e1fa5755"
     },
     {
       "source": "https://ragordost.ru/works/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f18d"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f8e1"
     },
     {
       "source": "https://www.behance.net/anvilhook",
@@ -315,10 +315,6 @@
       "error": "HTTPSConnectionPool(host='www.behance', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.behance', port=443): Failed to resolve"
     },
     {
-      "source": "https://www.c-mind.com/",
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
       "source": "https://www.behance.net/sueta?locale=ru",
       "error": "HTTP 403"
     },
@@ -335,16 +331,24 @@
       "error": "HTTPSConnectionPool(host='electric-consultants.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='electric-consultants.com', por"
     },
     {
-      "media_query": "\"Группа Компаний Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "media_query": "\"Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"Русаков\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"Тунгутун\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"Depot\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
       "media_query": "\"ONY\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"OTVETDESIGN\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
     },
     {
       "media_query": "\"Умное Сердце (ex. SmartHeart)\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
@@ -359,12 +363,8 @@
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"OHMYBRAND\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
       "media_query": "\"ENDY\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
+      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
     },
     {
       "media_query": "\"Щука\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
@@ -375,19 +375,27 @@
       "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
     },
     {
-      "media_query": "\"Plenum\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Z&G Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Repina Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"CreativePeople\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
+    },
+    {
+      "media_query": "\"COMPASS\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Mildberry\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"REDKEDS\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Артоника\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Brandson (TSN)\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"A.STUDIO\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
@@ -395,55 +403,43 @@
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Brand Hub\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
       "media_query": "\"ICU\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Терминал дизайн\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"DDC.Group\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
     },
     {
       "media_query": "\"Proektmarketing +1\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Nimax\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
       "media_query": "\"Соль\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"KIAN\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
     },
     {
-      "media_query": "\"2SHARP\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"KIAN\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"ZAMEDIA\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
       "media_query": "\"aic\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"Пирс 5\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "error": "HTTP 429"
     },
     {
       "media_query": "\"DS1 branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Мелехов и Филюрин\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Штольцман и Кац\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"DVIGA\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Aida Pioneer\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
@@ -451,19 +447,7 @@
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"enDESIGN Branding agency\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Свое мнение\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Логомашина\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"idBRAND\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"AGIMA\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
@@ -483,43 +467,35 @@
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Soldis\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
       "media_query": "\"Март\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "media_query": "\"Pic-o-matic\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
     },
     {
       "media_query": "\"Zurashvili Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Decide Branding Agency\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
       "media_query": "\"VIEWPOINT\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=18)"
     },
     {
       "media_query": "\"Oxygen\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Kuznets\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"SICHKAR GROUP\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"SUPPORT AGENCY\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"DEVISION\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"RED AGENCY\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Clёver Branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "error": "HTTP 429"
+    },
+    {
+      "media_query": "\"GreenMars\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
@@ -532,18 +508,14 @@
     },
     {
       "media_query": "\"ILAR\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
-      "media_query": "\"Hermon Group\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
+      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
     },
     {
       "media_query": "\"Supermarket\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Гордость\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"BULVAR\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
@@ -555,23 +527,19 @@
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Anvilhook branding\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "HTTP 429"
-    },
-    {
       "media_query": "\"2BR\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
-      "error": "invalid json: Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTP 429"
     },
     {
       "media_query": "\"Sueta\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"Барбарис\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"ICEBERG INTERACTIVE\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"ESH gruppa\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Brand Brothers\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     },
     {
@@ -579,7 +547,7 @@
       "error": "HTTP 429"
     },
     {
-      "media_query": "\"КИРПИЧ\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
+      "media_query": "\"Electric Brand Consultants\" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)",
       "error": "HTTP 429"
     }
   ]
