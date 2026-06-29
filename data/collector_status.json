@@ -1,38 +1,28 @@
 {
-  "last_run": "2026-06-26T12:33:44Z",
+  "last_run": "2026-06-29T07:09:15Z",
   "mode": "last_7_days_window",
-  "window_start": "2026-06-19",
-  "window_end": "2026-06-26",
+  "window_start": "2026-06-22",
+  "window_end": "2026-06-29",
   "sources_total": 405,
-  "sources_checked": 324,
-  "sources_skipped": 10,
-  "sources_failed": 81,
+  "sources_checked": 328,
+  "sources_skipped": 11,
+  "sources_failed": 77,
   "media_queries_total": 27,
   "media_queries_available": 125,
   "media_query_limit_competitors": 20,
   "media_query_limit_total": 27,
   "client_brands_total": 7,
-  "media_queries_checked": 1,
+  "media_queries_checked": 0,
   "media_failed": 1,
   "media_429_count": 3,
   "media_findings_total": 0,
-  "media_queries_skipped": 123,
+  "media_queries_skipped": 124,
   "media_status": "rate_limited",
   "media_consecutive_429": 3,
   "media_query_details": [
     {
       "query": "\"Группа Компаний Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
       "owner": "Группа Компаний Красное Золото",
-      "scope": "client_brand",
-      "status": "checked",
-      "error": "",
-      "articles_returned": 0,
-      "findings_saved": 0,
-      "discard_reasons": {}
-    },
-    {
-      "query": "\"Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
-      "owner": "Красное Золото",
       "scope": "client_brand",
       "status": "failed",
       "error": "HTTP 429",
@@ -1021,8 +1011,8 @@
       "discard_reasons": {}
     }
   ],
-  "findings_total": 147,
-  "undated_candidates_skipped": 2683,
+  "findings_total": 135,
+  "undated_candidates_skipped": 2720,
   "duplicates_skipped": 0,
   "notes": [
     {
@@ -1043,7 +1033,7 @@
     },
     {
       "source": "https://voskhod.agency/",
-      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f036ee"
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f5227e"
     },
     {
       "source": "https://voskhod.agency/news/",
@@ -1059,7 +1049,7 @@
     },
     {
       "source": "https://volga-volga.com/",
-      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f036"
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f522"
     },
     {
       "source": "https://www.behance.net/VVBI",
@@ -1091,11 +1081,11 @@
     },
     {
       "source": "https://www.artonica.ru/",
-      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f036"
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f522"
     },
     {
       "source": "https://artonica.ru/news",
-      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f036edcf"
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f522813d"
     },
     {
       "source": "https://www.behance.net/brandsonbrending",
@@ -1127,7 +1117,7 @@
     },
     {
       "source": "https://terminalizm.ru",
-      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f036ee"
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f52281"
     },
     {
       "source": "https://terminaldesignshop.ru",
@@ -1150,20 +1140,16 @@
       "error": "HTTP 403"
     },
     {
-      "source": "https://aic.ru/",
-      "error": "HTTPSConnectionPool(host='aic.ru', port=443): Read timed out. (read timeout=18)"
-    },
-    {
       "source": "https://www.behance.net/aicru",
       "error": "HTTP 403"
     },
     {
       "source": "https://katz.ru/",
-      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f036d1ada50>, 'Conne"
+      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f522858c750>, 'Conne"
     },
     {
       "source": "https://shik.agency/blog",
-      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f036d1ac"
+      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f522858e"
     },
     {
       "source": "https://www.behance.net/stolzmankatz",
@@ -1176,10 +1162,6 @@
     {
       "source": "https://www.behance.net/TOMAT_DESIGN",
       "error": "HTTP 403"
-    },
-    {
-      "source": "https://aidapioneer.agency/",
-      "error": "HTTPSConnectionPool(host='aidapioneer.agency', port=443): Read timed out. (read timeout=18)"
     },
     {
       "source": "https://www.behance.net/weisswater",
@@ -1199,10 +1181,6 @@
     },
     {
       "source": "https://www.behance.net",
-      "error": "HTTP 403"
-    },
-    {
-      "source": "https://enbrand.ru/",
       "error": "HTTP 403"
     },
     {
@@ -1275,7 +1253,7 @@
     },
     {
       "source": "https://www.ra-ma.ru/",
-      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f036efe025"
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f5227ab199"
     },
     {
       "source": "https://www.ra-ma.ru/portfolio/",
@@ -1307,15 +1285,11 @@
     },
     {
       "source": "https://ragordost.ru/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f036d3f815"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f522816359"
     },
     {
       "source": "https://ragordost.ru/works/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f036"
-    },
-    {
-      "source": "https://instagram.com/quantum_graphics",
-      "error": "HTTP 429"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f522"
     },
     {
       "source": "https://www.behance.net/anvilhook",
@@ -1350,12 +1324,12 @@
       "error": "HTTPSConnectionPool(host='electric-consultants.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='electric-consultants.com', po"
     },
     {
-      "media_query": "\"Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
+      "media_query": "\"Группа Компаний Красное Золото\" (икра OR рыба OR морепродукты OR деликатесы OR продукты OR ритейл OR бренд OR упаковка OR производство)",
       "error": "HTTP 429"
     },
     {
       "media": "stopped_after_consecutive_429",
-      "skipped": 25
+      "skipped": 26
     }
   ]
 }
