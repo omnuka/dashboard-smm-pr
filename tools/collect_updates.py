@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote, urljoin, urlparse, urlunparse, parse_qs
+from urllib.parse import urljoin, urlparse, urlunparse, parse_qs
 
 import requests
 from bs4 import BeautifulSoup
@@ -23,7 +23,6 @@ FINDINGS_PATH = DATA / "weekly_findings.json"
 STATUS_PATH = DATA / "collector_status.json"
 LAST_RUN_PATH = DATA / "last_run_summary.json"
 MEDIA_SOURCES_PATH = DATA / "media_sources.json"
-CLIENT_BRANDS_PATH = DATA / "client_brands.json"
 
 TODAY_DATE = date.today()
 TODAY = TODAY_DATE.isoformat()
@@ -33,15 +32,11 @@ WINDOW_START = TODAY_DATE - timedelta(days=LOOKBACK_DAYS)
 USER_AGENT = "SerenityCompetitorRadar/2.0 (+https://github.com/omnuka/dashboard-smm-pr)"
 TIMEOUT = 18
 SLEEP_BETWEEN_REQUESTS = 0.35
-MEDIA_SEARCH_SLEEP_SECONDS = 7
-MEDIA_SEARCH_RETRY_DELAYS = (30, 60)
 MAX_LINKS_PER_SOURCE = 24
 MAX_FINDINGS_PER_SOURCE = 8
 MAX_DETAIL_FETCHES = 700
 MAX_NEWS_MENTIONS_PER_COMPETITOR = 4
-MAX_NEWS_MENTIONS_PER_CLIENT = 8
 MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN = 20
-MAX_CONSECUTIVE_MEDIA_429 = 3
 
 SERVICE_KEYWORDS = [
     ("Упаковка", ["упаков", "pack", "package", "fmcg", "этикет"]),
@@ -51,7 +46,7 @@ SERVICE_KEYWORDS = [
     ("Digital", ["сайт", "site", "digital", "лендинг", "ux", "ui", "web"]),
     ("PR", ["pr", "пиар", "сми", "интервью", "комментари", "медиа"]),
     ("SMM", ["smm", "соцсет", "telegram", "vk", "контент"]),
-    ("Исследования", ["исслед", "research", "аналит", "опрос"]),
+    ("Реклама", ["реклам", "кампан", "промо", "баннер", "performance", "перформанс"]),
 ]
 
 CONTENT_THEME_KEYWORDS = [
@@ -67,18 +62,7 @@ CONTENT_THEME_KEYWORDS = [
     ("Новости агентства", ["новост", "обновлен", "партнерств", "сотрудничеств", "команда", "назначен"]),
 ]
 
-CLIENT_BRAND_NAMES = [
-    "Группа Компаний Красное Золото",
-    "Красное Золото",
-    "Русаков",
-    "Тунгутун",
-    "Авача",
-    "Виктория Бис",
-    "Укинский леман",
-]
-
 KNOWN_BRANDS = [
-    *CLIENT_BRAND_NAMES,
     "Добрый", "НМЖК", "Самокат", "Магнит", "Пятерочка", "Перекресток", "ВкусВилл", "Сбер", "МТС",
     "Яндекс", "Ozon", "Wildberries", "Аэрофлот", "Билайн", "Т-Банк", "Газпром", "Лукойл",
     "Черкизово", "Danone", "Pepsi", "Coca-Cola", "Borjomi", "Боржоми", "Меридиан", "Санта-Бремор",
@@ -583,20 +567,6 @@ def is_noise_title(text: str) -> bool:
     return False
 
 
-def load_client_brands() -> list[dict[str, str]]:
-    raw = read_json(CLIENT_BRANDS_PATH, [])
-    if isinstance(raw, list) and raw:
-        brands = []
-        for item in raw:
-            if isinstance(item, str):
-                brands.append({"name": item, "category": "клиент Serenity"})
-            elif isinstance(item, dict) and item.get("name"):
-                brands.append(item)
-        priority = {name.lower(): index for index, name in enumerate(CLIENT_BRAND_NAMES)}
-        return sorted(brands, key=lambda item: priority.get(str(item.get("name") or "").lower(), len(priority)))
-    return [{"name": name, "category": "клиент Serenity"} for name in CLIENT_BRAND_NAMES]
-
-
 def load_media_sources() -> list[dict[str, str]]:
     raw = read_json(MEDIA_SOURCES_PATH, [])
     if isinstance(raw, list) and raw:
@@ -740,23 +710,52 @@ def collect_candidates_for_source(source: dict[str, Any], status: dict[str, Any]
     return []
 
 
-def media_name_from_domain(domain: str, media_sources: list[dict[str, str]]) -> str:
-    host = (domain or "").lower().replace("www.", "")
-    for item in media_sources:
-        d = str(item.get("domain") or "").lower().replace("www.", "")
-        if d and (host == d or host.endswith("." + d)):
-            return str(item.get("name") or d)
-    return domain or "СМИ"
+MEDIA_TOPIC_MARKERS = [
+    "кейс", "case", "проект", "branding", "брендинг", "ребрендинг", "айдентика",
+    "упаковка", "маркетинг", "стратегия", "реклама", "digital", "smm", "pr",
+    "performance", "коммуникация",
+]
 
 
-def new_media_query_diagnostic(query: str, owner: str, scope: str) -> dict[str, Any]:
+def text_has_marker(text: str) -> bool:
+    low = text.lower()
+    return any(marker.lower() in low for marker in MEDIA_TOPIC_MARKERS)
+
+
+def competitor_name(item: dict[str, Any]) -> str:
+    return str(item.get("name") or item.get("agency") or "").strip()
+
+
+def competitor_in_text(text: str, competitors: list[dict[str, Any]]) -> str | None:
+    low = text.lower()
+    for comp in competitors:
+        name = competitor_name(comp)
+        if len(name) >= 3 and name.lower() in low:
+            return name
+    return None
+
+
+def source_checked_urls(source: dict[str, Any]) -> list[tuple[str, str]]:
+    result = []
+    for key in ("feed_url", "search_url", "news_url", "section_url"):
+        value = str(source.get(key) or "").strip()
+        if value:
+            result.append((key, value))
+    return result
+
+
+def media_detail(source: dict[str, Any]) -> dict[str, Any]:
     return {
-        "query": query,
-        "owner": owner,
-        "scope": scope,
-        "status": "checked",
+        "source": source.get("name") or source.get("domain") or "СМИ",
+        "feed_url": source.get("feed_url") or "",
+        "search_url": source.get("search_url") or "",
+        "news_url": source.get("news_url") or source.get("section_url") or "",
+        "checked_url": "",
+        "status": "pending",
         "error": "",
-        "articles_returned": 0,
+        "links_found": 0,
+        "dated_links_found": 0,
+        "matching_links_found": 0,
         "findings_saved": 0,
         "discard_reasons": {},
     }
@@ -767,113 +766,138 @@ def add_media_discard(detail: dict[str, Any], reason: str) -> None:
     reasons[reason] = reasons.get(reason, 0) + 1
 
 
-def gdelt_search(query: str, status: dict[str, Any], max_records: int, detail: dict[str, Any]) -> list[dict[str, Any]]:
-    url = "https://api.gdeltproject.org/api/v2/doc/doc?" + \
-        f"query={quote(query)}&mode=ArtList&format=json&timespan={LOOKBACK_DAYS}d&maxrecords={max_records}&sort=HybridRel"
-    last_err = ""
-    for attempt in range(len(MEDIA_SEARCH_RETRY_DELAYS) + 1):
-        text, err = fetch(url)
-        time.sleep(MEDIA_SEARCH_SLEEP_SECONDS)
-        if err == "HTTP 429":
-            status["media_429_count"] += 1
-            status["media_consecutive_429"] += 1
-            detail["status"] = "failed"
-            detail["error"] = err
-            last_err = err
-            if attempt < len(MEDIA_SEARCH_RETRY_DELAYS) and status["media_consecutive_429"] < MAX_CONSECUTIVE_MEDIA_429:
-                time.sleep(MEDIA_SEARCH_RETRY_DELAYS[attempt])
-                continue
-        if err or not text:
-            status["media_failed"] += 1
-            detail["status"] = "failed"
-            detail["error"] = err or "empty response"
-            status["notes"].append({"media_query": query[:180], "error": err or "empty response"})
-            return []
-        try:
-            data = json.loads(text)
-        except Exception as exc:
-            status["media_failed"] += 1
-            detail["status"] = "failed"
-            detail["error"] = f"invalid json: {str(exc)[:120]}"
-            status["notes"].append({"media_query": query[:180], "error": f"invalid json: {str(exc)[:120]}"})
-            return []
-        status["media_consecutive_429"] = 0
-        status["media_queries_checked"] += 1
-        articles = data.get("articles") or []
-        detail["articles_returned"] = len(articles)
-        return articles
-    status["media_failed"] += 1
-    detail["status"] = "failed"
-    detail["error"] = last_err or "request failed"
-    status["notes"].append({"media_query": query[:180], "error": last_err or "request failed"})
-    return []
-
-
-def gdelt_articles_to_candidates(
-    articles: list[dict[str, Any]],
-    owner_name: str,
-    source_query: str,
-    status: dict[str, Any],
-    media_sources: list[dict[str, str]],
-    monitor_scope: str = "competitor",
-    brand_name: str | None = None,
-    max_records: int = MAX_NEWS_MENTIONS_PER_COMPETITOR,
-) -> list[Candidate]:
-    result = []
-    detail = status.get("_current_media_query_detail") or {}
-    for item in articles[:max_records]:
-        art_url = item.get("url") or ""
-        title = clean_text(item.get("title") or "")
-        if is_noise_title(title):
-            add_media_discard(detail, "noise")
+def parse_feed_links(source: dict[str, Any], xml_text: str, detail: dict[str, Any]) -> list[Candidate]:
+    candidates: list[Candidate] = []
+    try:
+        root = ET.fromstring(xml_text)
+    except Exception as exc:
+        detail["error"] = f"feed parse error: {str(exc)[:120]}"
+        return []
+    for item in list(root.findall(".//item")) + list(root.findall("{http://www.w3.org/2005/Atom}entry")):
+        title = clean_text(item.findtext("title") or item.findtext("{http://www.w3.org/2005/Atom}title") or "")
+        link = clean_text(item.findtext("link") or "")
+        if not link:
+            link_el = item.find("{http://www.w3.org/2005/Atom}link")
+            link = link_el.get("href", "") if link_el is not None else ""
+        published = to_iso_date(item.findtext("pubDate") or item.findtext("published") or item.findtext("{http://www.w3.org/2005/Atom}published") or item.findtext("{http://www.w3.org/2005/Atom}updated") or "")
+        summary = clean_text(item.findtext("description") or item.findtext("summary") or item.findtext("{http://www.w3.org/2005/Atom}summary") or "")
+        url = normalize_url(urljoin(str(source.get("section_url") or source.get("news_url") or source.get("feed_url")), link), keep_query=True)
+        if not url or is_listing_page(url) or not looks_content_url(url, title, str(source.get("section_url") or source.get("news_url") or source.get("domain") or ""), strict=False):
+            add_media_discard(detail, "listing_or_noise_url")
             continue
-        raw_domain = clean_text(item.get("domain") or urlparse(art_url).netloc.replace("www.", ""))
-        media_name = media_name_from_domain(raw_domain, media_sources)
-        published = to_iso_date(item.get("seendate") or item.get("datetime") or "")
-        if not art_url:
-            add_media_discard(detail, "missing_url")
-            continue
+        detail["links_found"] += 1
         if not published:
             add_media_discard(detail, "no_date")
+        elif date_in_window(published):
+            detail["dated_links_found"] += 1
+        candidates.append(Candidate("", "СМИ", str(source.get("feed_url") or ""), url, f"{title} {summary}".strip(), str(source.get("name") or "СМИ"), "СМИ", published))
+    return candidates[:MAX_LINKS_PER_SOURCE]
+
+
+def parse_listing_links(source: dict[str, Any], page_url: str, html: str, detail: dict[str, Any]) -> list[Candidate]:
+    soup = BeautifulSoup(html, "html.parser")
+    seen = set()
+    candidates: list[Candidate] = []
+    for a in soup.find_all("a"):
+        href = a.get("href") or ""
+        absolute = normalize_url(urljoin(page_url, href), keep_query=True)
+        key = url_key(absolute)
+        if not key or key in seen or not same_domain(page_url, absolute):
             continue
-        if not date_in_window(published):
-            add_media_discard(detail, "date_outside_window")
+        text = clean_text(a.get_text(" ", strip=True))[:300]
+        if not looks_content_url(absolute, text, page_url, strict=False):
+            add_media_discard(detail, "listing_or_noise_url")
             continue
-        c = Candidate(owner_name, "СМИ", source_query, normalize_url(art_url, keep_query=True), title or "СМИ-упоминание", media_name, "СМИ", published)
-        c.monitor_scope = monitor_scope
-        result.append(c)
-    return result
-
-
-def gdelt_mentions(competitor: dict[str, Any], status: dict[str, Any], media_sources: list[dict[str, str]]) -> list[Candidate]:
-    name = str(competitor.get("name") or competitor.get("agency") or "").strip()
-    if not name or len(name) < 3:
-        status["media_queries_skipped"] += 1
-        return []
-    query = f'"{name}" (брендинг OR агентство OR branding OR design OR айдентика OR ребрендинг OR нейминг OR упаковка)'
-    detail = new_media_query_diagnostic(query, name, "competitor")
-    status["media_query_details"].append(detail)
-    status["_current_media_query_detail"] = detail
-    articles = gdelt_search(query, status, MAX_NEWS_MENTIONS_PER_COMPETITOR, detail)
-    return gdelt_articles_to_candidates(articles, name, query, status, media_sources, "competitor", max_records=MAX_NEWS_MENTIONS_PER_COMPETITOR)
-
-
-def gdelt_client_mentions(client: dict[str, str], status: dict[str, Any], media_sources: list[dict[str, str]]) -> list[Candidate]:
-    name = str(client.get("name") or "").strip()
-    if not name or len(name) < 3:
-        status["media_queries_skipped"] += 1
-        return []
-    context = " OR ".join(["икра", "рыба", "морепродукты", "деликатесы", "продукты", "ритейл", "бренд", "упаковка", "производство"])
-    query = f'"{name}" ({context})'
-    detail = new_media_query_diagnostic(query, name, "client_brand")
-    status["media_query_details"].append(detail)
-    status["_current_media_query_detail"] = detail
-    articles = gdelt_search(query, status, MAX_NEWS_MENTIONS_PER_CLIENT, detail)
-    candidates = gdelt_articles_to_candidates(articles, "Клиенты Serenity", query, status, media_sources, "client_brand", brand_name=name, max_records=MAX_NEWS_MENTIONS_PER_CLIENT)
-    # Подмешиваем бренд в текст якоря, чтобы detect_brands нашел его даже если в заголовке СМИ он сокращен.
-    for c in candidates:
-        c.anchor = f"{c.anchor} {name}"
+        seen.add(key)
+        detail["links_found"] += 1
+        published = date_from_url(absolute) or detect_date_near_link(a)
+        if published and date_in_window(published):
+            detail["dated_links_found"] += 1
+        elif not published:
+            add_media_discard(detail, "no_date")
+        candidates.append(Candidate("", "СМИ", page_url, absolute, text, str(source.get("name") or "СМИ"), "СМИ", published))
+        if len(candidates) >= MAX_LINKS_PER_SOURCE:
+            break
     return candidates
+
+
+def collect_media_direct(media_sources: list[dict[str, Any]], competitors: list[dict[str, Any]], status: dict[str, Any], findings: list[dict[str, Any]], seen_urls: set[str], detail_budget: list[int]) -> None:
+    enabled_sources = [s for s in media_sources if s.get("enabled", True)]
+    ranked = sorted(competitors, key=lambda item: int(str(item.get("rank") or 9999).split(".")[0]) if str(item.get("rank") or "").split(".")[0].isdigit() else 9999)
+    checked_competitors = ranked[:MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN]
+    skipped_competitors = [competitor_name(c) for c in ranked[MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN:] if competitor_name(c)]
+    status.update({
+        "media_direct_sources_total": len(enabled_sources),
+        "media_direct_sources_checked": 0,
+        "media_direct_sources_failed": 0,
+        "media_direct_findings_total": 0,
+        "media_direct_details": [],
+        "media_competitors_total": len(ranked),
+        "media_competitors_checked": len(checked_competitors),
+        "media_competitors_skipped": skipped_competitors,
+    })
+    for source in enabled_sources:
+        detail = media_detail(source)
+        status["media_direct_details"].append(detail)
+        candidates: list[Candidate] = []
+        for kind, url in source_checked_urls(source):
+            detail["checked_url"] = url
+            text, err = fetch(url)
+            time.sleep(SLEEP_BETWEEN_REQUESTS)
+            if err or not text:
+                detail["status"] = "failed"
+                detail["error"] = err or "empty response"
+                continue
+            candidates = parse_feed_links(source, text, detail) if kind == "feed_url" else parse_listing_links(source, url, text, detail)
+            if candidates:
+                detail["status"] = "checked"
+                break
+        status["media_direct_sources_checked"] += 1
+        if detail["status"] == "failed" and not candidates:
+            status["media_direct_sources_failed"] += 1
+            continue
+        if detail["status"] == "pending":
+            detail["status"] = "empty"
+        for c in candidates:
+            if url_key(c.url) in seen_urls:
+                add_media_discard(detail, "duplicate")
+                continue
+            title, summary, published = detail_text_and_date(c, detail_budget)
+            if not published:
+                add_media_discard(detail, "no_date")
+                continue
+            if not date_in_window(published):
+                add_media_discard(detail, "date_outside_window")
+                continue
+            blob = f"{title} {summary} {c.anchor} {c.url}"
+            competitor = competitor_in_text(blob, checked_competitors)
+            if not competitor:
+                add_media_discard(detail, "no_competitor")
+                continue
+            if not text_has_marker(blob):
+                add_media_discard(detail, "no_topic_marker")
+                continue
+            detail["matching_links_found"] += 1
+            c.competitor = competitor
+            c.anchor = title or c.anchor
+            c.published_date = published
+            finding = make_finding(c, detail_budget)
+            if not finding:
+                add_media_discard(detail, "page_read_error_or_date_missing_or_noise")
+                continue
+            finding.update({"source_type": "СМИ", "channel": "СМИ", "placement": str(source.get("name") or "СМИ"), "media_source": str(source.get("name") or "СМИ"), "monitor_scope": "competitor"})
+            findings.append(finding)
+            seen_urls.add(url_key(c.url))
+            detail["findings_saved"] += 1
+            status["media_direct_findings_total"] += 1
+    if not enabled_sources or status["media_direct_sources_checked"] == 0:
+        status["media_status"] = "failed"
+    elif status["media_direct_sources_failed"]:
+        status["media_status"] = "partial"
+    elif status["media_direct_findings_total"]:
+        status["media_status"] = "ok"
+    else:
+        status["media_status"] = "empty"
 
 
 def collect() -> None:
@@ -884,7 +908,6 @@ def collect() -> None:
     if not isinstance(competitors, list):
         competitors = []
     media_sources = load_media_sources()
-    client_brands = load_client_brands()
 
     status = {
         "last_run": datetime.utcnow().isoformat(timespec="seconds") + "Z",
@@ -895,19 +918,15 @@ def collect() -> None:
         "sources_checked": 0,
         "sources_skipped": 0,
         "sources_failed": 0,
-        "media_queries_total": min(len(client_brands) + min(len(competitors), MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN), len(client_brands) + len(competitors)),
-        "media_queries_available": len(competitors) + len(client_brands),
-        "media_query_limit_competitors": MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN,
-        "media_query_limit_total": len(client_brands) + min(len(competitors), MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN),
-        "client_brands_total": len(client_brands),
-        "media_queries_checked": 0,
-        "media_failed": 0,
-        "media_429_count": 0,
-        "media_findings_total": 0,
-        "media_queries_skipped": 0,
-        "media_status": "ok",
-        "media_consecutive_429": 0,
-        "media_query_details": [],
+        "media_status": "empty",
+        "media_direct_sources_total": 0,
+        "media_direct_sources_checked": 0,
+        "media_direct_sources_failed": 0,
+        "media_direct_findings_total": 0,
+        "media_direct_details": [],
+        "media_competitors_total": 0,
+        "media_competitors_checked": 0,
+        "media_competitors_skipped": [],
         "findings_total": 0,
         "undated_candidates_skipped": 0,
         "duplicates_skipped": 0,
@@ -916,6 +935,7 @@ def collect() -> None:
 
     findings: list[dict[str, Any]] = []
     seen: set[tuple[str, str]] = set()
+    seen_urls: set[str] = set()
     detail_budget = [MAX_DETAIL_FETCHES]
 
     for source in sources:
@@ -933,80 +953,12 @@ def collect() -> None:
                 status["undated_candidates_skipped"] += 1
                 continue
             seen.add(key)
+            seen_urls.add(url_key(c.url))
             findings.append(finding)
             emitted += 1
 
-    # СМИ ищем отдельно за последние 7 дней: сначала по текущим клиентам Serenity, затем по агентствам.
-    for client in client_brands:
-        if status["media_consecutive_429"] >= MAX_CONSECUTIVE_MEDIA_429:
-            remaining = len(client_brands) - client_brands.index(client) + min(len(competitors), MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN)
-            status["media_queries_skipped"] += remaining
-            status["media_status"] = "rate_limited"
-            status["notes"].append({"media": "stopped_after_consecutive_429", "skipped": remaining})
-            break
-        for c in gdelt_client_mentions(client, status, media_sources):
-            key = (c.competitor, url_key(c.url))
-            if key in seen:
-                status["duplicates_skipped"] += 1
-                add_media_discard(status.get("_current_media_query_detail") or {}, "duplicate")
-                continue
-            finding = make_finding(c, detail_budget)
-            if not finding:
-                add_media_discard(status.get("_current_media_query_detail") or {}, "page_read_error_or_date_missing_or_noise")
-                continue
-            # Явно фиксируем бренд-клиент, чтобы он появился во вкладке «Бренды и клиенты».
-            client_name = str(client.get("name") or "").strip()
-            if client_name:
-                existing = [b.get("name") for b in finding.get("mentioned_brands", []) if isinstance(b, dict)]
-                if client_name not in existing:
-                    finding.setdefault("mentioned_brands", []).append({
-                        "name": client_name,
-                        "category": client.get("category") or "клиент Serenity",
-                        "context": "мониторинг текущих клиентов Serenity"
-                    })
-            seen.add(key)
-            findings.append(finding)
-            status["media_findings_total"] += 1
-            (status.get("_current_media_query_detail") or {}).update({"findings_saved": (status.get("_current_media_query_detail") or {}).get("findings_saved", 0) + 1})
+    collect_media_direct(media_sources, competitors, status, findings, seen_urls, detail_budget)
 
-    ranked_competitors = sorted(competitors, key=lambda item: int(str(item.get("rank") or 9999).split(".")[0]) if str(item.get("rank") or "").split(".")[0].isdigit() else 9999)
-    selected_competitors = ranked_competitors[:MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN]
-    skipped_competitors = ranked_competitors[MAX_MEDIA_COMPETITOR_QUERIES_PER_RUN:]
-    for comp in skipped_competitors:
-        name = str(comp.get("name") or comp.get("agency") or "").strip()
-        if name:
-            status["media_queries_skipped"] += 1
-            status["media_query_details"].append({"query": name, "owner": name, "scope": "competitor", "status": "skipped", "error": "outside_per_run_limit", "articles_returned": 0, "findings_saved": 0, "discard_reasons": {}})
-
-    if status["media_consecutive_429"] < MAX_CONSECUTIVE_MEDIA_429:
-        for index, comp in enumerate(selected_competitors):
-            if status["media_consecutive_429"] >= MAX_CONSECUTIVE_MEDIA_429:
-                remaining = len(selected_competitors) - index
-                status["media_queries_skipped"] += remaining
-                status["notes"].append({"media": "stopped_after_consecutive_429", "skipped": remaining})
-                break
-            for c in gdelt_mentions(comp, status, media_sources):
-                key = (c.competitor, url_key(c.url))
-                if key in seen:
-                    status["duplicates_skipped"] += 1
-                    add_media_discard(status.get("_current_media_query_detail") or {}, "duplicate")
-                    continue
-                finding = make_finding(c, detail_budget)
-                if not finding:
-                    add_media_discard(status.get("_current_media_query_detail") or {}, "page_read_error_or_date_missing_or_noise")
-                    continue
-                seen.add(key)
-                findings.append(finding)
-                status["media_findings_total"] += 1
-                (status.get("_current_media_query_detail") or {}).update({"findings_saved": (status.get("_current_media_query_detail") or {}).get("findings_saved", 0) + 1})
-
-    if status["media_consecutive_429"] >= MAX_CONSECUTIVE_MEDIA_429:
-        status["media_status"] = "rate_limited"
-    elif status["media_failed"]:
-        status["media_status"] = "partial"
-    else:
-        status["media_status"] = "ok"
-    status.pop("_current_media_query_detail", None)
     findings.sort(key=lambda x: (x.get("date", ""), x.get("competitor", "")), reverse=True)
     status["findings_total"] = len(findings)
     write_json(FINDINGS_PATH, findings)
@@ -1018,7 +970,7 @@ def collect() -> None:
         "window_end": status["window_end"],
         "findings_total": len(findings),
         "sources_checked": status["sources_checked"],
-        "media_queries_checked": status["media_queries_checked"],
+        "media_direct_sources_checked": status["media_direct_sources_checked"],
     })
     print(json.dumps(status, ensure_ascii=False, indent=2))
 
