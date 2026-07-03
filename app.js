@@ -21,7 +21,6 @@ function asArray(v){
 }
 function brandList(f){
   if(Array.isArray(f.mentioned_brands)) return f.mentioned_brands;
-  if(Array.isArray(f.client_brands)) return f.client_brands;
   return asArray(f.brands).map(name => ({name, category: '', context: ''}));
 }
 function brandNames(f){ return brandList(f).map(b => b.name).filter(Boolean); }
@@ -137,7 +136,7 @@ function competitorSite(name){
 }
 
 function isCompetitorFinding(f){
-  return f && f.monitor_scope !== 'client_brand' && !!competitorSite(f.competitor);
+  return f && f.monitor_scope === 'competitor' && !!competitorSite(f.competitor);
 }
 
 function leaderNameHtml(name){
@@ -364,5 +363,5 @@ async function init(){
 if(typeof document !== 'undefined') init();
 
 if(typeof module !== 'undefined' && module.exports){
-  module.exports = { isMediaOrSite, sourceChannel };
+  module.exports = { isMediaOrSite, sourceChannel, brandList, brandNames, isCompetitorFinding, state };
 }
