@@ -1,18 +1,769 @@
 {
-  "last_run": "not_run_after_media_direct_update",
+  "last_run": "2026-07-06T17:17:57Z",
   "mode": "last_7_days_window",
-  "media_status": "empty",
+  "window_start": "2026-06-29",
+  "window_end": "2026-07-06",
+  "sources_total": 405,
+  "sources_checked": 326,
+  "sources_skipped": 11,
+  "sources_failed": 79,
+  "media_status": "partial",
   "media_direct_sources_total": 20,
-  "media_direct_sources_checked": 0,
-  "media_direct_sources_failed": 0,
+  "media_direct_sources_checked": 20,
+  "media_direct_sources_failed": 4,
   "media_direct_findings_total": 0,
-  "media_direct_details": [],
-  "media_competitors_total": 0,
-  "media_competitors_checked": 0,
-  "media_competitors_skipped": [],
+  "media_direct_details": [
+    {
+      "source": "SMMplanner",
+      "feed_url": "https://smmplanner.com/blog/rss/",
+      "search_url": "https://smmplanner.com/blog/search/?q=",
+      "news_url": "https://smmplanner.com/blog/",
+      "checked_url": "https://smmplanner.com/blog/rss/",
+      "status": "checked",
+      "error": "",
+      "links_found": 15,
+      "dated_links_found": 3,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "no_competitor": 3,
+        "date_outside_window": 12
+      }
+    },
+    {
+      "source": "Pressfeed Журнал",
+      "feed_url": "https://news.pressfeed.ru/feed/",
+      "search_url": "https://news.pressfeed.ru/?s=",
+      "news_url": "https://news.pressfeed.ru/",
+      "checked_url": "https://news.pressfeed.ru/feed/",
+      "status": "checked",
+      "error": "",
+      "links_found": 8,
+      "dated_links_found": 5,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 2,
+        "no_competitor": 5,
+        "date_outside_window": 3
+      }
+    },
+    {
+      "source": "Biz360",
+      "feed_url": "https://biz360.ru/rss/",
+      "search_url": "https://biz360.ru/search/?q=",
+      "news_url": "https://biz360.ru/materials/",
+      "checked_url": "https://biz360.ru/search/?q=",
+      "status": "checked",
+      "error": "empty response",
+      "links_found": 24,
+      "dated_links_found": 12,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 5,
+        "no_date": 16,
+        "no_competitor": 11,
+        "no_topic_marker": 1,
+        "date_outside_window": 4
+      }
+    },
+    {
+      "source": "Workspace Media",
+      "feed_url": "",
+      "search_url": "https://workspace.ru/search/?q=",
+      "news_url": "https://workspace.ru/media/",
+      "checked_url": "https://workspace.ru/media/",
+      "status": "failed",
+      "error": "HTTP 403",
+      "links_found": 0,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "source": "PPC.world",
+      "feed_url": "https://ppc.world/rss/",
+      "search_url": "https://ppc.world/search/?q=",
+      "news_url": "https://ppc.world/articles/",
+      "checked_url": "https://ppc.world/search/?q=",
+      "status": "checked",
+      "error": "HTTP 404",
+      "links_found": 17,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 37,
+        "no_date": 34
+      }
+    },
+    {
+      "source": "CMS Magazine",
+      "feed_url": "https://cmsmagazine.ru/journal/rss/",
+      "search_url": "https://cmsmagazine.ru/search/?q=",
+      "news_url": "https://cmsmagazine.ru/journal/",
+      "checked_url": "https://cmsmagazine.ru/search/?q=",
+      "status": "checked",
+      "error": "feed parse error: mismatched tag: line 33, column 2",
+      "links_found": 24,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 10,
+        "no_date": 48
+      }
+    },
+    {
+      "source": "MadCats",
+      "feed_url": "https://madcats.ru/feed/",
+      "search_url": "https://madcats.ru/?s=",
+      "news_url": "https://madcats.ru/blog/",
+      "checked_url": "https://madcats.ru/feed/",
+      "status": "checked",
+      "error": "",
+      "links_found": 10,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "date_outside_window": 10
+      }
+    },
+    {
+      "source": "TexTerra",
+      "feed_url": "https://texterra.ru/blog/rss/",
+      "search_url": "https://texterra.ru/search/?q=",
+      "news_url": "https://texterra.ru/blog/",
+      "checked_url": "https://texterra.ru/blog/rss/",
+      "status": "checked",
+      "error": "",
+      "links_found": 16,
+      "dated_links_found": 4,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 2,
+        "no_competitor": 4,
+        "date_outside_window": 12
+      }
+    },
+    {
+      "source": "Cossa",
+      "feed_url": "https://www.cossa.ru/rss/",
+      "search_url": "https://www.cossa.ru/search/?q=",
+      "news_url": "https://www.cossa.ru/",
+      "checked_url": "https://www.cossa.ru/rss/",
+      "status": "checked",
+      "error": "",
+      "links_found": 16,
+      "dated_links_found": 16,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 4,
+        "no_competitor": 16
+      }
+    },
+    {
+      "source": "RB.RU",
+      "feed_url": "https://rb.ru/feeds/all/",
+      "search_url": "https://rb.ru/search/?q=",
+      "news_url": "https://rb.ru/",
+      "checked_url": "https://rb.ru/feeds/all/",
+      "status": "checked",
+      "error": "",
+      "links_found": 19,
+      "dated_links_found": 19,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 1,
+        "no_competitor": 19
+      }
+    },
+    {
+      "source": "Бизнес-секреты Т-Банк",
+      "feed_url": "",
+      "search_url": "https://secrets.tbank.ru/search/?query=",
+      "news_url": "https://secrets.tbank.ru/",
+      "checked_url": "https://secrets.tbank.ru/",
+      "status": "failed",
+      "error": "HTTP 401",
+      "links_found": 0,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "source": "Лидзавод",
+      "feed_url": "https://leadzavod.com/feed/",
+      "search_url": "https://leadzavod.com/?s=",
+      "news_url": "https://leadzavod.com/blog/",
+      "checked_url": "https://leadzavod.com/feed/",
+      "status": "checked",
+      "error": "",
+      "links_found": 10,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "date_outside_window": 10
+      }
+    },
+    {
+      "source": "Likeni",
+      "feed_url": "https://www.likeni.ru/rss/",
+      "search_url": "https://www.likeni.ru/search/?q=",
+      "news_url": "https://www.likeni.ru/",
+      "checked_url": "https://www.likeni.ru/search/?q=",
+      "status": "checked",
+      "error": "feed parse error: syntax error: line 1, column 0",
+      "links_found": 15,
+      "dated_links_found": 6,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "no_date": 18,
+        "listing_or_noise_url": 24,
+        "no_competitor": 6
+      }
+    },
+    {
+      "source": "SEOnews",
+      "feed_url": "https://www.seonews.ru/rss/",
+      "search_url": "https://www.seonews.ru/search/?q=",
+      "news_url": "https://www.seonews.ru/",
+      "checked_url": "https://www.seonews.ru/search/?q=",
+      "status": "checked",
+      "error": "feed parse error: not well-formed (invalid token): line 10, column 23",
+      "links_found": 15,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "no_date": 30,
+        "listing_or_noise_url": 12
+      }
+    },
+    {
+      "source": "AdIndex",
+      "feed_url": "https://adindex.ru/rss.xml",
+      "search_url": "https://adindex.ru/search/?q=",
+      "news_url": "https://adindex.ru/news/",
+      "checked_url": "https://adindex.ru/search/?q=",
+      "status": "checked",
+      "error": "HTTP 404",
+      "links_found": 24,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 13,
+        "no_date": 48
+      }
+    },
+    {
+      "source": "Sostav",
+      "feed_url": "https://www.sostav.ru/rss.xml",
+      "search_url": "https://www.sostav.ru/search/?q=",
+      "news_url": "https://www.sostav.ru/publication/",
+      "checked_url": "https://www.sostav.ru/publication/",
+      "status": "empty",
+      "error": "feed parse error: not well-formed (invalid token): line 6, column 168",
+      "links_found": 0,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "source": "ADPASS",
+      "feed_url": "https://adpass.ru/feed/",
+      "search_url": "https://adpass.ru/?s=",
+      "news_url": "https://adpass.ru/",
+      "checked_url": "https://adpass.ru/feed/",
+      "status": "checked",
+      "error": "",
+      "links_found": 19,
+      "dated_links_found": 19,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 1,
+        "no_competitor": 19
+      }
+    },
+    {
+      "source": "Деловой мир",
+      "feed_url": "https://delovoymir.biz/rss/",
+      "search_url": "https://delovoymir.biz/search/?q=",
+      "news_url": "https://delovoymir.biz/articles/",
+      "checked_url": "https://delovoymir.biz/articles/",
+      "status": "failed",
+      "error": "HTTP 404",
+      "links_found": 0,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "source": "МТС Маркетолог",
+      "feed_url": "",
+      "search_url": "https://marketolog.mts.ru/search?query=",
+      "news_url": "https://marketolog.mts.ru/blog",
+      "checked_url": "https://marketolog.mts.ru/blog",
+      "status": "failed",
+      "error": "HTTP 401",
+      "links_found": 0,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
+    },
+    {
+      "source": "Postium",
+      "feed_url": "https://postium.ru/feed/",
+      "search_url": "https://postium.ru/?s=",
+      "news_url": "https://postium.ru/",
+      "checked_url": "https://postium.ru/feed/",
+      "status": "checked",
+      "error": "",
+      "links_found": 9,
+      "dated_links_found": 9,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {
+        "listing_or_noise_url": 1,
+        "no_competitor": 9
+      }
+    }
+  ],
+  "media_competitors_total": 118,
+  "media_competitors_checked": 20,
+  "media_competitors_skipped": [
+    "Repina Branding",
+    "BBDO Branding",
+    "COMPASS",
+    "REDKEDS",
+    "Coruna Branding",
+    "Mildberry",
+    "Артоника",
+    "Brandson (TSN)",
+    "VOZDUH Brand&Communications",
+    "A.STUDIO",
+    "Супрематика",
+    "Brand Hub",
+    "Лавмиду (lovemedo)",
+    "Ruport",
+    "ICU",
+    "Два слова | Conspiracy.works",
+    "Адекватные Люди",
+    "Терминал дизайн",
+    "DDC.Group",
+    "Proektmarketing +1",
+    "Nimax",
+    "Соль",
+    "Redin",
+    "Heads",
+    "KIAN",
+    "2SHARP",
+    "ZAMEDIA",
+    "aic",
+    "Пирс 5",
+    "AdWorm",
+    "DS1 branding",
+    "Штольцман и Кац",
+    "TomatDesign",
+    "Aida Pioneer",
+    "Weiss",
+    "Мелехов и Филюрин",
+    "DVIGA",
+    "19agency84",
+    "TutkovBudkov",
+    "ХРОМ",
+    "Weavers Brand Consultancy",
+    "enDESIGN Branding agency",
+    "Свое мнение",
+    "AGIMA",
+    "Логомашина",
+    "idBRAND",
+    "LABELMEN",
+    "Artstyle",
+    "ДизайнДепо",
+    "CultBrand",
+    "Mish",
+    "Soldis",
+    "Март",
+    "RElabel",
+    "Pic-o-matic",
+    "Zurashvili Branding",
+    "Decide Branding Agency",
+    "VIEWPOINT",
+    "Oxygen",
+    "The Clients",
+    "SICHKAR GROUP",
+    "Yasno.branding agency",
+    "DEVISION",
+    "Kuznets",
+    "Clёver Branding",
+    "SUPPORT AGENCY",
+    "RED AGENCY",
+    "opencore",
+    "UPRISE",
+    "SLAVA",
+    "GreenMars",
+    "CUBA Branding",
+    "Mind Republic",
+    "Метрополия",
+    "ILAR",
+    "goryanin brothers",
+    "Hermon Group",
+    "Supermarket",
+    "Rockwell branding agency",
+    "BULVAR",
+    "Graphit",
+    "Гордость",
+    "Art Area",
+    "ПРЕМЬЕР",
+    "2050.LAB",
+    "Quantum Graphics",
+    "Anvilhook branding",
+    "2BR",
+    "Creative Mind bureau",
+    "Sueta",
+    "Барбарис",
+    "ICEBERG INTERACTIVE",
+    "ESH gruppa",
+    "Fabula Branding",
+    "Brand Brothers",
+    "ПИНК",
+    "КИРПИЧ",
+    "Electric Brand Consultants"
+  ],
+  "findings_total": 140,
+  "undated_candidates_skipped": 2654,
+  "duplicates_skipped": 0,
   "notes": [
     {
-      "media": "External aggregators disabled; direct media crawl is used on collect run"
+      "source": "https://www.behance.net/otvetdesign",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.ddvb.ru/blog",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/DDVB",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/liniidesignlab",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://voskhod.agency/",
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f97517"
+    },
+    {
+      "source": "https://voskhod.agency/news/",
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: /news/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f"
+    },
+    {
+      "source": "https://www.behance.net/ENDY",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/shuka",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://volga-volga.com/",
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f975"
+    },
+    {
+      "source": "https://www.behance.net/VVBI",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/Studio_DEZA",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://zg-brand.ru/articles/",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/ZGbrandingZg",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/plenumcx1",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/repinabranding",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/Coruna?tracking_source=search_users%7Ccoruna%20branding",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.artonica.ru/",
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f975"
+    },
+    {
+      "source": "https://artonica.ru/news",
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f9751357"
+    },
+    {
+      "source": "https://www.behance.net/brandsonbrending",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://ra-vozduh.ru/portfolio/",
+      "error": "HTTP 400"
+    },
+    {
+      "source": "https://www.ozon.ru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.terminaldesign.ru/",
+      "error": "HTTPSConnectionPool(host='www.terminaldesign.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.terminaldesign.ru', port=443)"
+    },
+    {
+      "source": "https://terminaldesign.ru/articles/news/",
+      "error": "HTTPSConnectionPool(host='terminaldesign.ru', port=443): Max retries exceeded with url: /articles/news/ (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesign.ru', por"
+    },
+    {
+      "source": "https://www.behance.net/Terminaldesign",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://terminal-design.com",
+      "error": "HTTPSConnectionPool(host='terminal-design.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certif"
+    },
+    {
+      "source": "https://terminalizm.ru",
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f97511"
+    },
+    {
+      "source": "https://terminaldesignshop.ru",
+      "error": "HTTPSConnectionPool(host='terminaldesignshop.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesignshop.ru', port=443)"
+    },
+    {
+      "source": "https://www.behance.net/ddc-design",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://proektmarketing.ru/projects/",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.nimax.ru/articles/",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://aritime.pro",
+      "error": "HTTPSConnectionPool(host='aritime.pro', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='aritime.pro', port=443): Failed to resolve"
+    },
+    {
+      "source": "https://www.behance.net/heads_branding",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://2sharp.ru/",
+      "error": "HTTPSConnectionPool(host='2sharp.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate veri"
+    },
+    {
+      "source": "https://www.behance.net/aicru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://katz.ru/",
+      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f974fd87250>, 'Conne"
+    },
+    {
+      "source": "https://shik.agency/blog",
+      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f974f71d"
+    },
+    {
+      "source": "https://www.behance.net/stolzmankatz",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://dprofile.ru/shik",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/TOMAT_DESIGN",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/weisswater",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/melekhovifilurin/projects",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/dviga",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/chromestudio",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.svoemnenie.com/",
+      "error": "HTTPSConnectionPool(host='www.svoemnenie.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.svoemnenie.com', port=443) at 0"
+    },
+    {
+      "source": "https://www.behance.net/agima",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://vc.ru/logomachine",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/Logomachine",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://idbrandagency.ru/",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/designstudioperm",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://brandperm.com",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://www.behance.net/designdepot",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://workspace.ru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://zurashvili.biz/blog",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://sichkargroup.com/press",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://cleverbranding.ru/",
+      "error": "HTTPSConnectionPool(host='cleverbranding.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshak"
+    },
+    {
+      "source": "https://www.behance.net/Mind-Republic",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.ra-ma.ru/",
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f975150e15"
+    },
+    {
+      "source": "https://www.ra-ma.ru/portfolio/",
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: /portfolio/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7"
+    },
+    {
+      "source": "https://www.behance.net/ilartech",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/hermongroupru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/supermarket-agency",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://insta",
+      "error": "HTTPSConnectionPool(host='insta', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='insta', port=443): Failed to resolve 'insta' ([E"
+    },
+    {
+      "source": "https://www.behance.net/rockwellagency",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/bulvaragency",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://ragordost.ru/",
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f975149655"
+    },
+    {
+      "source": "https://ragordost.ru/works/",
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f975"
+    },
+    {
+      "source": "https://www.behance.net/anvilhook",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://2br.agency/",
+      "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to establish "
+    },
+    {
+      "source": "https://2br.agency/blog/",
+      "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: /blog/ (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to estab"
+    },
+    {
+      "source": "https://www.behance",
+      "error": "HTTPSConnectionPool(host='www.behance', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.behance', port=443): Failed to resolve"
+    },
+    {
+      "source": "https://www.behance.net/sueta?locale=ru",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.behance.net/dsbarberry",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.brandbrothers.ru/portfolio",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://electric-consultants.com/",
+      "error": "HTTPSConnectionPool(host='electric-consultants.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='electric-consultants.com', por"
     }
   ]
 }
