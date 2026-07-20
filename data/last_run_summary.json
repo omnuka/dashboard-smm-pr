@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-07-13T13:40:29Z",
+  "last_run": "2026-07-20T13:23:12Z",
   "mode": "last_7_days_window",
-  "window_start": "2026-07-06",
-  "window_end": "2026-07-13",
-  "findings_total": 151,
-  "sources_checked": 316,
+  "window_start": "2026-07-13",
+  "window_end": "2026-07-20",
+  "findings_total": 159,
+  "sources_checked": 324,
   "media_direct_sources_checked": 20
 }
