@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-09-14T11:21:46Z",
+  "last_run": "2026-09-21T11:35:54Z",
   "mode": "last_7_days_window",
-  "window_start": "2026-09-07",
-  "window_end": "2026-09-14",
+  "window_start": "2026-09-14",
+  "window_end": "2026-09-21",
   "sources_total": 405,
-  "sources_checked": 340,
-  "sources_skipped": 10,
-  "sources_failed": 65,
+  "sources_checked": 327,
+  "sources_skipped": 11,
+  "sources_failed": 78,
   "media_status": "partial",
   "media_direct_sources_total": 20,
   "media_direct_sources_checked": 20,
-  "media_direct_sources_failed": 3,
-  "media_direct_findings_total": 3,
+  "media_direct_sources_failed": 4,
+  "media_direct_findings_total": 0,
   "media_direct_details": [
     {
       "source": "SMMplanner",
@@ -38,14 +38,14 @@
       "checked_url": "https://news.pressfeed.ru/feed/",
       "status": "checked",
       "error": "",
-      "links_found": 9,
+      "links_found": 7,
       "dated_links_found": 4,
-      "matching_links_found": 1,
-      "findings_saved": 1,
+      "matching_links_found": 0,
+      "findings_saved": 0,
       "discard_reasons": {
-        "listing_or_noise_url": 1,
-        "no_competitor": 3,
-        "date_outside_window": 5
+        "listing_or_noise_url": 3,
+        "no_competitor": 4,
+        "date_outside_window": 3
       }
     },
     {
@@ -57,14 +57,14 @@
       "status": "checked",
       "error": "empty response",
       "links_found": 24,
-      "dated_links_found": 11,
+      "dated_links_found": 12,
       "matching_links_found": 0,
       "findings_saved": 0,
       "discard_reasons": {
         "listing_or_noise_url": 4,
         "no_date": 16,
-        "no_competitor": 11,
-        "date_outside_window": 5
+        "no_competitor": 12,
+        "date_outside_window": 4
       }
     },
     {
@@ -81,7 +81,8 @@
       "findings_saved": 0,
       "discard_reasons": {
         "listing_or_noise_url": 19,
-        "no_date": 48
+        "no_date": 46,
+        "date_outside_window": 1
       }
     },
     {
@@ -142,14 +143,14 @@
       "checked_url": "https://texterra.ru/blog/rss/",
       "status": "checked",
       "error": "",
-      "links_found": 16,
-      "dated_links_found": 9,
+      "links_found": 18,
+      "dated_links_found": 4,
       "matching_links_found": 0,
       "findings_saved": 0,
       "discard_reasons": {
         "listing_or_noise_url": 1,
-        "no_competitor": 9,
-        "date_outside_window": 7
+        "no_competitor": 4,
+        "date_outside_window": 14
       }
     },
     {
@@ -161,12 +162,11 @@
       "status": "checked",
       "error": "",
       "links_found": 20,
-      "dated_links_found": 19,
+      "dated_links_found": 20,
       "matching_links_found": 0,
       "findings_saved": 0,
       "discard_reasons": {
-        "no_competitor": 19,
-        "date_outside_window": 1
+        "no_competitor": 20
       }
     },
     {
@@ -177,13 +177,12 @@
       "checked_url": "https://rb.ru/feeds/all/",
       "status": "checked",
       "error": "",
-      "links_found": 19,
-      "dated_links_found": 19,
-      "matching_links_found": 1,
-      "findings_saved": 1,
+      "links_found": 20,
+      "dated_links_found": 20,
+      "matching_links_found": 0,
+      "findings_saved": 0,
       "discard_reasons": {
-        "listing_or_noise_url": 1,
-        "no_competitor": 18
+        "no_competitor": 20
       }
     },
     {
@@ -224,12 +223,12 @@
       "checked_url": "https://www.likeni.ru/search/?q=",
       "status": "checked",
       "error": "feed parse error: syntax error: line 1, column 0",
-      "links_found": 15,
+      "links_found": 16,
       "dated_links_found": 6,
       "matching_links_found": 0,
       "findings_saved": 0,
       "discard_reasons": {
-        "no_date": 18,
+        "no_date": 20,
         "listing_or_noise_url": 24,
         "no_competitor": 6
       }
@@ -290,17 +289,14 @@
       "feed_url": "https://adpass.ru/feed/",
       "search_url": "https://adpass.ru/?s=",
       "news_url": "https://adpass.ru/",
-      "checked_url": "https://adpass.ru/feed/",
-      "status": "checked",
-      "error": "",
-      "links_found": 18,
-      "dated_links_found": 18,
-      "matching_links_found": 1,
-      "findings_saved": 1,
-      "discard_reasons": {
-        "listing_or_noise_url": 2,
-        "no_competitor": 17
-      }
+      "checked_url": "https://adpass.ru/",
+      "status": "failed",
+      "error": "HTTPSConnectionPool(host='adpass.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='adpass.ru', port=443) at 0x7f650a40fc10>, 'C",
+      "links_found": 0,
+      "dated_links_found": 0,
+      "matching_links_found": 0,
+      "findings_saved": 0,
+      "discard_reasons": {}
     },
     {
       "source": "Деловой мир",
@@ -449,8 +445,8 @@
     "КИРПИЧ",
     "Electric Brand Consultants"
   ],
-  "findings_total": 158,
-  "undated_candidates_skipped": 2850,
+  "findings_total": 163,
+  "undated_candidates_skipped": 2636,
   "duplicates_skipped": 2,
   "notes": [
     {
@@ -470,20 +466,16 @@
       "error": "HTTP 403"
     },
     {
-      "source": "https://voskhod.agency/",
-      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f20075"
-    },
-    {
-      "source": "https://voskhod.agency/news/",
-      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: /news/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x7f"
-    },
-    {
       "source": "https://www.behance.net/ENDY",
       "error": "HTTP 403"
     },
     {
       "source": "https://www.behance.net/shuka",
       "error": "HTTP 403"
+    },
+    {
+      "source": "https://volga-volga.com/",
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x7f650"
     },
     {
       "source": "https://www.behance.net/VVBI",
@@ -514,6 +506,14 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://www.artonica.ru/",
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x7f650"
+    },
+    {
+      "source": "https://artonica.ru/news",
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x7f6509201"
+    },
+    {
       "source": "https://www.behance.net/brandsonbrending",
       "error": "HTTP 403"
     },
@@ -522,12 +522,32 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://www.terminaldesign.ru/",
+      "error": "HTTPSConnectionPool(host='www.terminaldesign.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.terminaldesign.ru', port=443)"
+    },
+    {
+      "source": "https://terminaldesign.ru/articles/news/",
+      "error": "HTTPSConnectionPool(host='terminaldesign.ru', port=443): Max retries exceeded with url: /articles/news/ (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesign.ru', por"
+    },
+    {
       "source": "https://www.behance.net/Terminaldesign",
       "error": "HTTP 403"
     },
     {
+      "source": "https://dprofile.ru",
+      "error": "HTTPSConnectionPool(host='dprofile.ru', port=443): Read timed out. (read timeout=18)"
+    },
+    {
       "source": "https://terminal-design.com",
       "error": "HTTPSConnectionPool(host='terminal-design.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certif"
+    },
+    {
+      "source": "https://terminalizm.ru",
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x7f65099"
+    },
+    {
+      "source": "https://terminaldesignshop.ru",
+      "error": "HTTPSConnectionPool(host='terminaldesignshop.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesignshop.ru', port=443)"
     },
     {
       "source": "https://www.behance.net/ddc-design",
@@ -550,16 +570,20 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://dprofile.ru",
+      "error": "HTTPSConnectionPool(host='dprofile.ru', port=443): Read timed out. (read timeout=18)"
+    },
+    {
       "source": "https://www.behance.net/aicru",
       "error": "HTTP 403"
     },
     {
       "source": "https://katz.ru/",
-      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f20075de610>, 'Conne"
+      "error": "HTTPSConnectionPool(host='katz.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='katz.ru', port=443) at 0x7f6509a126d0>, 'Conne"
     },
     {
       "source": "https://shik.agency/blog",
-      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f2007678"
+      "error": "HTTPSConnectionPool(host='shik.agency', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='shik.agency', port=443) at 0x7f6509991"
     },
     {
       "source": "https://www.behance.net/stolzmankatz",
@@ -567,7 +591,7 @@
     },
     {
       "source": "https://dprofile.ru/shik",
-      "error": "HTTP 404"
+      "error": "HTTPSConnectionPool(host='dprofile.ru', port=443): Read timed out. (read timeout=18)"
     },
     {
       "source": "https://www.behance.net/TOMAT_DESIGN",
@@ -582,6 +606,10 @@
       "error": "HTTP 403"
     },
     {
+      "source": "https://dprofile.ru/dviga",
+      "error": "HTTPSConnectionPool(host='dprofile.ru', port=443): Read timed out. (read timeout=18)"
+    },
+    {
       "source": "https://www.behance.net/dviga",
       "error": "HTTP 403"
     },
@@ -592,6 +620,10 @@
     {
       "source": "https://www.behance.net",
       "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.svoemnenie.com/",
+      "error": "HTTPSConnectionPool(host='www.svoemnenie.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.svoemnenie.com', port=443) at 0"
     },
     {
       "source": "https://www.behance.net/agima",
@@ -614,8 +646,8 @@
       "error": "HTTP 403"
     },
     {
-      "source": "https://workspace.ru",
-      "error": "HTTP 403"
+      "source": "https://dprofile.ru",
+      "error": "HTTPSConnectionPool(host='dprofile.ru', port=443): Read timed out. (read timeout=18)"
     },
     {
       "source": "https://www.behance.net",
@@ -628,6 +660,10 @@
     {
       "source": "https://www.behance.net",
       "error": "HTTP 403"
+    },
+    {
+      "source": "https://dprofile.ru",
+      "error": "HTTPSConnectionPool(host='dprofile.ru', port=443): Read timed out. (read timeout=18)"
     },
     {
       "source": "https://www.behance.net",
@@ -648,6 +684,18 @@
     {
       "source": "https://www.behance.net/Mind-Republic",
       "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.ra-ma.ru/",
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7f650959569"
+    },
+    {
+      "source": "https://www.ra-ma.ru/portfolio/",
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: /portfolio/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7"
+    },
+    {
+      "source": "https://ilartech.com/",
+      "error": "HTTP 500"
     },
     {
       "source": "https://www.behance.net/ilartech",
@@ -675,27 +723,27 @@
     },
     {
       "source": "https://ragordost.ru/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f20082c789"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f6509b121d"
     },
     {
       "source": "https://ragordost.ru/works/",
-      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f200"
-    },
-    {
-      "source": "https://instagram.com/quantum_graphics",
-      "error": "HTTP 429"
+      "error": "HTTPSConnectionPool(host='ragordost.ru', port=443): Max retries exceeded with url: /works/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ragordost.ru', port=443) at 0x7f650"
     },
     {
       "source": "https://www.behance.net/anvilhook",
       "error": "HTTP 403"
     },
     {
-      "source": "https://www.behance",
-      "error": "HTTPSConnectionPool(host='www.behance', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.behance', port=443): Failed to resolve"
+      "source": "https://2br.agency/",
+      "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to establish "
     },
     {
-      "source": "https://www.c-mind.com/",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "source": "https://2br.agency/blog/",
+      "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: /blog/ (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to estab"
+    },
+    {
+      "source": "https://www.behance",
+      "error": "HTTPSConnectionPool(host='www.behance', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.behance', port=443): Failed to resolve"
     },
     {
       "source": "https://www.behance.net/sueta?locale=ru",
