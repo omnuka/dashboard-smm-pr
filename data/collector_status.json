@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-11-02T14:22:19Z",
+  "last_run": "2026-11-09T14:49:29Z",
   "mode": "last_7_days_window",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-02",
+  "window_start": "2026-11-02",
+  "window_end": "2026-11-09",
   "sources_total": 405,
-  "sources_checked": 344,
-  "sources_skipped": 10,
-  "sources_failed": 61,
+  "sources_checked": 349,
+  "sources_skipped": 11,
+  "sources_failed": 56,
   "media_status": "partial",
   "media_direct_sources_total": 20,
   "media_direct_sources_checked": 20,
-  "media_direct_sources_failed": 7,
+  "media_direct_sources_failed": 5,
   "media_direct_findings_total": 0,
   "media_direct_details": [
     {
@@ -39,14 +39,15 @@
       "status": "checked",
       "error": "HTTP 404",
       "links_found": 24,
-      "dated_links_found": 14,
-      "matching_links_found": 0,
+      "dated_links_found": 12,
+      "matching_links_found": 1,
       "findings_saved": 0,
       "discard_reasons": {
-        "listing_or_noise_url": 23,
+        "listing_or_noise_url": 26,
         "no_date": 14,
-        "no_competitor": 14,
-        "date_outside_window": 3
+        "no_competitor": 11,
+        "page_read_error_or_date_missing_or_noise": 1,
+        "date_outside_window": 5
       }
     },
     {
@@ -58,14 +59,14 @@
       "status": "checked",
       "error": "empty response",
       "links_found": 24,
-      "dated_links_found": 11,
+      "dated_links_found": 13,
       "matching_links_found": 0,
       "findings_saved": 0,
       "discard_reasons": {
-        "listing_or_noise_url": 6,
+        "listing_or_noise_url": 5,
         "no_date": 16,
-        "no_competitor": 11,
-        "date_outside_window": 5
+        "no_competitor": 13,
+        "date_outside_window": 3
       }
     },
     {
@@ -140,14 +141,17 @@
       "feed_url": "https://texterra.ru/blog/rss/",
       "search_url": "https://texterra.ru/search/?q=",
       "news_url": "https://texterra.ru/blog/",
-      "checked_url": "https://texterra.ru/blog/",
-      "status": "failed",
-      "error": "HTTPSConnectionPool(host='texterra.ru', port=443): Max retries exceeded with url: /blog/ (Caused by NewConnectionError(\"HTTPSConnection(host='texterra.ru', port=443): Failed to est",
-      "links_found": 0,
-      "dated_links_found": 0,
+      "checked_url": "https://texterra.ru/blog/rss/",
+      "status": "checked",
+      "error": "",
+      "links_found": 12,
+      "dated_links_found": 3,
       "matching_links_found": 0,
       "findings_saved": 0,
-      "discard_reasons": {}
+      "discard_reasons": {
+        "no_competitor": 3,
+        "date_outside_window": 9
+      }
     },
     {
       "source": "Cossa",
@@ -218,12 +222,12 @@
       "checked_url": "https://www.likeni.ru/search/?q=",
       "status": "checked",
       "error": "feed parse error: syntax error: line 1, column 0",
-      "links_found": 16,
+      "links_found": 15,
       "dated_links_found": 6,
       "matching_links_found": 0,
       "findings_saved": 0,
       "discard_reasons": {
-        "no_date": 20,
+        "no_date": 18,
         "listing_or_noise_url": 24,
         "no_competitor": 6
       }
@@ -233,14 +237,17 @@
       "feed_url": "https://www.seonews.ru/rss/",
       "search_url": "https://www.seonews.ru/search/?q=",
       "news_url": "https://www.seonews.ru/",
-      "checked_url": "https://www.seonews.ru/",
-      "status": "empty",
-      "error": "feed parse error: not well-formed (invalid token): line 6, column 168",
-      "links_found": 0,
+      "checked_url": "https://www.seonews.ru/search/?q=",
+      "status": "checked",
+      "error": "feed parse error: not well-formed (invalid token): line 10, column 23",
+      "links_found": 15,
       "dated_links_found": 0,
       "matching_links_found": 0,
       "findings_saved": 0,
-      "discard_reasons": {}
+      "discard_reasons": {
+        "no_date": 30,
+        "listing_or_noise_url": 12
+      }
     },
     {
       "source": "AdIndex",
@@ -283,7 +290,7 @@
       "news_url": "https://adpass.ru/",
       "checked_url": "https://adpass.ru/",
       "status": "failed",
-      "error": "HTTPSConnectionPool(host='adpass.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='adpass.ru', port=443): Failed to resolve 'ad",
+      "error": "HTTP 503",
       "links_found": 0,
       "dated_links_found": 0,
       "matching_links_found": 0,
@@ -323,14 +330,18 @@
       "feed_url": "https://postium.ru/feed/",
       "search_url": "https://postium.ru/?s=",
       "news_url": "https://postium.ru/",
-      "checked_url": "https://postium.ru/",
-      "status": "failed",
-      "error": "HTTPSConnectionPool(host='postium.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='postium.ru', port=443): Failed to resolve '",
-      "links_found": 0,
-      "dated_links_found": 0,
+      "checked_url": "https://postium.ru/feed/",
+      "status": "checked",
+      "error": "",
+      "links_found": 8,
+      "dated_links_found": 8,
       "matching_links_found": 0,
       "findings_saved": 0,
-      "discard_reasons": {}
+      "discard_reasons": {
+        "listing_or_noise_url": 2,
+        "no_competitor": 7,
+        "no_topic_marker": 1
+      }
     }
   ],
   "media_competitors_total": 118,
@@ -435,53 +446,53 @@
     "КИРПИЧ",
     "Electric Brand Consultants"
   ],
-  "findings_total": 139,
-  "undated_candidates_skipped": 2579,
-  "duplicates_skipped": 1,
+  "findings_total": 117,
+  "undated_candidates_skipped": 2742,
+  "duplicates_skipped": 0,
   "notes": [
     {
       "source": "https://www.ddvb.ru/blog",
       "error": "HTTP 404"
     },
     {
-      "source": "https://www.getbrand.ru/",
-      "error": "HTTPSConnectionPool(host='www.getbrand.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.getbrand.ru', port=443): Failed to"
-    },
-    {
-      "source": "https://www.getbrand.ru/articles/",
-      "error": "HTTPSConnectionPool(host='www.getbrand.ru', port=443): Max retries exceeded with url: /articles/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.getbrand.ru', port=443): "
-    },
-    {
-      "source": "https://ohmybrand.ru/",
-      "error": "HTTPSConnectionPool(host='ohmybrand.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ohmybrand.ru', port=443): Failed to resol"
-    },
-    {
       "source": "https://ohmybrand.ru/blog/",
-      "error": "HTTPSConnectionPool(host='ohmybrand.ru', port=443): Max retries exceeded with url: /blog/ (Caused by NameResolutionError(\"HTTPSConnection(host='ohmybrand.ru', port=443): Failed to "
+      "error": "HTTP 404"
+    },
+    {
+      "source": "https://voskhod.agency/",
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x73fecfe"
+    },
+    {
+      "source": "https://voskhod.agency/news/",
+      "error": "HTTPSConnectionPool(host='voskhod.agency', port=443): Max retries exceeded with url: /news/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='voskhod.agency', port=443) at 0x73"
+    },
+    {
+      "source": "https://volga-volga.com/",
+      "error": "HTTPSConnectionPool(host='volga-volga.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='volga-volga.com', port=443) at 0x73fec"
     },
     {
       "source": "https://zg-brand.ru/articles/",
       "error": "HTTP 404"
     },
     {
-      "source": "https://bbdo-group.ru/",
-      "error": "HTTPSConnectionPool(host='bbdo-group.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+      "source": "https://www.artonica.ru/",
+      "error": "HTTPSConnectionPool(host='www.artonica.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.artonica.ru', port=443) at 0x73fed"
     },
     {
-      "source": "https://mildberry.ru/",
-      "error": "HTTPSConnectionPool(host='mildberry.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='mildberry.ru', port=443): Failed to resol"
-    },
-    {
-      "source": "https://icu.agency/",
-      "error": "HTTPSConnectionPool(host='icu.agency', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='icu.agency', port=443): Failed to resolve '"
-    },
-    {
-      "source": "https://icu.agency/blog",
-      "error": "HTTPSConnectionPool(host='icu.agency', port=443): Max retries exceeded with url: /blog (Caused by NameResolutionError(\"HTTPSConnection(host='icu.agency', port=443): Failed to resol"
+      "source": "https://artonica.ru/news",
+      "error": "HTTPSConnectionPool(host='artonica.ru', port=443): Max retries exceeded with url: /news (Caused by ConnectTimeoutError(<HTTPSConnection(host='artonica.ru', port=443) at 0x73fed0081"
     },
     {
       "source": "https://www.ozon.ru",
       "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.terminaldesign.ru/",
+      "error": "HTTPSConnectionPool(host='www.terminaldesign.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.terminaldesign.ru', port=443)"
+    },
+    {
+      "source": "https://terminaldesign.ru/articles/news/",
+      "error": "HTTPSConnectionPool(host='terminaldesign.ru', port=443): Max retries exceeded with url: /articles/news/ (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesign.ru', por"
     },
     {
       "source": "https://www.behance.net/Terminaldesign",
@@ -490,6 +501,14 @@
     {
       "source": "https://terminal-design.com",
       "error": "HTTPSConnectionPool(host='terminal-design.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certif"
+    },
+    {
+      "source": "https://terminalizm.ru",
+      "error": "HTTPSConnectionPool(host='terminalizm.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='terminalizm.ru', port=443) at 0x73fed09"
+    },
+    {
+      "source": "https://terminaldesignshop.ru",
+      "error": "HTTPSConnectionPool(host='terminaldesignshop.ru', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='terminaldesignshop.ru', port=443)"
     },
     {
       "source": "https://proektmarketing.ru/projects/",
@@ -505,7 +524,7 @@
     },
     {
       "source": "https://2sharp.ru/",
-      "error": "HTTPSConnectionPool(host='2sharp.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='2sharp.ru', port=443): Failed to resolve '2s"
+      "error": "HTTPSConnectionPool(host='2sharp.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='2sharp.ru', port=443) at 0x73fed01735d0>, 'C"
     },
     {
       "source": "https://pirs5.ru/",
@@ -524,20 +543,20 @@
       "error": "HTTP 403"
     },
     {
-      "source": "https://vc.ru/id1608",
-      "error": "HTTPSConnectionPool(host='vc.ru', port=443): Read timed out. (read timeout=18)"
-    },
-    {
-      "source": "https://chromestudio.ru/",
-      "error": "HTTPSConnectionPool(host='chromestudio.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='chromestudio.ru', port=443) at 0x791c2"
-    },
-    {
       "source": "https://weaversbc.ru/",
-      "error": "HTTPSConnectionPool(host='weaversbc.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='weaversbc.ru', port=443): Failed to resol"
+      "error": "HTTPSConnectionPool(host='weaversbc.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='weaversbc.ru', port=443) at 0x73fecf91e19"
     },
     {
       "source": "https://www.behance.net",
       "error": "HTTP 403"
+    },
+    {
+      "source": "https://enbrand.ru/",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "https://www.svoemnenie.com/",
+      "error": "HTTPSConnectionPool(host='www.svoemnenie.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.svoemnenie.com', port=443) at 0"
     },
     {
       "source": "https://vc.ru/logomachine",
@@ -552,10 +571,6 @@
       "error": "HTTPSConnectionPool(host='brandperm.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='brandperm.com', port=443): Failed to esta"
     },
     {
-      "source": "https://www.label-men.com/",
-      "error": "HTTPSConnectionPool(host='www.label-men.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.label-men.com', port=443): Faile"
-    },
-    {
       "source": "https://www.behance.net",
       "error": "HTTP 403"
     },
@@ -565,11 +580,11 @@
     },
     {
       "source": "https://relabel.ru/",
-      "error": "HTTPSConnectionPool(host='relabel.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='relabel.ru', port=443): Failed to resolve '"
+      "error": "HTTPSConnectionPool(host='relabel.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='relabel.ru', port=443) at 0x73fed079a790>, "
     },
     {
       "source": "https://relabel.ru/blog",
-      "error": "HTTPSConnectionPool(host='relabel.ru', port=443): Max retries exceeded with url: /blog (Caused by NameResolutionError(\"HTTPSConnection(host='relabel.ru', port=443): Failed to resol"
+      "error": "HTTPSConnectionPool(host='relabel.ru', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='relabel.ru', port=443) at 0x73fed079b3d"
     },
     {
       "source": "https://www.behance.net",
@@ -584,64 +599,44 @@
       "error": "HTTP 404"
     },
     {
-      "source": "https://decide-brandup.com/",
-      "error": "HTTPSConnectionPool(host='decide-brandup.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='decide-brandup.com', port=443): Fai"
-    },
-    {
-      "source": "https://decide-brandup.com/portfolio/",
-      "error": "HTTPSConnectionPool(host='decide-brandup.com', port=443): Max retries exceeded with url: /portfolio/ (Caused by NameResolutionError(\"HTTPSConnection(host='decide-brandup.com', port"
-    },
-    {
       "source": "https://viewpoint.ru/",
-      "error": "HTTPSConnectionPool(host='viewpoint.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='viewpoint.ru', port=443): Failed to resol"
+      "error": "HTTPSConnectionPool(host='viewpoint.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='viewpoint.ru', port=443) at 0x73fecfe40cd"
+    },
+    {
+      "source": "https://sichkargroup.com/",
+      "error": "HTTPSConnectionPool(host='sichkargroup.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='sichkargroup.com', port=443): Failed "
     },
     {
       "source": "https://sichkargroup.com/press",
-      "error": "HTTP 404"
-    },
-    {
-      "source": "https://kuznets.agency/",
-      "error": "HTTPSConnectionPool(host='kuznets.agency', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='kuznets.agency', port=443): Failed to r"
-    },
-    {
-      "source": "https://kuznets.agency/blog/",
-      "error": "HTTPSConnectionPool(host='kuznets.agency', port=443): Max retries exceeded with url: /blog/ (Caused by NameResolutionError(\"HTTPSConnection(host='kuznets.agency', port=443): Failed"
+      "error": "HTTPSConnectionPool(host='sichkargroup.com', port=443): Max retries exceeded with url: /press (Caused by NameResolutionError(\"HTTPSConnection(host='sichkargroup.com', port=443): Fa"
     },
     {
       "source": "https://cleverbranding.ru/",
       "error": "HTTPSConnectionPool(host='cleverbranding.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handsh"
     },
     {
-      "source": "https://mindrepublic.ru/",
-      "error": "HTTPSConnectionPool(host='mindrepublic.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='mindrepublic.ru', port=443): Failed to"
+      "source": "https://www.ra-ma.ru/",
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x73fecf4f7d5"
     },
     {
-      "source": "https://mindrepublic.ru/articles/",
-      "error": "HTTPSConnectionPool(host='mindrepublic.ru', port=443): Max retries exceeded with url: /articles/ (Caused by NameResolutionError(\"HTTPSConnection(host='mindrepublic.ru', port=443): "
+      "source": "https://www.ra-ma.ru/portfolio/",
+      "error": "HTTPSConnectionPool(host='www.ra-ma.ru', port=443): Max retries exceeded with url: /portfolio/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ra-ma.ru', port=443) at 0x7"
     },
     {
       "source": "https://ilartech.com/",
-      "error": "HTTPSConnectionPool(host='ilartech.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ilartech.com', port=443): Failed to resol"
+      "error": "HTTPSConnectionPool(host='ilartech.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ilartech.com', port=443) at 0x73fecf49ad5"
     },
     {
       "source": "https://ilartech.com/projects/",
-      "error": "HTTPSConnectionPool(host='ilartech.com', port=443): Max retries exceeded with url: /projects/ (Caused by NameResolutionError(\"HTTPSConnection(host='ilartech.com', port=443): Failed"
-    },
-    {
-      "source": "https://goryaninbrothers.ru/",
-      "error": "HTTPSConnectionPool(host='goryaninbrothers.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='goryaninbrothers.ru', port=443): F"
-    },
-    {
-      "source": "https://goryaninbrothers.ru/gb-blog/",
-      "error": "HTTPSConnectionPool(host='goryaninbrothers.ru', port=443): Max retries exceeded with url: /gb-blog/ (Caused by NameResolutionError(\"HTTPSConnection(host='goryaninbrothers.ru', port"
+      "error": "HTTPSConnectionPool(host='ilartech.com', port=443): Max retries exceeded with url: /projects/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ilartech.com', port=443) at 0x73"
     },
     {
       "source": "https://hermongroup.ru/",
-      "error": "HTTPSConnectionPool(host='hermongroup.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='hermongroup.ru', port=443): Failed to r"
+      "error": "HTTPSConnectionPool(host='hermongroup.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='hermongroup.ru', port=443) at 0x73fed08"
     },
     {
       "source": "https://hermongroup.ru/blog",
-      "error": "HTTPSConnectionPool(host='hermongroup.ru', port=443): Max retries exceeded with url: /blog (Caused by NameResolutionError(\"HTTPSConnection(host='hermongroup.ru', port=443): Failed "
+      "error": "HTTPSConnectionPool(host='hermongroup.ru', port=443): Max retries exceeded with url: /blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='hermongroup.ru', port=443) at 0x73f"
     },
     {
       "source": "https://insta",
@@ -649,31 +644,27 @@
     },
     {
       "source": "https://www.qgraphics.ru/",
-      "error": "HTTPSConnectionPool(host='www.qgraphics.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.qgraphics.ru', port=443): Failed "
-    },
-    {
-      "source": "https://instagram.com/quantum_graphics",
-      "error": "HTTP 429"
+      "error": "HTTPSConnectionPool(host='www.qgraphics.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.qgraphics.ru', port=443) at 0x73f"
     },
     {
       "source": "https://anvilhook.ru/",
-      "error": "HTTPSConnectionPool(host='anvilhook.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='anvilhook.ru', port=443) at 0x791c2fc00c5"
+      "error": "HTTPSConnectionPool(host='anvilhook.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='anvilhook.ru', port=443) at 0x73fed0bcbe5"
     },
     {
       "source": "https://anvilhook.ru/category/blog",
       "error": "HTTPSConnectionPool(host='anvilhook.ru', port=443): Max retries exceeded with url: /category/blog (Caused by ConnectTimeoutError(<HTTPSConnection(host='anvilhook.ru', port=443) at "
     },
     {
+      "source": "https://2br.agency/",
+      "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to establish "
+    },
+    {
+      "source": "https://2br.agency/blog/",
+      "error": "HTTPSConnectionPool(host='2br.agency', port=443): Max retries exceeded with url: /blog/ (Caused by NewConnectionError(\"HTTPSConnection(host='2br.agency', port=443): Failed to estab"
+    },
+    {
       "source": "https://www.behance",
       "error": "HTTPSConnectionPool(host='www.behance', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.behance', port=443): Failed to resolve"
-    },
-    {
-      "source": "https://eshgruppa.com/",
-      "error": "HTTPSConnectionPool(host='eshgruppa.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='eshgruppa.com', port=443) at 0x791c2f013"
-    },
-    {
-      "source": "https://eshgruppa.com/works",
-      "error": "HTTPSConnectionPool(host='eshgruppa.com', port=443): Max retries exceeded with url: /works (Caused by ConnectTimeoutError(<HTTPSConnection(host='eshgruppa.com', port=443) at 0x791c"
     },
     {
       "source": "https://www.brandbrothers.ru/portfolio",
@@ -681,7 +672,7 @@
     },
     {
       "source": "https://pinks.agency/",
-      "error": "HTTPSConnectionPool(host='pinks.agency', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='pinks.agency', port=443): Failed to resol"
+      "error": "HTTPSConnectionPool(host='pinks.agency', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='pinks.agency', port=443) at 0x73fecf055f1"
     }
   ]
 }
